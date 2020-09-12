@@ -1,0 +1,733 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ZeroSys</name>
+    </assembly>
+    <members>
+        <member name="T:ZeroSys.API.CurrencyConverter">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:ZeroSys.API.Gasoline">
+            <summary>
+            Gasoline Information
+            </summary>
+        </member>
+        <member name="M:ZeroSys.API.Gasoline.loadTopPrices(System.String,System.String)">
+            <summary>
+            Load Gasolin Top Price infos
+            </summary>
+        </member>
+        <member name="M:ZeroSys.API.Gasoline.loadGasolineStationInfo(System.String,System.String)">
+            <summary>
+            Load Gasolin Shop infos
+            </summary>
+        </member>
+        <member name="M:ZeroSys.API.Gasoline.loadGasolinPostcode(System.String,System.String,System.String)">
+            <summary>
+            Load Location and distanced Shops
+            </summary>
+        </member>
+        <member name="M:ZeroSys.API.Gasoline.loadGasolinPostcode(System.String)">
+            <summary>
+            Load Location and distanced Shops
+            </summary>
+        </member>
+        <member name="T:ZeroSys.API.Gasoline.Gassolin">
+            <summary>
+            Gasoline Values
+            </summary>
+        </member>
+        <member name="T:ZeroSys.API.Weather">
+            <summary>
+            Weather Information
+            </summary>
+        </member>
+        <member name="M:ZeroSys.API.Weather.getWeatherWithGeoLocation(System.String)">
+            <summary>
+            Get the Weather Information by the Users current GeoLocation
+            </summary>
+        </member>
+        <member name="M:ZeroSys.API.Weather.getWeatherWithGeoLocation(System.String,System.String,System.String)">
+            <summary>
+            Get the Weather Information by the Users current GeoLocation
+            </summary>
+        </member>
+        <member name="M:ZeroSys.API.Weather.getWeatherWithZipCode(System.String,System.String)">
+            <summary>
+            Get the Weather Information of the given ZipCode City
+            </summary>
+            <param name="zipCode">The ZipCode of the searching City Info</param>
+        </member>
+        <member name="T:ZeroSys.API.Weather.Info">
+            <summary>
+            Weather Values
+            </summary>
+        </member>
+        <member name="T:ZeroSys.Azure.SendGrid.Mail">
+            <summary>
+            Mail Controller
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Azure.SendGrid.Mail.Initialize(System.String,System.String,System.String)">
+            <summary>
+            Initialize the Email Function once with the default Settings
+            </summary>
+            <param name="apiKey">The API Key you need for SendGrid</param>
+            <param name="fromEmail">The Email you use to send the Email</param>
+            <param name="fromUserName">The UserName of the Email Account you use to send the Mail</param>
+        </member>
+        <member name="M:ZeroSys.Azure.SendGrid.Mail.send(System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Send an Email to the Client
+            </summary>
+            <param name="subject">The Heading/Subject/Topic of the Mail</param>
+            <param name="toEmail">The Email of the User which should get the Email</param>
+            <param name="toUserName">The User's Name</param>
+            <param name="contetn">Your Email Content you want to send to the User</param>
+            <param name="html">KP</param>
+            <returns></returns>
+        </member>
+        <member name="T:ZeroSys.Azure.Twilo.SMS">
+            <summary>
+            SMS Controller
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Azure.Twilo.SMS.Initialize(System.String,System.String,System.String)">
+            <summary>
+            Initialize the API Token and SID From Twilo to
+            use this SMS Function
+            </summary>
+            <param name="accoutSid"></param>
+            <param name="authToken"></param>
+            <param name="fromPhoneNumber"></param>
+        </member>
+        <member name="M:ZeroSys.Azure.Twilo.SMS.Send(System.String,System.String)">
+            <summary>
+            Send a SMS with Twilo
+            </summary>
+            <param name="content"></param>
+            <param name="toPhoneNumber"></param>
+        </member>
+        <member name="T:ZeroSys.Azure.Twilo.WhatsApp">
+            <summary>
+            WhatsApp Messages Controll
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Azure.Twilo.WhatsApp.Initialize(System.String,System.String,System.String)">
+            <summary>
+            Initialize the API Token and SID From Twilo to
+            use this WhatsApp Function
+            </summary>
+            <param name="accoutSid"></param>
+            <param name="authToken"></param>
+            <param name="fromPhoneNumber"></param>
+        </member>
+        <member name="M:ZeroSys.Azure.Twilo.WhatsApp.Send(System.String,System.String)">
+            <summary>
+            Send a Whatsapp Message
+            </summary>
+            <param name="content"></param>
+            <param name="toPhoneNumber"></param>
+        </member>
+        <member name="T:ZeroSys.Azure.VoiceAssistent.Commands.CommandController">
+            <summary>
+            This Controlls the Commands of the VoiceAssistent
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Azure.VoiceAssistent.Commands.CommandController.randomCommandResultOutput(System.String)">
+            <summary>
+            Return an Random Result of an Multiple 
+            </summary>
+            <param name="commandResult"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ZeroSys.Azure.VoiceAssistent.Commands.HelpCommand">
+            <summary>
+            The Help of the Command
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Azure.VoiceAssistent.Commands.HelpCommand.RunCmd(System.String,System.String[])">
+            <summary>
+            Run VoiceAssistent Command
+            </summary>
+            <param name="cmd"></param>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Azure.VoiceAssistent.Commands.HelpCommand.ThrowException(System.String,System.String)">
+            <summary>
+            Throw Exeption while ERROR ocour while running
+            </summary>
+            <param name="type"></param>
+            <param name="message"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ZeroSys.Azure.VoiceAssistent.Commands.ICommand">
+            <summary>
+            The Interface of The VoiceAssistent Commands
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Azure.VoiceAssistent.Commands.ICommand.RunCmd(System.String,System.String[])">
+            <summary>
+            Run the Command
+            </summary>
+            <param name="cmd"></param>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Azure.VoiceAssistent.Commands.ICommand.ThrowException(System.String,System.String)">
+            <summary>
+            Throw an Exepthion if an ERROR ocour while running
+            </summary>
+            <param name="type"></param>
+            <param name="message"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ZeroSys.Azure.VoiceAssistent.VoiceController">
+            <summary>
+            Initialize the VoiceAssistent
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Azure.VoiceAssistent.VoiceController.initializeVoiceAssistent(System.String,System.String)">
+            <summary>
+            Initialize VoiceAssistent Config and Commands.
+            Start VoiceRecognition.
+            </summary>
+        </member>
+        <member name="T:ZeroSys.Azure.VoiceAssistent.ZeroSpeechRecognition">
+            <summary>
+            VoiceAssistent recognition of User Input
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Azure.VoiceAssistent.ZeroSpeechRecognition.RecognizeSpeechAsync">
+            <summary>
+            Recognizer Controller
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Azure.VoiceAssistent.ZeroSpeechRecognition.recognizeName(System.Object,Microsoft.CognitiveServices.Speech.SpeechRecognitionEventArgs)">
+            <summary>
+            Trigger the Reaction if you say his Name
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ZeroSys.Azure.VoiceAssistent.ZeroSpeechRecognition.recognize(System.Object,Microsoft.CognitiveServices.Speech.RecognitionEventArgs)">
+            <summary>
+            Trigger the Reaction if you say an Command
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="T:ZeroSys.Azure.VoiceAssistent.ZeroSpeechSynthenizer">
+            <summary>
+            Voice Output of the VoiceAssistent
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Azure.VoiceAssistent.ZeroSpeechSynthenizer.speak(System.String)">
+            <summary>
+            Let the Computer talk what ever you want
+            </summary>
+            <param name="content"></param>
+        </member>
+        <member name="T:ZeroSys.Database.DBTranslateManager">
+            <summary>
+            Translate DB Values
+            </summary>
+        </member>
+        <member name="T:ZeroSys.Database.MongoDBManager">
+            <summary>
+            MongoDB Manager
+            </summary>
+        </member>
+        <member name="T:ZeroSys.Database.MySQLManager">
+            <summary>
+            MySQL DB Manager
+            </summary>
+        </member>
+        <member name="T:ZeroSys.Manager.Autostart">
+            <summary>
+            Autostart Manager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.Autostart.Create">
+            <summary>
+            Create Autostart Entry
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.Autostart.Delete">
+            <summary>
+            Delete Autostart Entry
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.Autostart.Create(System.Reflection.Assembly)">
+            <summary>
+            Create Autostart Entry
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.Autostart.Delete(System.Reflection.Assembly)">
+            <summary>
+            Delete Autostart Entry
+            </summary>
+        </member>
+        <member name="T:ZeroSys.Manager.CertificateManager">
+            <summary>
+            Windows Certificate Manager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.CertificateManager.GeneratePFX(System.String,System.String,System.String)">
+            <summary>
+            Generate Windows Password Certificate
+            </summary>
+            <param name="fileName"></param>
+            <param name="filePassword"></param>
+            <param name="ceartInfo"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.CertificateManager.GenerateCertificate(System.String,System.String)">
+            <summary>
+            Generate Windows Certificate
+            </summary>
+            <param name="fileName"></param>
+            <param name="ceartInfo"></param>
+        </member>
+        <member name="T:ZeroSys.Manager.Credentials">
+            <summary>
+            Windows Credentials Manager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.Credentials.addCredentials(System.String,System.String,System.String,System.String)">
+            <summary>
+            Create a New Windows Credential
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.Credentials.removeCredentials(System.String)">
+            <summary>
+            Remove an existing Windows Credential
+            </summary>
+            <param name="credentialName"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.Credentials.getCredentials(System.String)">
+            <summary>
+            Get an existing Windows Credential
+            </summary>
+            <param name="credentialName"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ZeroSys.Manager.CryptoManager">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:ZeroSys.Manager.ExplorerQuickAccess">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:ZeroSys.Manager.HashManager">
+            <summary>
+            Hash Passwords or other Stuff
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.HashManager.CreateHash(System.String)">
+            <summary>
+            Create a new Secure HASH key Value
+            </summary>
+            <param name="toHashValue">The Value you want to Secure</param>
+            <returns>The entered String is now Secure Hashed</returns>
+        </member>
+        <member name="T:ZeroSys.Manager.IPTracker">
+            <summary>
+            Track User IP Location
+            </summary>
+        </member>
+        <member name="T:ZeroSys.Manager.LizensManager">
+            <summary>
+            Lizens Manager
+            </summary>
+        </member>
+        <member name="T:ZeroSys.Manager.LogManager">
+            <summary>
+            Log File Manager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.LogManager.AddLogEntrence(ZeroSys.Manager.LogType,System.String,System.Int32)">
+            <summary>
+            Create a daily Logfile if not exist and add new Message
+            </summary>
+            <param name="filePath"></param>
+            <param name="logMessage"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.LogManager.AddLogExeptionEntrence(System.Exception)">
+            <summary>
+            Add Exeption output to the User Log File
+            </summary>
+            <param name="exception"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.LogManager.WebLog(ZeroSys.Manager.LogType,System.String)">
+            <summary>
+            Generate a HTML Web Log File
+            This File gives the Logs in a nice Marked Color
+            </summary>
+            <param name="logType"></param>
+            <param name="content"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.LogManager.ConsoleLog(ZeroSys.Manager.LogType,System.String)">
+            <summary>
+            Print the Log to the Console with Color
+            </summary>
+            <param name="logType"></param>
+            <param name="content"></param>
+        </member>
+        <member name="T:ZeroSys.Manager.LogType">
+            <summary>
+            LogTypes make it easy to refference the Logs
+            </summary>
+        </member>
+        <member name="T:ZeroSys.Manager.Mail">
+            <summary>
+            Mail Manager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.Mail.Initialize(System.String,System.Int32,System.String,System.String)">
+            <summary>
+            Initialize the Settings for the Email's
+            Call once in the Main for initializing
+            </summary>
+            <param name="smtp"></param>
+            <param name="port"></param>
+            <param name="senderEmail"></param>
+            <param name="password"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.Mail.sendMail(System.String,System.String,System.String)">
+            <summary>
+            Send an Email to your Customer
+            </summary>
+            <param name="heading"></param>
+            <param name="content"></param>
+            <param name="toEmail"></param>
+        </member>
+        <member name="T:ZeroSys.Manager.PrintDocument">
+            <summary>
+            Document Print Manager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.PrintDocument.Print(System.String)">
+            <summary>
+            Print the selected Document
+            </summary>
+            <param name="filePath"></param>
+        </member>
+        <member name="T:ZeroSys.Manager.QRCodeManager">
+            <summary>
+            Manage QR Codes
+            </summary>
+        </member>
+        <member name="T:ZeroSys.Manager.RegistryEntry">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:ZeroSys.Manager.TempManager">
+            <summary>
+            Temporary File Manager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.TempManager.CreateRandomFolder">
+            <summary>
+            Create a Folder with a random Name
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.TempManager.CreateRandomFile(System.String,System.Boolean)">
+            <summary>
+            Create a File with random Name
+            </summary>
+            <param name="content"></param>
+            <param name="deleteFile"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.TempManager.CreateFileWithName(System.String,System.String,System.Boolean)">
+            <summary>
+            Create a File with specific Name
+            </summary>
+            <param name="content"></param>
+            <param name="name"></param>
+            <param name="deleteFile"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.TempManager.CreateFolderWithName(System.String)">
+            <summary>
+            Create Folder with specific Name
+            </summary>
+            <param name="name"></param>
+        </member>
+        <member name="T:ZeroSys.SystemControll.Hardware.Cpu">
+            <summary>
+            Get CPU Information
+            </summary>
+        </member>
+        <member name="M:ZeroSys.SystemControll.Hardware.Cpu.GetCPUInformation">
+            <summary>
+            Get the Complete Information about your CPU
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.SystemControll.Hardware.Cpu.GetCPUValue(System.String)">
+            <summary>
+            Get a specific Value of your CPU
+            </summary>
+            <param name="Value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.SystemControll.Hardware.Cpu.GetAllCores">
+            <summary>
+            Get all Cores and there Workload
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.SystemControll.Hardware.Cpu.GetSingleCore(System.Int32)">
+            <summary>
+            Get single Core and his Workload
+            </summary>
+            <param name="coreNumber"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ZeroSys.SystemControll.Hardware.Cpu.CPUValues">
+            <summary>
+            CPU Values to get from CPU
+            </summary>
+        </member>
+        <member name="T:ZeroSys.SystemControll.Hardware.Drive">
+            <summary>
+            Get Drive Information
+            </summary>
+        </member>
+        <member name="M:ZeroSys.SystemControll.Hardware.Drive.#ctor">
+            <summary>
+            Get Drive Information
+            </summary>
+        </member>
+        <member name="M:ZeroSys.SystemControll.Hardware.Drive.GetDriveInformation">
+            <summary>
+            Get the Complete Information about your Drive's
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.SystemControll.Hardware.Drive.GetDriveValue(System.String)">
+            <summary>
+            Get a specific Value of your Drive
+            </summary>
+            <param name="Value"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ZeroSys.SystemControll.Hardware.Drive.DriveValues">
+            <summary>
+            Drive Values to get from Drive
+            </summary>
+        </member>
+        <member name="T:ZeroSys.SystemControll.Hardware.Fan">
+            <summary>
+            Get Fan Information
+            </summary>
+        </member>
+        <member name="T:ZeroSys.SystemControll.Hardware.Gpu">
+            <summary>
+            Get GPU Information
+            </summary>
+        </member>
+        <member name="M:ZeroSys.SystemControll.Hardware.Gpu.GetGPUInformation">
+            <summary>
+            Get the Complete Information about your GPU
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.SystemControll.Hardware.Gpu.GetGPUValue(System.String)">
+            <summary>
+            Get a specific Value of your GPU
+            </summary>
+            <param name="gpuValue"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ZeroSys.SystemControll.Hardware.Gpu.GPUValues">
+            <summary>
+            GPU Values to get from GPU
+            </summary>
+        </member>
+        <member name="T:ZeroSys.SystemControll.Hardware.Microphone">
+            <summary>
+            Get Microphone Information
+            </summary>
+        </member>
+        <member name="M:ZeroSys.SystemControll.Hardware.Microphone.GetMicroponeInformation">
+            <summary>
+            Get the Complete Information about your Microphone
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.SystemControll.Hardware.Microphone.GetMicrophoneValue(System.String)">
+            <summary>
+            Get a specific Value of your Microphone
+            </summary>
+            <param name="Value"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ZeroSys.SystemControll.Hardware.Microphone.MicrophoneValues">
+            <summary>
+            Microphone Values to get from Microphone
+            </summary>
+        </member>
+        <member name="T:ZeroSys.SystemControll.Hardware.Motherboard">
+            <summary>
+            Get Motherboard Information
+            </summary>
+        </member>
+        <member name="M:ZeroSys.SystemControll.Hardware.Motherboard.GetMotherBoardInformation">
+            <summary>
+            Get the Complete Information about your MotherBoard
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.SystemControll.Hardware.Motherboard.GetMotherBoardValue(System.String)">
+            <summary>
+            Get a specific Value of your MotherBoard
+            </summary>
+            <param name="Value"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ZeroSys.SystemControll.Hardware.Motherboard.MotherBoardValues">
+            <summary>
+            MotherBoard Values to get from MotherBoard
+            </summary>
+        </member>
+        <member name="T:ZeroSys.SystemControll.Hardware.Printer">
+            <summary>
+            Get Printer Information
+            </summary>
+        </member>
+        <member name="M:ZeroSys.SystemControll.Hardware.Printer.GetPrinterInformation">
+            <summary>
+            Get the Complete Information about your Printer
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.SystemControll.Hardware.Printer.GetPrinterValue(System.String)">
+            <summary>
+            Get a specific Value of your Printer
+            </summary>
+            <param name="Value"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ZeroSys.SystemControll.Hardware.Printer.PrinterValues">
+            <summary>
+            Printer Values to get from Printer
+            </summary>
+        </member>
+        <member name="T:ZeroSys.SystemControll.Hardware.Ram">
+            <summary>
+            Get RAM Information
+            </summary>
+        </member>
+        <member name="M:ZeroSys.SystemControll.Hardware.Ram.GetRAMInformation">
+            <summary>
+            Get the Complete Information about your RAM
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.SystemControll.Hardware.Ram.GetRAMValue(System.String)">
+            <summary>
+            Get a specific Value of your RAM
+            </summary>
+            <param name="Value"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ZeroSys.SystemControll.Hardware.Ram.RAMValues">
+            <summary>
+            RAM Values to get from RAM
+            </summary>
+        </member>
+        <member name="T:ZeroSys.SystemControll.Hardware.Usb">
+            <summary>
+            Get USB Information
+            </summary>
+        </member>
+        <member name="M:ZeroSys.SystemControll.Hardware.Usb.GetUSBInformation">
+            <summary>
+            Get the Complete Information about your USB's
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.SystemControll.Hardware.Usb.GetUSBValue(System.String)">
+            <summary>
+            Get a specific Value of your USB
+            </summary>
+            <param name="Value"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ZeroSys.SystemControll.Hardware.Usb.USBValues">
+            <summary>
+            USB Values to get from USB
+            </summary>
+        </member>
+        <member name="T:ZeroSys.SystemControll.Software.ComputerSystem">
+            <summary>
+            Get Computer System Information
+            </summary>
+        </member>
+        <member name="M:ZeroSys.SystemControll.Software.ComputerSystem.GetSystemInformation">
+            <summary>
+            Get the Complete Information about your System
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.SystemControll.Software.ComputerSystem.GetSystemValue(System.String)">
+            <summary>
+            Get a specific Value of your System
+            </summary>
+            <param name="gpuValue"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ZeroSys.SystemControll.Software.ComputerSystem.SystemValues">
+            <summary>
+            System Values to get from System
+            </summary>
+        </member>
+        <member name="T:ZeroSys.SystemControll.Software.NetworkInterface">
+            <summary>
+            Get Network Interface Information
+            </summary>
+        </member>
+        <member name="M:ZeroSys.SystemControll.Software.NetworkInterface.getNetworkInterfaceInformation">
+            <summary>
+            Get the Complete Information about your NetworkInterface
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.SystemControll.Software.NetworkInterface.getNetworkInterfaceValue(System.String)">
+            <summary>
+            Get a specific Value of your NetworkInterface
+            </summary>
+            <param name="Value"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ZeroSys.SystemControll.Software.NetworkInterface.NetworkInterfaceValues">
+            <summary>
+            NetworkInterface Values to get from NetworkInterface
+            </summary>
+        </member>
+        <member name="T:ZeroSys.SystemControll.Software.RunningProcess">
+            <summary>
+            Get Running Process Information
+            </summary>
+        </member>
+        <member name="M:ZeroSys.SystemControll.Software.RunningProcess.GetProcessInformation">
+            <summary>
+            Get the Complete Information about your Process
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:ZeroSys.SystemControll.Software.RunningProcess.ProcessValues">
+            <summary>
+            Process Values to get from System
+            </summary>
+        </member>
+    </members>
+</doc>

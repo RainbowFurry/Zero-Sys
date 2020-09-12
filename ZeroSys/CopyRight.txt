@@ -1,0 +1,36 @@
+﻿
+ENGLISH:
+
+ZeroWorks Copyright and Disclaimer Notice:
+Copyright ©2020-2030 by Jason Hoffmann (ZeroWorks) Germany.
+All Rights Reserved.
+Permission to use, copy and modify are granted, not for profit purposes or sharing.
+You are allowed to use oure Documentation for this library for FREE under ZeroWorks.de
+If you want to use this Library to make Profit in any order or you have any other
+uncleared questions write an Email to Support@ZeroWorks.de
+
+
+IN NO EVENT SHALL Jason Hoffmann (ZeroWorks) BE LIABLE TO ANY PARTY FOR DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES,
+INCLUDING LOST PROFITS, ARISING OUT OF THE USE OF THIS SOFTWARE AND ITS DOCUMENTATION,
+EVEN IF Jason Hoffmann (ZeroWorks) HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+Jason Hoffmann (ZeroWorks) SPECIFICALLY DISCLAIMS ANY WARRANTIES.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+DEUTSCH:
+
+ZeroWorks Copyright- und Haftungsausschluss-Hinweis:
+Copyright ©2020-2030 von Jason Hoffmann (ZeroWorks) Deutschland.
+Alle Rechte vorbehalten.
+Es wird die Erlaubnis zur Nutzung, zum Kopieren und Modifizieren erteilt, jedoch nicht zu Profitzwecken oder zur Weitergabe.
+Sie sind berechtigt, unsere Dokumentation für diese Bibliothek KOSTENLOS unter ZeroWorks.de zu verwenden.
+Wenn Sie diese Bibliothek gewinnbringend nutzen möchten oder wenn Sie eine andere
+ungeklärte Frage haben, schreiben Sie eine E-Mail an Support@ZeroWorks.de
+
+
+Jason Hoffmann (ZeroWorks) HAFTET IN KEINEM FALL GEGENÜBER EINER PARTEI FÜR DIREKTE, INDIREKTE, SPEZIELLE, ZUFÄLLIGE ODER FOLGESCHÄDEN,
+EINSCHLIEßLICH ENTGANGENER GEWINNE, DIE SICH AUS DER VERWENDUNG DIESER SOFTWARE UND IHRER DOKUMENTATION ERGEBEN,
+SELBST WENN Jason Hoffmann (ZeroWorks) über die MÖGLICHKEIT SOLCHER SCHÄDEN INFORMIERT WURDE.
+
+Jason Hoffmann (ZeroWorks) SCHLIESST SPEZIFISCH JEGLICHE GEWÄHRLEISTUNGEN AUS.
