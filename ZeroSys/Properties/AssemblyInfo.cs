@@ -6,12 +6,12 @@ using System.Runtime.InteropServices;
 // Attribute gesteuert. Ändern Sie diese Attributwerte, um die Informationen zu ändern,
 // die einer Assembly zugeordnet sind.
 [assembly: AssemblyTitle("ZeroSys")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("The Global Library for ZeroWorks")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("ZeroWorks")]
 [assembly: AssemblyProduct("ZeroSys")]
-[assembly: AssemblyCopyright("Copyright ©  2020")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCopyright("Copyright ©  2020 ZeroWorks")]
+[assembly: AssemblyTrademark("Zero")]
 [assembly: AssemblyCulture("")]
 
 // Durch Festlegen von ComVisible auf FALSE werden die Typen in dieser Assembly
