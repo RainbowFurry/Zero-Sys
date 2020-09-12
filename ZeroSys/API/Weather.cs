@@ -2,6 +2,7 @@
 using System;
 using System.IO;
 using System.Net;
+using ZeroSys.Manager;
 
 /**********************************************
 * Porject Name : ZeroSys                      *
