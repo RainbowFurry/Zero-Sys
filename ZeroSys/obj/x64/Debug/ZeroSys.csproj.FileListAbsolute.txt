@@ -38,3 +38,4 @@ C:\Users\DarkS\source\repos\ZeroSys\ZeroSys\obj\x64\Debug\ZeroSys.csproj.CoreCom
 C:\Users\DarkS\source\repos\ZeroSys\ZeroSys\obj\x64\Debug\ZeroSys.csproj.CopyComplete
 C:\Users\DarkS\source\repos\ZeroSys\ZeroSys\obj\x64\Debug\ZeroSys.dll
 C:\Users\DarkS\source\repos\ZeroSys\ZeroSys\obj\x64\Debug\ZeroSys.pdb
+C:\Users\DarkS\source\repos\ZeroSys\ZeroSys\bin\x64\Debug\ZeroSys.pfx
