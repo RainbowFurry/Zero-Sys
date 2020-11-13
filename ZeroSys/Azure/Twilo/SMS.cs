@@ -30,7 +30,7 @@ namespace ZeroSys.Azure.Twilo
         /// <param name="accoutSid"></param>
         /// <param name="authToken"></param>
         /// <param name="fromPhoneNumber"></param>
-        public static void Initialize(string accoutSid, string authToken, string fromPhoneNumber)
+        public SMS(string accoutSid, string authToken, string fromPhoneNumber)
         {
             AccountSid = accoutSid;
             AuthToken = authToken;
@@ -42,7 +42,7 @@ namespace ZeroSys.Azure.Twilo
         /// </summary>
         /// <param name="content"></param>
         /// <param name="toPhoneNumber"></param>
-        public static void Send(string content, string toPhoneNumber)
+        public void Send(string content, string toPhoneNumber)
         {
 
             TwilioClient.Init(AccountSid, AuthToken);

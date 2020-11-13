@@ -33,5 +33,14 @@ namespace ZeroSys.Manager
 
         }
 
+        /// <summary>
+        /// Print the selected Document from Browser
+        /// </summary>
+        /// <param name="filePath"></param>
+        public static void PrintWebRequest(string filePath)
+        {
+
+        }
+
     }
 }

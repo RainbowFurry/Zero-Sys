@@ -1,6 +1,5 @@
 ﻿using SendGrid;
 using SendGrid.Helpers.Mail;
-using System;
 using System.Threading.Tasks;
 
 /**********************************************
@@ -31,7 +30,7 @@ namespace ZeroSys.Azure.SendGrid
         /// <param name="apiKey">The API Key you need for SendGrid</param>
         /// <param name="fromEmail">The Email you use to send the Email</param>
         /// <param name="fromUserName">The UserName of the Email Account you use to send the Mail</param>
-        public static void Initialize(string apiKey, string fromEmail, string fromUserName)
+        public Mail(string apiKey, string fromEmail, string fromUserName)
         {
             APIKey = apiKey;
             FromEmail = fromEmail;
@@ -47,13 +46,12 @@ namespace ZeroSys.Azure.SendGrid
         /// <param name="contetn">Your Email Content you want to send to the User</param>
         /// <param name="html">KP</param>
         /// <returns></returns>
-        public static async Task send(string subject, string toEmail, string toUserName, string contetn, string html)
+        public async Task send(string subject, string toEmail, string toUserName, string contetn, string html)
         {
 
             if (APIKey != null)
             {
-                var ApiKey = Environment.GetEnvironmentVariable(APIKey);
-                var Client = new SendGridClient(ApiKey);
+                var Client = new SendGridClient(APIKey);
                 var From = new EmailAddress(FromEmail, FromUserName);
 
                 var Subject = subject;

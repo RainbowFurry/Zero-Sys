@@ -1,4 +1,5 @@
-﻿using Twilio;
+﻿using System;
+using Twilio;
 using Twilio.Rest.Api.V2010.Account;
 
 /**********************************************
@@ -53,7 +54,7 @@ namespace ZeroSys.Azure.Twilo
                 to: new Twilio.Types.PhoneNumber("whatsapp:" + toPhoneNumber)
             );
 
-            //Console.WriteLine(message.Sid);
+            Console.WriteLine(message.Sid);
 
         }
 

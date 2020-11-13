@@ -62,7 +62,7 @@ namespace ZeroSys.Manager.Images
         }
 
         /// <summary>
-        /// 
+        /// system.Controls.Image => system.Drawing.Image
         /// </summary>
         /// <param name="image"></param>
         /// <returns></returns>
@@ -80,7 +80,7 @@ namespace ZeroSys.Manager.Images
         }
 
         /// <summary>
-        /// 
+        /// Get Image Source
         /// </summary>
         /// <param name="bitmap"></param>
         /// <returns></returns>

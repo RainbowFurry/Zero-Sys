@@ -21,6 +21,9 @@ namespace ZeroSys.Manager
     public class IPTracker
     {
 
+        /// <summary>
+        /// Track the IP of the Client/User
+        /// </summary>
         public static void TrackIP()
         {
 
@@ -36,6 +39,9 @@ namespace ZeroSys.Manager
 
         }
 
+        /// <summary>
+        /// IpInfo Model
+        /// </summary>
         public class IpInfo
         {
 

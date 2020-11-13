@@ -38,29 +38,29 @@ namespace ZeroSys.Azure.VoiceAssistent
             try
             {
 
-                //var result = await VoiceControler.speechRecognizer.RecognizeOnceAsync().ConfigureAwait(false);//await recognizer.StartContinuousRecognitionAsync().ConfigureAwait(false);
+                var result = await VoiceController.speechRecognizer.RecognizeOnceAsync().ConfigureAwait(false);//await recognizer.StartContinuousRecognitionAsync().ConfigureAwait(false);
 
-                //if (result.Reason == ResultReason.RecognizedSpeech)
-                //{
-                //    Console.WriteLine($"We recognized: {result.Text}");
-                //    //VoiceAssistentStartSpeaking();//GIVE ANSWER
-                //}
-                //else if (result.Reason == ResultReason.NoMatch)
-                //{
-                //    Console.WriteLine($"NOMATCH: Speech could not be recognized.");
-                //}
-                //else if (result.Reason == ResultReason.Canceled)
-                //{
-                //    var cancellation = CancellationDetails.FromResult(result);
-                //    Console.WriteLine($"CANCELED: Reason={cancellation.Reason}");
+                if (result.Reason == ResultReason.RecognizedSpeech)
+                {
+                    Console.WriteLine($"We recognized: {result.Text}");
+                    //VoiceAssistentStartSpeaking();//GIVE ANSWER
+                }
+                else if (result.Reason == ResultReason.NoMatch)
+                {
+                    Console.WriteLine($"NOMATCH: Speech could not be recognized.");
+                }
+                else if (result.Reason == ResultReason.Canceled)
+                {
+                    var cancellation = CancellationDetails.FromResult(result);
+                    Console.WriteLine($"CANCELED: Reason={cancellation.Reason}");
 
-                //    if (cancellation.Reason == CancellationReason.Error)
-                //    {
-                //        Console.WriteLine($"CANCELED: ErrorCode={cancellation.ErrorCode}");
-                //        Console.WriteLine($"CANCELED: ErrorDetails={cancellation.ErrorDetails}");
-                //        Console.WriteLine($"CANCELED: Did you update the subscription info?");
-                //    }
-                //}
+                    if (cancellation.Reason == CancellationReason.Error)
+                    {
+                        Console.WriteLine($"CANCELED: ErrorCode={cancellation.ErrorCode}");
+                        Console.WriteLine($"CANCELED: ErrorDetails={cancellation.ErrorDetails}");
+                        Console.WriteLine($"CANCELED: Did you update the subscription info?");
+                    }
+                }
 
             }
             catch (Exception e)

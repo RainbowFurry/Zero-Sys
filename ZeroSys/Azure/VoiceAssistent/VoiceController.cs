@@ -1,6 +1,5 @@
 ﻿using Microsoft.CognitiveServices.Speech;
 using Microsoft.CognitiveServices.Speech.Audio;
-using System;
 
 /**********************************************
 * Porject Name : ZeroSys                      *
@@ -19,22 +18,46 @@ namespace ZeroSys.Azure.VoiceAssistent
     /// </summary>
     public class VoiceController
     {
+        /// <summary>
+        /// Subscription Key From Microsoft Azure VoiceAssisten
+        /// </summary>
+        public static string _VoiceSubscriptionKey;//"8f4e71eef45f401a92686277cbc5590e"
+        /// <summary>
+        /// Voice Region from your setup VoiceAssisten on Microsoft Azure
+        /// </summary>
+        public static string _VoiceRegion;//westeurope
 
-        public static readonly String _VoiceSubscriptionKey = "8f4e71eef45f401a92686277cbc5590e";
-        public static readonly String _VoiceRegion = "westeurope";
-
-        public static readonly SpeechConfig speechRecognitionConfig = SpeechConfig.FromSubscription(_VoiceSubscriptionKey, _VoiceRegion);
-        public static readonly SpeechConfig speechSyntheniserConfig = SpeechConfig.FromSubscription(_VoiceSubscriptionKey, _VoiceRegion);
+        /// <summary>
+        /// Speech Recognition Config
+        /// </summary>
+        public static SpeechConfig speechRecognitionConfig;
+        /// <summary>
+        /// Speech Syntheniser Config
+        /// </summary>
+        public static SpeechConfig speechSyntheniserConfig;
 
         public static SpeechRecognizer speechRecognizerName;
         public static SpeechRecognizer speechRecognizer;
         public static SpeechSynthesizer say;
 
         /// <summary>
+        /// Initialize VoiceController
+        /// </summary>
+        /// <param name="VoiceSubscriptionKey"></param>
+        /// <param name="VoiceRegion"></param>
+        public VoiceController(string VoiceSubscriptionKey, string VoiceRegion)
+        {
+            _VoiceRegion = VoiceRegion;
+            _VoiceSubscriptionKey = VoiceSubscriptionKey;
+            speechRecognitionConfig = SpeechConfig.FromSubscription(_VoiceSubscriptionKey, _VoiceRegion);
+            speechSyntheniserConfig = SpeechConfig.FromSubscription(_VoiceSubscriptionKey, _VoiceRegion);
+        }
+
+        /// <summary>
         /// Initialize VoiceAssistent Config and Commands.
         /// Start VoiceRecognition.
         /// </summary>
-        public static void initializeVoiceAssistent(string Language, string ReactNameFilePath)
+        public void initializeVoiceAssistent(string Language, string ReactNameFilePath)
         {
 
             //Register Config

@@ -25,9 +25,11 @@ namespace ZeroSys.Manager
         /// <summary>
         /// Create a Folder with a random Name
         /// </summary>
-        public void CreateRandomFolder()
+        public string CreateRandomFolder()
         {
-            Directory.CreateDirectory(path + Guid.NewGuid().ToString());
+            string name = Guid.NewGuid().ToString();
+            Directory.CreateDirectory(path + name);
+            return name;
         }
 
         /// <summary>
