@@ -319,6 +319,16 @@
             MySQL DB Manager
             </summary>
         </member>
+        <member name="T:ZeroSys.IO.FileManager">
+            <summary>
+            FileManager
+            </summary>
+        </member>
+        <member name="T:ZeroSys.IO.SubFileManager">
+            <summary>
+            SubFileManager
+            </summary>
+        </member>
         <member name="T:ZeroSys.Manager.MQTTManager">
             <summary>
             MQTTManager
@@ -511,6 +521,11 @@
             </summary>
             <param name="fileName"></param>
             <param name="ceartInfo"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.Security.CertificateManager.InstallCertificate">
+            <summary>
+            Install the Certificate
+            </summary>
         </member>
         <member name="T:ZeroSys.Manager.Security.Credentials">
             <summary>
@@ -822,10 +837,232 @@
             <param name="content"></param>
             <returns></returns>
         </member>
-        <member name="T:ZeroSys.TestUnit.TestUnitManager">
+        <member name="T:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager">
             <summary>
-            TestUnitManager
+            WebTestUnitManager
             </summary>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.#ctor">
+            <summary>
+            Initialize WebTestUnitManager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.StartChromeTest">
+            <summary>
+            Start Test in Chrome
+            </summary>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.StartChromeTest(System.Int32)">
+            <summary>
+            Start Test in Chrome
+            </summary>
+            <param name="wait">Wait for Elements and Page if not loaded</param>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.StartIETest">
+            <summary>
+            Start Test in IE
+            </summary>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.StartIETest(System.Int32)">
+            <summary>
+            Start Test in IE
+            </summary>
+            <param name="wait">Wait for Elements and Page if not loaded</param>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.StartOperaTest">
+            <summary>
+            Start Test in Opera
+            </summary>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.StartOperaTest(System.Int32)">
+            <summary>
+            Start Test in Opera
+            </summary>
+            <param name="wait">Wait for Elements and Page if not loaded</param>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.StartSafariTest">
+            <summary>
+            Start Test in Safari
+            </summary>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.StartSafariTest(System.Int32)">
+            <summary>
+            Start Test in Safari
+            </summary>
+            <param name="wait">Wait for Elements and Page if not loaded</param>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.OpenPage(System.String)">
+            <summary>
+            Open Page with URL
+            </summary>
+            <param name="url"></param>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.ReloadPage">
+            <summary>
+            Refresh current Page
+            </summary>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.PageForward">
+            <summary>
+            Go one Page Forward
+            </summary>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.PageBackward">
+            <summary>
+            Go one Page Backward
+            </summary>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.GetPageUrl">
+            <summary>
+            Get Current URL
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.ElementExist(OpenQA.Selenium.By)">
+            <summary>
+            Check if the Web Element exist
+            </summary>
+            <param name="by"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.GetElement(OpenQA.Selenium.By)">
+            <summary>
+            Get Element from Web
+            </summary>
+            <param name="by"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.GetElements(OpenQA.Selenium.By)">
+            <summary>
+            Get all Elements from Web
+            </summary>
+            <param name="by"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.GetAttribute(OpenQA.Selenium.By,System.String)">
+            <summary>
+            Get Attribute
+            </summary>
+            <param name="by"></param>
+            <param name="attribute"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.GetAttribute(OpenQA.Selenium.IWebElement,System.String)">
+            <summary>
+            Get Attribute
+            </summary>
+            <param name="element"></param>
+            <param name="attribute"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.AddCookie(System.String,System.String)">
+            <summary>
+            Add Cookie
+            </summary>
+            <param name="key"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.GetCookieValue(System.String)">
+            <summary>
+            Get Cookie Value
+            </summary>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.GetCookie(System.String)">
+            <summary>
+            Get Cookie
+            </summary>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.DeleteCookie(OpenQA.Selenium.Cookie)">
+            <summary>
+            Delete Cookie
+            </summary>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.DeleteCookie(System.String)">
+            <summary>
+            Delete Cookie
+            </summary>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.DeleteAllCookies">
+            <summary>
+            Delete all Cookies
+            </summary>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.SendKeys(OpenQA.Selenium.By,System.String)">
+            <summary>
+            Enter Keys to WebView
+            </summary>
+            <param name="by"></param>
+            <param name="content"></param>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.SendKeys(OpenQA.Selenium.IWebElement,System.String)">
+            <summary>
+            Enter Keys to WebView
+            </summary>
+            <param name="element"></param>
+            <param name="content"></param>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.FillTextField(OpenQA.Selenium.By,System.String)">
+            <summary>
+            Enter Keys to WebView
+            </summary>
+            <param name="by"></param>
+            <param name="content"></param>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.FillTextField(OpenQA.Selenium.IWebElement,System.String)">
+            <summary>
+            Enter Keys to WebView
+            </summary>
+            <param name="element"></param>
+            <param name="content"></param>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.FillTextFiledAndSend(OpenQA.Selenium.By,System.String)">
+            <summary>
+            Enter Keys to WebView
+            </summary>
+            <param name="by"></param>
+            <param name="content"></param>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.FillTextFiledAndSend(OpenQA.Selenium.IWebElement,System.String)">
+            <summary>
+            Enter Keys to WebView
+            </summary>
+            <param name="element"></param>
+            <param name="content"></param>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.PerformClick(OpenQA.Selenium.IWebElement)">
+            <summary>
+            Perform Click Element
+            </summary>
+            <param name="element"></param>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.PerformClick(OpenQA.Selenium.By)">
+            <summary>
+            Perform Click Element
+            </summary>
+            <param name="by"></param>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.CreateScreenshot(System.String,System.String,System.Drawing.Imaging.ImageFormat)">
+            <summary>
+            Create Screenshot
+            </summary>
+            <param name="savepath"></param>
+            <param name="name"></param>
+            <param name="imageFormat"></param>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.TestCompleted">
+            <summary>
+            End Browser Tests
+            </summary>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.ExpandDelayOnce(System.Int32)">
+            <summary>
+            Add for the one Element more time to wait for loading
+            </summary>
+            <param name="waitingSeconds"></param>
         </member>
         <member name="T:ZeroSys.Variable.IconPaths">
             <summary>

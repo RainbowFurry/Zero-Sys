@@ -244,12 +244,18 @@
     <Compile Include="Azure\VoiceAssistent\VoiceController.cs" />
     <Compile Include="Azure\VoiceAssistent\ZeroSpeechRecognition.cs" />
     <Compile Include="Azure\VoiceAssistent\ZeroSpeechSynthenizer.cs" />
+    <Compile Include="Converter\AudioConverter.cs" />
+    <Compile Include="Converter\FileConverter.cs" />
+    <Compile Include="Converter\ImageConverter.cs" />
+    <Compile Include="Converter\VideoConverter.cs" />
     <Compile Include="Database\DatabaseManager.cs" />
     <Compile Include="Database\TranslateDB.cs" />
     <Compile Include="Database\MongoDBManager.cs" />
     <Compile Include="Database\MySQLManager.cs" />
     <Compile Include="IO\FileManager.cs" />
+    <Compile Include="IO\FolderManager.cs" />
     <Compile Include="IO\SaveInFileManager.cs" />
+    <Compile Include="IO\SubFileManager.cs" />
     <Compile Include="Manager\MQTTManager.cs" />
     <Compile Include="Manager\Security\AuthentificationManager.cs" />
     <Compile Include="Manager\Security\CertificateManager.cs" />
@@ -257,7 +263,7 @@
     <Compile Include="Manager\Security\CryptoManager.cs" />
     <Compile Include="Manager\Security\HashManager.cs" />
     <Compile Include="Manager\Images\ChangeColor.cs" />
-    <Compile Include="TestUnit\TestUnitManager.cs" />
+    <Compile Include="TestUnit\WebTestUnitManager.cs" />
     <Compile Include="Variable\IconPaths.cs" />
     <Compile Include="Variable\ImagePaths.cs" />
     <Compile Include="Manager\Images\LoadSVG.cs" />

@@ -80,5 +80,13 @@ namespace ZeroSys.Manager.Security
 
         }
 
+        /// <summary>
+        /// Install the Certificate
+        /// </summary>
+        public static void InstallCertificate()
+        {
+
+        }
+
     }
 }

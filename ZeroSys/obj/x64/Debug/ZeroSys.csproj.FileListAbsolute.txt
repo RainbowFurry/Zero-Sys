@@ -381,4 +381,3 @@ C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\MongoDB.Driver.xml
 C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\MongoDB.Driver.Core.xml
 C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\System.Buffers.xml
 C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\WebDriver.xml
-C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\obj\x64\Debug\ZeroSys.csprojAssemblyReference.cache
