@@ -32,7 +32,7 @@ namespace ZeroSys.Manager
         /// <param name="port"></param>
         /// <param name="senderEmail"></param>
         /// <param name="password"></param>
-        public static void Initialize(string smtp, int port, string senderEmail, string password)
+        public Mail(string smtp, int port, string senderEmail, string password)
         {
 
             if (smtpClient == null)

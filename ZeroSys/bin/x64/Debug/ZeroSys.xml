@@ -259,6 +259,49 @@
             </summary>
             <param name="content"></param>
         </member>
+        <member name="T:ZeroSys.Converter.FileConverter">
+            <summary>
+            FileConverter
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Converter.FileConverter.ConvertXmlToJson(System.String)">
+            <summary>
+            Convert XML File To Json File
+            </summary>
+            <param name="filePath"></param>
+        </member>
+        <member name="M:ZeroSys.Converter.FileConverter.ConvertJsonToXml(System.String)">
+            <summary>
+            Convert Json File to XML File
+            </summary>
+            <param name="filePath"></param>
+        </member>
+        <member name="T:ZeroSys.Converter.ImageConverter">
+            <summary>
+            ImageConverter
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Converter.ImageConverter.ConvertImage(System.String,System.String,System.Drawing.Imaging.ImageFormat,System.String)">
+            <summary>
+            Convert Images from one Format to another.
+            Important! the ImageFormat needs to match the newImageEnding
+            </summary>
+            <param name="path"></param>
+            <param name="name"></param>
+            <param name="newImageFormat"></param>
+            <param name="newImageEnding"></param>
+        </member>
+        <member name="M:ZeroSys.Converter.ImageConverter.ConvertImage(System.String,System.String,System.Drawing.Imaging.ImageFormat,System.String,System.String)">
+            <summary>
+            Convert Images from one Format to another.
+            Important! the ImageFormat needs to match the newImageEnding
+            </summary>
+            <param name="path"></param>
+            <param name="name"></param>
+            <param name="newImageFormat"></param>
+            <param name="newPath"></param>
+            <param name="newImageEnding"></param>
+        </member>
         <member name="T:ZeroSys.Database.TranslateDB">
             <summary>
             Translate DB Values
@@ -324,10 +367,109 @@
             FileManager
             </summary>
         </member>
-        <member name="T:ZeroSys.IO.SubFileManager">
+        <member name="M:ZeroSys.IO.FileManager.ReadFile(System.String)">
             <summary>
-            SubFileManager
+            Read Content from File
             </summary>
+            <param name="path"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.IO.FileManager.ReadFileAndSplitLine(System.String)">
+            <summary>
+            Read Content from File and Split by new Line
+            </summary>
+            <param name="path"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ZeroSys.IO.FolderManager">
+            <summary>
+            FolderManager
+            </summary>
+        </member>
+        <member name="T:ZeroSys.IO.SaveInFileManager">
+            <summary>
+            SaveInFileManager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.IO.SaveInFileManager.SaveToResxFile(System.String,System.String[],System.String[])">
+            <summary>
+            Save Content to Resx File
+            </summary>
+            <param name="filePath"></param>
+            <param name="key"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:ZeroSys.IO.SaveInFileManager.AddToResxFile(System.String,System.String[],System.String[])">
+            <summary>
+            Add Content to Resx File
+            </summary>
+            <param name="filePath"></param>
+            <param name="key"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:ZeroSys.IO.SaveInFileManager.RemoveFromResxFile(System.String,System.String[],System.String[])">
+            <summary>
+            Remove Content from Resx File
+            </summary>
+            <param name="filePath"></param>
+            <param name="key"></param>
+            <param name="value"></param>
+        </member>
+        <member name="T:ZeroSys.Manager.AlertManager">
+            <summary>
+            AlertManager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.AlertManager.CreateAlertMessageBox(System.String)">
+            <summary>
+            Create Alert Message Box
+            </summary>
+            <param name="content"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.AlertManager.CreateAlertMessageBox(System.String,System.String)">
+            <summary>
+            Create Alert Message Box with Title
+            </summary>
+            <param name="content"></param>
+            <param name="title"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.AlertManager.CreateOptionMessageBox(System.String,System.String,System.Windows.MessageBoxButton)">
+            <summary>
+            Create Alert Message Box with Title and optional Button/s
+            </summary>
+            <param name="content"></param>
+            <param name="title"></param>
+            <param name="button"></param>
+        </member>
+        <member name="T:ZeroSys.Manager.DownloadManager">
+            <summary>
+            DownloadManager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.DownloadManager.DownloadFile(System.String,System.String)">
+            <summary>
+            Start downloading Cotnent from Web
+            </summary>
+            <param name="remoteFilePath"></param>
+            <param name="localFilePath"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.DownloadManager.DownloadFileAndUnzip(System.String,System.String)">
+            <summary>
+            Start downloading Cotnent from Web and unzip Content after Finish
+            </summary>
+            <param name="remoteFilePath"></param>
+            <param name="localFilePath"></param>
+        </member>
+        <member name="T:ZeroSys.Manager.ExeptionManager">
+            <summary>
+            ExeptionManager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.ExeptionManager.CreateCustomExeption(System.String)">
+            <summary>
+            Create new Custom Exeption
+            </summary>
+            <param name="exeption"></param>
         </member>
         <member name="T:ZeroSys.Manager.MQTTManager">
             <summary>
@@ -650,6 +792,22 @@
             <param name="svgFile"></param>
             <param name="source"></param>
         </member>
+        <member name="T:ZeroSys.Manager.TimerManager">
+            <summary>
+            TimerManager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.TimerManager.StartTimer">
+            <summary>
+            Start Timer
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.TimerManager.StopTimer">
+            <summary>
+            Stop Timer
+            </summary>
+            <returns>Time needed to stop</returns>
+        </member>
         <member name="T:ZeroSys.Manager.IPTracker">
             <summary>
             Track User IP Location
@@ -715,7 +873,7 @@
             Mail Manager
             </summary>
         </member>
-        <member name="M:ZeroSys.Manager.Mail.Initialize(System.String,System.Int32,System.String,System.String)">
+        <member name="M:ZeroSys.Manager.Mail.#ctor(System.String,System.Int32,System.String,System.String)">
             <summary>
             Initialize the Settings for the Email's
             Call once in the Main for initializing
@@ -817,6 +975,13 @@
             <summary>
             ThreadManager
             </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.ThreadManager.StartTaskInNewThread(System.Action,System.Boolean)">
+            <summary>
+            Create new Task
+            </summary>
+            <param name="action"></param>
+            <param name="waitForTask"></param>
         </member>
         <member name="T:ZeroSys.Manager.TranslateManager">
             <summary>

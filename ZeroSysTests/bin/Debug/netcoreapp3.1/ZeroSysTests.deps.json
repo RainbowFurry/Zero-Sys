@@ -1,0 +1,396 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ZeroSysTests/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3",
+          "Newtonsoft.Json.Bson": "1.0.2",
+          "ZeroSys": "1.0.0"
+        },
+        "runtime": {
+          "ZeroSysTests.dll": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
+        }
+      },
+      "Newtonsoft.Json.Bson/1.0.2": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.Bson.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.2.22727"
+          }
+        }
+      },
+      "ZeroSys/1.0.0": {
+        "runtime": {
+          "ZeroSys.dll": {}
+        }
+      },
+      "MongoDB.Bson/2.11.4.0": {
+        "runtime": {
+          "MongoDB.Bson.dll": {
+            "assemblyVersion": "2.11.4.0",
+            "fileVersion": "2.11.4.0"
+          }
+        }
+      },
+      "WebDriver/3.141.0.0": {
+        "runtime": {
+          "WebDriver.dll": {
+            "assemblyVersion": "3.141.0.0",
+            "fileVersion": "3.141.0.0"
+          }
+        }
+      },
+      "M2Mqtt.Net/4.3.0.0": {
+        "runtime": {
+          "M2Mqtt.Net.dll": {
+            "assemblyVersion": "4.3.0.0",
+            "fileVersion": "4.3.0.0"
+          }
+        }
+      },
+      "SharpVectors.Rendering.Wpf/1.0.0.0": {
+        "runtime": {
+          "SharpVectors.Rendering.Wpf.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SharpVectors.Converters/1.0.0.0": {
+        "runtime": {
+          "SharpVectors.Converters.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "MongoDB.Driver/2.11.4.0": {
+        "runtime": {
+          "MongoDB.Driver.dll": {
+            "assemblyVersion": "2.11.4.0",
+            "fileVersion": "2.11.4.0"
+          }
+        }
+      },
+      "Meziantou.Framework.Win32.CredentialManager/1.3.6.0": {
+        "runtime": {
+          "Meziantou.Framework.Win32.CredentialManager.dll": {
+            "assemblyVersion": "1.3.6.0",
+            "fileVersion": "1.3.6.0"
+          }
+        }
+      },
+      "Microsoft.CognitiveServices.Speech.csharp/1.13.0.28": {
+        "runtime": {
+          "Microsoft.CognitiveServices.Speech.csharp.dll": {
+            "assemblyVersion": "1.13.0.28",
+            "fileVersion": "1.13.0.28"
+          }
+        }
+      },
+      "Twilio/5.46.2.0": {
+        "runtime": {
+          "Twilio.dll": {
+            "assemblyVersion": "5.46.2.0",
+            "fileVersion": "5.46.2.0"
+          }
+        }
+      },
+      "SendGrid/9.21.0.0": {
+        "runtime": {
+          "SendGrid.dll": {
+            "assemblyVersion": "9.21.0.0",
+            "fileVersion": "9.21.0.0"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Cryptography.KeyDerivation/3.1.8.0": {
+        "runtime": {
+          "Microsoft.AspNetCore.Cryptography.KeyDerivation.dll": {
+            "assemblyVersion": "3.1.8.0",
+            "fileVersion": "3.100.820.42106"
+          }
+        }
+      },
+      "SharpVectors.Model/0.3.1.1592": {
+        "runtime": {
+          "SharpVectors.Model.dll": {
+            "assemblyVersion": "0.3.1.1592",
+            "fileVersion": "0.3.1.1592"
+          }
+        }
+      },
+      "SharpVectors.Core/0.3.1.1588": {
+        "runtime": {
+          "SharpVectors.Core.dll": {
+            "assemblyVersion": "0.3.1.1588",
+            "fileVersion": "0.3.1.1588"
+          }
+        }
+      },
+      "SharpVectors.Css/0.3.1.1590": {
+        "runtime": {
+          "SharpVectors.Css.dll": {
+            "assemblyVersion": "0.3.1.1590",
+            "fileVersion": "0.3.1.1590"
+          }
+        }
+      },
+      "SharpVectors.Runtime/1.0.0.0": {
+        "runtime": {
+          "SharpVectors.Runtime.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "MongoDB.Driver.Core/2.11.4.0": {
+        "runtime": {
+          "MongoDB.Driver.Core.dll": {
+            "assemblyVersion": "2.11.4.0",
+            "fileVersion": "2.11.4.0"
+          }
+        }
+      },
+      "MongoDB.Libmongocrypt/1.0.0.0": {
+        "runtime": {
+          "MongoDB.Libmongocrypt.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "System.IdentityModel.Tokens.Jwt/5.1.2.0": {
+        "runtime": {
+          "System.IdentityModel.Tokens.Jwt.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.203"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Tokens/5.1.2.0": {
+        "runtime": {
+          "Microsoft.IdentityModel.Tokens.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.203"
+          }
+        }
+      },
+      "StarkbankEcdsa/1.0.0.0": {
+        "runtime": {
+          "StarkbankEcdsa.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Cryptography.Internal/3.1.8.0": {
+        "runtime": {
+          "Microsoft.AspNetCore.Cryptography.Internal.dll": {
+            "assemblyVersion": "3.1.8.0",
+            "fileVersion": "3.100.820.42106"
+          }
+        }
+      },
+      "SharpVectors.Dom/0.3.1.1589": {
+        "runtime": {
+          "SharpVectors.Dom.dll": {
+            "assemblyVersion": "0.3.1.1589",
+            "fileVersion": "0.3.1.1589"
+          }
+        }
+      },
+      "DnsClient/1.3.1.0": {
+        "runtime": {
+          "DnsClient.dll": {
+            "assemblyVersion": "1.3.1.0",
+            "fileVersion": "1.3.1.0"
+          }
+        }
+      },
+      "SharpCompress/0.23.0.0": {
+        "runtime": {
+          "SharpCompress.dll": {
+            "assemblyVersion": "0.23.0.0",
+            "fileVersion": "0.23.0.0"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Logging/1.1.2.0": {
+        "runtime": {
+          "Microsoft.IdentityModel.Logging.dll": {
+            "assemblyVersion": "1.1.2.0",
+            "fileVersion": "1.1.2.203"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ZeroSysTests/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    },
+    "Newtonsoft.Json.Bson/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QYFyxhaABwmq3p/21VrZNYvCg3DaEoN/wUuw5nmfAf0X3HLjgupwhkEWdgfb9nvGAUIv3osmZoD3kKl4jxEmYQ==",
+      "path": "newtonsoft.json.bson/1.0.2",
+      "hashPath": "newtonsoft.json.bson.1.0.2.nupkg.sha512"
+    },
+    "ZeroSys/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MongoDB.Bson/2.11.4.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WebDriver/3.141.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "M2Mqtt.Net/4.3.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SharpVectors.Rendering.Wpf/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SharpVectors.Converters/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MongoDB.Driver/2.11.4.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Meziantou.Framework.Win32.CredentialManager/1.3.6.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.CognitiveServices.Speech.csharp/1.13.0.28": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Twilio/5.46.2.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SendGrid/9.21.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.AspNetCore.Cryptography.KeyDerivation/3.1.8.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SharpVectors.Model/0.3.1.1592": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SharpVectors.Core/0.3.1.1588": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SharpVectors.Css/0.3.1.1590": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SharpVectors.Runtime/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MongoDB.Driver.Core/2.11.4.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MongoDB.Libmongocrypt/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.IdentityModel.Tokens.Jwt/5.1.2.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.IdentityModel.Tokens/5.1.2.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "StarkbankEcdsa/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.AspNetCore.Cryptography.Internal/3.1.8.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SharpVectors.Dom/0.3.1.1589": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DnsClient/1.3.1.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SharpCompress/0.23.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.IdentityModel.Logging/1.1.2.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

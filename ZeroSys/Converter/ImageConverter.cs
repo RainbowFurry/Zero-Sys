@@ -24,6 +24,7 @@ namespace ZeroSys.Converter
             {
                 Image image = Image.FromFile(path + name);
                 image.Save(path + name.Split('.')[0] + "." + newImageEnding.Replace(".", ""), newImageFormat);
+                image.Dispose();
             }
         }
 
@@ -42,6 +43,7 @@ namespace ZeroSys.Converter
             {
                 Image image = Image.FromFile(path + name);
                 image.Save(newPath + name.Split('.')[0] + "." + newImageEnding.Replace(".", ""), newImageFormat);
+                image.Dispose();
             }
         }
 

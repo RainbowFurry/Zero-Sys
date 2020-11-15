@@ -157,6 +157,7 @@
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
+    <Reference Include="System.IO.Compression.FileSystem" />
     <Reference Include="System.Management" />
     <Reference Include="System.Net" />
     <Reference Include="System.Net.Http, Version=4.1.1.3, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
@@ -252,10 +253,13 @@
     <Compile Include="Database\TranslateDB.cs" />
     <Compile Include="Database\MongoDBManager.cs" />
     <Compile Include="Database\MySQLManager.cs" />
+    <Compile Include="Info.cs" />
     <Compile Include="IO\FileManager.cs" />
     <Compile Include="IO\FolderManager.cs" />
     <Compile Include="IO\SaveInFileManager.cs" />
-    <Compile Include="IO\SubFileManager.cs" />
+    <Compile Include="Manager\AlertManager.cs" />
+    <Compile Include="Manager\DownloadManager.cs" />
+    <Compile Include="Manager\ExeptionManager.cs" />
     <Compile Include="Manager\MQTTManager.cs" />
     <Compile Include="Manager\Security\AuthentificationManager.cs" />
     <Compile Include="Manager\Security\CertificateManager.cs" />
@@ -263,6 +267,7 @@
     <Compile Include="Manager\Security\CryptoManager.cs" />
     <Compile Include="Manager\Security\HashManager.cs" />
     <Compile Include="Manager\Images\ChangeColor.cs" />
+    <Compile Include="Manager\TimerManager.cs" />
     <Compile Include="TestUnit\WebTestUnitManager.cs" />
     <Compile Include="Variable\IconPaths.cs" />
     <Compile Include="Variable\ImagePaths.cs" />

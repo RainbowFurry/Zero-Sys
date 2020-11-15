@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "h9Hf9OhDaHg8rkuQm4YKKVXeCdPpP9ehWskYnXsY252XYYbUR7vfzUN8vPBRJGbf+qdVUsjr3OyKCasl2axXfQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\DarkS\\source\\repos\\Zero-Sys\\ZeroSysTests\\ZeroSysTests.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DarkS\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\DarkS\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
