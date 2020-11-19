@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZeroSys", "ZeroSys\ZeroSys.csproj", "{21699519-5121-48DF-BEE2-1C10537E987B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZeroSysTests", "ZeroSysTests\ZeroSysTests.csproj", "{A6B752B7-26EF-4548-A1D4-1482A62C5FA1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZeroSysTestsCore", "ZeroSysTests\ZeroSysTestsCore.csproj", "{A6B752B7-26EF-4548-A1D4-1482A62C5FA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZeroSysTestsFramework", "ZeroSysTestsFramework\ZeroSysTestsFramework.csproj", "{5D99BB02-BAC5-4739-B174-B0158FBE6314}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,14 @@ Global
 		{A6B752B7-26EF-4548-A1D4-1482A62C5FA1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A6B752B7-26EF-4548-A1D4-1482A62C5FA1}.Release|x64.ActiveCfg = Release|Any CPU
 		{A6B752B7-26EF-4548-A1D4-1482A62C5FA1}.Release|x64.Build.0 = Release|Any CPU
+		{5D99BB02-BAC5-4739-B174-B0158FBE6314}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D99BB02-BAC5-4739-B174-B0158FBE6314}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D99BB02-BAC5-4739-B174-B0158FBE6314}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5D99BB02-BAC5-4739-B174-B0158FBE6314}.Debug|x64.Build.0 = Debug|Any CPU
+		{5D99BB02-BAC5-4739-B174-B0158FBE6314}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D99BB02-BAC5-4739-B174-B0158FBE6314}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D99BB02-BAC5-4739-B174-B0158FBE6314}.Release|x64.ActiveCfg = Release|Any CPU
+		{5D99BB02-BAC5-4739-B174-B0158FBE6314}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

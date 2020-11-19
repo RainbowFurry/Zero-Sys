@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DarkS\\source\\repos\\Zero-Sys\\ZeroSysTests\\ZeroSysTests.csproj": {}
+    "C:\\Users\\jhoffmann\\source\\repos\\Zero-Sys\\ZeroSysTests\\ZeroSysTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DarkS\\source\\repos\\Zero-Sys\\ZeroSysTests\\ZeroSysTests.csproj": {
+    "C:\\Users\\jhoffmann\\source\\repos\\Zero-Sys\\ZeroSysTests\\ZeroSysTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DarkS\\source\\repos\\Zero-Sys\\ZeroSysTests\\ZeroSysTests.csproj",
+        "projectUniqueName": "C:\\Users\\jhoffmann\\source\\repos\\Zero-Sys\\ZeroSysTests\\ZeroSysTests.csproj",
         "projectName": "ZeroSysTests",
-        "projectPath": "C:\\Users\\DarkS\\source\\repos\\Zero-Sys\\ZeroSysTests\\ZeroSysTests.csproj",
-        "packagesPath": "C:\\Users\\DarkS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DarkS\\source\\repos\\Zero-Sys\\ZeroSysTests\\obj\\",
+        "projectPath": "C:\\Users\\jhoffmann\\source\\repos\\Zero-Sys\\ZeroSysTests\\ZeroSysTests.csproj",
+        "packagesPath": "C:\\Users\\jhoffmann\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jhoffmann\\source\\repos\\Zero-Sys\\ZeroSysTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\DarkS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jhoffmann\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\DarkS\\source\\repos\\Zero-Sys\\ZeroSys\\ZeroSys.csproj": {
-                "projectPath": "C:\\Users\\DarkS\\source\\repos\\Zero-Sys\\ZeroSys\\ZeroSys.csproj"
+              "C:\\Users\\jhoffmann\\source\\repos\\Zero-Sys\\ZeroSys\\ZeroSys.csproj": {
+                "projectPath": "C:\\Users\\jhoffmann\\source\\repos\\Zero-Sys\\ZeroSys\\ZeroSys.csproj"
               }
             }
           }
@@ -71,15 +71,15 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\DarkS\\Source\\Repos\\Zero-Sys\\ZeroSys\\ZeroSys.csproj": {
+    "C:\\Users\\jhoffmann\\source\\repos\\Zero-Sys\\ZeroSys\\ZeroSys.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\DarkS\\Source\\Repos\\Zero-Sys\\ZeroSys\\ZeroSys.csproj",
+        "projectUniqueName": "C:\\Users\\jhoffmann\\source\\repos\\Zero-Sys\\ZeroSys\\ZeroSys.csproj",
         "projectName": "ZeroSys",
-        "projectPath": "C:\\Users\\DarkS\\Source\\Repos\\Zero-Sys\\ZeroSys\\ZeroSys.csproj"
+        "projectPath": "C:\\Users\\jhoffmann\\source\\repos\\Zero-Sys\\ZeroSys\\ZeroSys.csproj"
       },
       "frameworks": {
         "net48": {}

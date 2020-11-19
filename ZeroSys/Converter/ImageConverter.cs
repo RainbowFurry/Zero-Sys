@@ -47,5 +47,26 @@ namespace ZeroSys.Converter
             }
         }
 
+        /// <summary>
+        /// Convert Image to Bitmap
+        /// </summary>
+        /// <param name="image"></param>
+        /// <returns></returns>
+        public static Bitmap ConvertImageToBitmap(Image image)
+        {
+            return new Bitmap(image);
+        }
+
+        /// <summary>
+        /// Convert Bitmap to Image
+        /// </summary>
+        /// <param name="bitmap"></param>
+        /// <returns></returns>
+        public static Image ConvertBitmapToImage(Bitmap bitmap)
+        {
+            Image image = bitmap;
+            return image;
+        }
+
     }
 }
