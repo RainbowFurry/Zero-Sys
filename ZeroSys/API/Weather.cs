@@ -2,7 +2,7 @@
 using System;
 using System.IO;
 using System.Net;
-using ZeroSys.Manager;
+using ZeroSys.Manager.Web;
 
 /**********************************************
 * Porject Name : ZeroSys                      *

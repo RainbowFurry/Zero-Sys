@@ -3,24 +3,37 @@
     internal class ToDo
     {
 
-        //Meta Data Images and files etc.
-        //handy ToDo
+        //lernen KAs
+        //Stahl Fritz Box - ausarbeitung
+        //handy ToDo/PC
         //https://docs.microsoft.com/en-us/azure/partner-twilio-cloud-services-dotnet-phone-call-web-role
-
-
-
-        //ImageConverter
-        //ImageEffectManager
-        //CACH MANAGER...
-        //überall string.Empty
-        //überall string.format();
-
-        //alles Fertig in der ToDo - Zero Webseite weiter wenn daniel mal was macht...
+        //alles Fertig in der ToDo - Zero Webseite weiter wenn daniel was macht...
 
         //Auf usb
         //Auf Server
         //ToDo Desktop...
-        //DIESE DLL AUCH JAVA ;D
+
+
+        //open file explorer and select multiple files
+
+
+        //warscheinlichkeiten
+        //COLOR CONVERTER/CALCULATOR
+        //REVERSE - MIRRO
+        //Timer loop - führt alle x sec methode aus. (kann max run angabe beinhalten) + end
+        //Variable folder: IP, MAC, machine Name, userName
+        //Image mit watermark besser... - default
+        //right click menu?? - context menu builder
+        //CACH MANAGER...
+        //CONFIGMANAGER - cfg file, init file
+
+
+
+        /*
+         Exel create... from sql, mongo, xml, json file
+        mongo to jsonfile backup?
+        DB BACKUP FUNCTION OTHER DB ODER local
+         */
 
 
         //SQL
@@ -35,81 +48,19 @@
         //FileConverter
 
 
-        //warscheinlichkeiten
-        //COLOR CONVERTER/CALCULATOR
-        //REVERSE - MIRRO
-        //Besserer ErrorManager
-        //Timer loop - führt alle x sec methode aus. (kann max run angabe beinhalten) + end
-        //RANDOM INT/CHAR/STRING
-        //Combine DLLs fertig
-        //SQL fertig
-        //MONGO fertig
-        //Variable folder: IP, MAC, machine Name, userName
-        //create desktop shortcut
-        //rechtsklick windows arrow...
-        //splashscreen
-        //push notification
-        //Image mit watermark...
-        //zwischenablage...
-        //open file explorer and select files
-        //Download file from web
-        //FileDialogManager
-
-
         /*
-         PDF
-         Word
-         Exel
-         CONFIGMANAGER
-         Pushnotification
-         */
-
-
-        /*
-         * Download Speed Calculator
-         EMBEDD AMAZON
-         EMBEDD GOOGLE
-         AutoCreate DB? - local
+                 AutoCreate DB? - local
          XUnit - Tests
          FILE VISIBLE/HIDDEN ETC...
-         System Commands wie Shutdown etc...
-
-         DB Default value - local?
 
   ConfigFileManager - Init-File, MC, ...
   recovery - recover data..
   Update - Download from web overwrite old?
 
-
-  Create Ini file -> was kann die so?
-  File Copy -> Backup methode...
-  Create Files with Attributes...
-
-  -----------------------
-  Inhalte Gepland die ich mal erstelle:
-  So wie GitLab? - 2 Files to 1 File
-  own vpn
-  own SQL
-  ServerManager - linux manual
-  own os
-  own code language
-  own Security
-  t-table
-  zeus
-  abbas
-         */
-
-        /*
-         * DLL Arbeit mit einbinden...
-         * neue methoden erstellen
-         * Folder UI? - UI Inhalte...
-
-        LOAD CODE SO WIE BEI ALTEM CLIENT CLASS...
-        ANALYSE ASSAMBLY???
         ALLE INTERRESSANTEN SACHEN IN VARIABLE.... - eigene classe load infos...
 
-        Credential eintrag erstellen, holen - methode: Login(...);, Login().FromCredentials();
-        DB MySQL/MONGO - Converter, Creator - 1 methode aber beide dbs möglich...
+        Credential eintrag erstellen, holen - methode: Login(...);, Login().FromCredentials(); - credentials manager
+        DB MySQL/MONGO - Converter, Creator - 1 methode aber beide dbs möglich... - convert all dbs to all dbs möglich exel, sql, mongo, xml
         Save to sql/mongo / xml/json/resx
         Timer manager - date manager
         IO Folder... fertig
@@ -117,11 +68,51 @@
         API - FERTIG (Bessere schnittstellen???)
         CONVERTER folder fertig
         Manager Folder classen fertig...
+                //ImageConverter - fertig
+        //ImageEffectManager - fertig
 
         lizens generator? Manager wie z.?!
         hash generator?
-        DB BACKUP - Enty/file, Copy from to
         */
+
+        /*
+    * Ipv4/6 converter
+    * ssubnetcalk
+    * IP Packet Builder...?
+    * Own Protokoll? - TCP etc..
+    * Schätze was ... passieren könnte
+    * Statisktiken
+    * //charts Manager? - alte dll
+    */
+
+
+
+
+
+
+
+
+        //überall string.Empty
+        //überall string.format();
+
+        //Besserer ErrorManager
+
+        //DIESE DLL AUCH JAVA ;D
+        //REWORC AND COMPLETE...
+
+        /*
+Inhalte Gepland die ich mal erstelle:
+So wie GitLab? - 2 Files to 1 File
+own vpn
+own SQL
+ServerManager - linux manual
+own os
+own code language
+own Security
+t-table
+zeus
+abbas
+ */
 
     }
 }

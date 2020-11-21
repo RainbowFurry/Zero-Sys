@@ -619,4 +619,16 @@ C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\Renci.SshNet.xml
 C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\System.Memory.xml
 C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\System.Numerics.Vectors.xml
 C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\System.Runtime.CompilerServices.Unsafe.xml
-C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\obj\x64\Debug\ZeroSys.csprojAssemblyReference.cache
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\Aspose.PDF.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\Aspose.Words.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\Aspose.Words.Pdf2Word.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\Microsoft.WindowsAPICodePack.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\Notifications.Wpf.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\System.Management.Automation.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\System.ValueTuple.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\Microsoft.Management.Infrastructure.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\Aspose.PDF.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\Aspose.Words.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\System.Management.Automation.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\System.ValueTuple.xml

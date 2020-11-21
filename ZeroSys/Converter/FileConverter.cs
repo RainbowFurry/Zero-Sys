@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using Aspose.Pdf;
+using Newtonsoft.Json;
 using System.IO;
 using System.Xml;
 using System.Xml.Linq;
@@ -44,6 +45,62 @@ namespace ZeroSys.Converter
             document.LoadXml(node.ToString());
 
             document.Save(filePath.Replace("json", "xml"));
+        }
+
+        /// <summary>
+        /// Convert Word Document to PDF Document
+        /// </summary>
+        /// <param name="filePath"></param>
+        public void ConvertWordToPDF(string filePath)
+        {
+
+            Aspose.Words.Document wordDocument = new Aspose.Words.Document(filePath);
+            wordDocument.Save(filePath.Replace(".doc", ".pdf").Replace(".docx", ".pdf"), Aspose.Words.SaveFormat.Pdf);
+
+        }
+        private static Document wordDocument { get; set; }
+
+        /// <summary>
+        /// Convert PDF To Doc
+        /// </summary>
+        /// <param name="filePath"></param>
+        public void ConvertPDFToDoc(string filePath)
+        {
+
+            // Open the source PDF document
+            Aspose.Pdf.Document pdfDocument = new Aspose.Pdf.Document(filePath);
+
+            // Save the file into MS document format
+            pdfDocument.Save(filePath.Replace(".pdf", ".doc"), SaveFormat.Doc);
+
+        }
+
+        /// <summary>
+        /// Convert PDF to DocX
+        /// </summary>
+        /// <param name="filePath"></param>
+        public void ConvertPDFToDocX(string filePath)
+        {
+
+            // Open the source PDF document
+            Aspose.Pdf.Document pdfDocument = new Aspose.Pdf.Document(filePath);
+
+            // Save using save options
+            // Create DocSaveOptions object
+            DocSaveOptions saveOptions = new DocSaveOptions();
+
+            // Set the recognition mode as Flow
+            saveOptions.Mode = DocSaveOptions.RecognitionMode.Flow;
+
+            // Set the Horizontal proximity as 2.5
+            saveOptions.RelativeHorizontalProximity = 2.5f;
+
+            // Enable the value to recognize bullets during conversion process
+            saveOptions.RecognizeBullets = true;
+
+            // Save the resultant DOC file
+            pdfDocument.Save(filePath.Replace(".pdf", ".docx"), saveOptions);
+
         }
 
     }

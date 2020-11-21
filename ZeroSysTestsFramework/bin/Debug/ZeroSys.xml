@@ -607,21 +607,21 @@
             ImageBlurrManager
             </summary>
         </member>
-        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.BlurrImage(System.String,System.String,System.Int32)">
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.CreateBlurredImage(System.Drawing.Bitmap,System.Int32)">
             <summary>
             Create Image Blurrer
             </summary>
-            <param name="imagePathBefore"></param>
-            <param name="imagePathAfter"></param>
+            <param name="bitmap"></param>
             <param name="blurrer"></param>
+            <returns></returns>
         </member>
-        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.BlurrImage(System.String,System.Int32)">
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.CreateBlurredImage(System.Drawing.Image,System.Int32)">
             <summary>
             Create Image Blurrer
             </summary>
-            <param name="imagePathBefore"></param>
-            <param name="imagePathAfter"></param>
+            <param name="image"></param>
             <param name="blurrer"></param>
+            <returns></returns>
         </member>
         <member name="M:ZeroSys.Manager.Images.ImageEffectManager.Blur(System.Drawing.Bitmap,System.Int32)">
             <summary>
@@ -640,7 +640,7 @@
             <param name="blurSize">The blur size.</param>
             <returns>A Bitmap.</returns>
         </member>
-        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.resizeImage(System.Drawing.Image,System.Drawing.Size)">
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.ResizeImage(System.Drawing.Image,System.Drawing.Size)">
             <summary>
             Resize an Image
             </summary>
@@ -648,7 +648,7 @@
             <param name="size"></param>
             <returns></returns>
         </member>
-        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.resizeImage(System.Drawing.Image,System.Int32,System.Boolean)">
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.ResizeImage(System.Drawing.Image,System.Int32,System.Boolean)">
             <summary>
             Resize an Image dynamic
             </summary>
@@ -657,29 +657,292 @@
             <param name="taller"></param>
             <returns></returns>
         </member>
-        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.CreateWatermark(System.String,System.String,System.String)">
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.ResizeImage(System.Drawing.Bitmap,System.Drawing.Size)">
             <summary>
-            Create Image Watermark
+            Resize an Image
             </summary>
-            <param name="imagePath"></param>
-            <param name="watermarkText"></param>
+            <param name="bitmap"></param>
+            <param name="size"></param>
+            <returns></returns>
         </member>
-        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.CreateWatermark(System.String,System.String,System.Drawing.Color)">
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.ResizeImage(System.Drawing.Bitmap,System.Int32,System.Boolean)">
             <summary>
-            Create Image Watermark
+            Resize an Image dynamic
             </summary>
-            <param name="imagePath"></param>
-            <param name="watermarkText"></param>
-            <param name="color"></param>
+            <param name="bitmap"></param>
+            <param name="stepper"></param>
+            <param name="taller"></param>
+            <returns></returns>
         </member>
-        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.CreateWatermark(System.String,System.String,System.Drawing.Color,System.Drawing.Font)">
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.CreateGrayScaleImage(System.Drawing.Bitmap)">
+            <summary>
+            Add gray Overlay over Image
+            </summary>
+            <param name="bitmap"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.CreateGrayScaleImage(System.Drawing.Image)">
+            <summary>
+            Add gray Overlay over Image
+            </summary>
+            <param name="image"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.CreateWatermarkedImage(System.Drawing.Bitmap,System.String,System.Drawing.Color,System.Drawing.Font)">
             <summary>
             Create Image Watermark
             </summary>
-            <param name="imagePath"></param>
+            <param name="bitmap"></param>
             <param name="watermarkText"></param>
             <param name="color"></param>
             <param name="font"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.CreateWatermarkedImage(System.Drawing.Image,System.String,System.Drawing.Color,System.Drawing.Font)">
+            <summary>
+            Create Image Watermark
+            </summary>
+            <param name="image"></param>
+            <param name="watermarkText"></param>
+            <param name="color"></param>
+            <param name="font"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.CreateNegativeImage(System.Drawing.Bitmap)">
+            <summary>
+            Create negativ Image
+            </summary>
+            <param name="bitmap"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.CreateNegativeImage(System.Drawing.Image)">
+            <summary>
+            Create negativ Image
+            </summary>
+            <param name="image"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.CreateTransparentImage(System.Drawing.Image)">
+            <summary>
+            Change the Visibility of the Image
+            </summary>
+            <param name="sourceImage"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.CreateTransparentImage(System.Drawing.Bitmap)">
+            <summary>
+            Change the Visibility of the Image
+            </summary>
+            <param name="sourceImage"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.CreateTransparentColorOverImage(System.Drawing.Image,System.Int32,System.Drawing.Color)">
+            <summary>
+            Create a Color ofer a Image
+            For Example Color = red | alpha = 128
+            </summary>
+            <param name="image"></param>
+            <param name="alpha"></param>
+            <param name="color"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.CreateTransparentColorOverImage(System.Drawing.Bitmap,System.Int32,System.Drawing.Color)">
+            <summary>
+            Create a Color ofer a Image
+            For Example Color = red | alpha = 128
+            </summary>
+            <param name="bitmap"></param>
+            <param name="alpha"></param>
+            <param name="color"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.CreateBrownFilterImage(System.Drawing.Image)">
+            <summary>
+            Create Image with brown Effect
+            </summary>
+            <param name="sourceImage"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.CreateBrownFilterImage(System.Drawing.Bitmap)">
+            <summary>
+            Create Image with brown Effect
+            </summary>
+            <param name="sourceImage"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.CreateImageCollection(System.Drawing.Image[])">
+            <summary>
+            Create Image Collection ( Combind multiple Images in one )
+            </summary>
+            <param name="images"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.CreateImageCollection(System.Drawing.Bitmap[])">
+            <summary>
+            Create Image Collection ( Combind multiple Images in one )
+            </summary>
+            <param name="images"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.LightningImage(System.Drawing.Image,System.Int32)">
+            <summary>
+            Create a lightning Effect on your Image
+            The Image gehts lighter
+            </summary>
+            <param name="image"></param>
+            <param name="alpha"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.LightningImage(System.Drawing.Bitmap,System.Int32)">
+            <summary>
+            Create a lightning Effect on your Image
+            The Image gehts lighter
+            </summary>
+            <param name="bitmap"></param>
+            <param name="alpha"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.DarkerImage(System.Drawing.Bitmap,System.Int32)">
+            <summary>
+            Create a darker Image Effect
+            The Image gets darker
+            </summary>
+            <param name="bitmap"></param>
+            <param name="alpha"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.DarkerImage(System.Drawing.Image,System.Int32)">
+            <summary>
+            Create a darker Image Effect
+            The Image gets darker
+            </summary>
+            <param name="image"></param>
+            <param name="alpha"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.CreateOverflowImage(System.Drawing.Image)">
+            <summary>
+            The Image creates a Border Effect with itself
+            </summary>
+            <param name="image"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.CreateOverflowImage(System.Drawing.Bitmap)">
+            <summary>
+            The Image creates a Border Effect with itself
+            </summary>
+            <param name="bitmap"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.CreatePixelatedImage(System.Drawing.Bitmap,System.Int32)">
+            <summary>
+            Create image with a Pixel Effect
+            </summary>
+            <param name="bitmap"></param>
+            <param name="pixelateSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.CreatePixelatedImage(System.Drawing.Image,System.Int32)">
+            <summary>
+            Create image with a Pixel Effect
+            </summary>
+            <param name="image"></param>
+            <param name="pixelateSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.CreatePixelatedImage(System.Drawing.Bitmap,System.Drawing.Rectangle,System.Int32)">
+            <summary>
+            Create image with a Pixel Effect
+            </summary>
+            <param name="bitmap"></param>
+            <param name="rectangle"></param>
+            <param name="pixelateSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.CreatePixelatedImage(System.Drawing.Image,System.Drawing.Rectangle,System.Int32)">
+            <summary>
+            Create image with a Pixel Effect
+            </summary>
+            <param name="image"></param>
+            <param name="rectangle"></param>
+            <param name="pixelateSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.ChangeImageColorPixelProzentual(System.Drawing.Image,System.Int32,System.Int32,System.Int32,System.Int32,System.Single)">
+            <summary>
+            Change all Pixels prozentual by Color Value
+            </summary>
+            <param name="r"></param>
+            <param name="g"></param>
+            <param name="b"></param>
+            <param name="a"></param>
+            <param name="treeTranslation"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.ChangeImageColorPixelProzentual(System.Drawing.Bitmap,System.Int32,System.Int32,System.Int32,System.Int32,System.Single)">
+            <summary>
+            Change all Pixels prozentual by Color Value
+            </summary>
+            <param name="r"></param>
+            <param name="g"></param>
+            <param name="b"></param>
+            <param name="a"></param>
+            <param name="treeTranslation"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.GetImageColorMatrix(System.Drawing.Bitmap)">
+            <summary>
+            Get Color Matrix from Image
+            </summary>
+            <param name="bitmap"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.GetImageColorMatrix(System.Drawing.Image)">
+            <summary>
+            Get Color Matrix from Image
+            </summary>
+            <param name="image"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.CreateRoundedCornerImage(System.Drawing.Image,System.Int32,System.Drawing.Color)">
+            <summary>
+            Create Image with rounded Corners
+            </summary>
+            <param name="image"></param>
+            <param name="CornerRadius"></param>
+            <param name="backgroundColor"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.CreateRoundedCornerImage(System.Drawing.Bitmap,System.Int32,System.Drawing.Color)">
+            <summary>
+            Create Image with rounded Corners
+            </summary>
+            <param name="bitmap"></param>
+            <param name="CornerRadius"></param>
+            <param name="backgroundColor"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.GetImageMetaData(System.Drawing.Image)">
+            <summary>
+            Get the Meta Data from the Image
+            </summary>
+            <param name="image"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.GetArgbCopy(System.Drawing.Image)">
+            <summary>
+            Create Argb Copy of Image
+            </summary>
+            <param name="sourceImage"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.ApplyColorMatrix(System.Drawing.Image,System.Drawing.Imaging.ColorMatrix)">
+            <summary>
+            Apply Color Matrix to Image
+            </summary>
+            <param name="sourceImage"></param>
+            <param name="colorMatrix"></param>
+            <returns></returns>
         </member>
         <member name="T:ZeroSys.Manager.Images.WatermarkManager">
             <summary>

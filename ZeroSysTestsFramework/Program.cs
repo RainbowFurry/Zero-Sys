@@ -12,6 +12,7 @@ namespace ZeroSysTestsFramework
         [STAThread]
         private static void Main(string[] args)
         {
+            //ttt();
             //test(new Program());
             //t();
             Console.Read();
@@ -50,6 +51,8 @@ namespace ZeroSysTestsFramework
                    Math.Abs(a.G - b.G) < thresh &&
                    Math.Abs(a.B - b.B) < thresh;
         }
+
+
 
     }
 

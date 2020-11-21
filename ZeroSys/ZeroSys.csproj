@@ -89,6 +89,15 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Aspose.PDF, Version=20.11.0.0, Culture=neutral, PublicKeyToken=f0262d67fe233d63, processorArchitecture=MSIL">
+      <HintPath>..\packages\Aspose.PDF.20.11.0\lib\net4.0\Aspose.PDF.dll</HintPath>
+    </Reference>
+    <Reference Include="Aspose.Words, Version=20.11.0.0, Culture=neutral, PublicKeyToken=716fcc553a201e56, processorArchitecture=MSIL">
+      <HintPath>..\packages\Aspose.Words.20.11.0\lib\net461\Aspose.Words.dll</HintPath>
+    </Reference>
+    <Reference Include="Aspose.Words.Pdf2Word, Version=20.11.0.0, Culture=neutral, PublicKeyToken=716fcc553a201e56, processorArchitecture=MSIL">
+      <HintPath>..\packages\Aspose.Words.20.11.0\lib\net461\Aspose.Words.Pdf2Word.dll</HintPath>
+    </Reference>
     <Reference Include="BouncyCastle.Crypto, Version=1.8.3.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
       <HintPath>..\packages\BouncyCastle.1.8.3.1\lib\BouncyCastle.Crypto.dll</HintPath>
     </Reference>
@@ -134,8 +143,18 @@
     <Reference Include="Microsoft.IdentityModel.Tokens, Version=5.1.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.IdentityModel.Tokens.5.1.2\lib\net451\Microsoft.IdentityModel.Tokens.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Word.15.0.4797.1003\lib\net20\Microsoft.Office.Interop.Word.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
     <Reference Include="Microsoft.Win32.Registry, Version=4.1.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Win32.Registry.4.7.0\lib\net461\Microsoft.Win32.Registry.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAPICodePack, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.WindowsAPICodePack.Core.1.1.0\lib\Microsoft.WindowsAPICodePack.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAPICodePack.Shell, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.WindowsAPICodePack.Shell.1.1.0\lib\Microsoft.WindowsAPICodePack.Shell.dll</HintPath>
     </Reference>
     <Reference Include="MongoDB.Bson, Version=2.11.4.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\MongoDB.Bson.2.11.4\lib\net452\MongoDB.Bson.dll</HintPath>
@@ -157,6 +176,9 @@
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.10.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Notifications.Wpf, Version=1.0.1.4, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Notification.WPF.1.0.2.1\lib\net461\Notifications.Wpf.dll</HintPath>
     </Reference>
     <Reference Include="OpenHardwareMonitorLib, Version=0.7.1.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -221,6 +243,9 @@
     </Reference>
     <Reference Include="System.IO.Compression.FileSystem" />
     <Reference Include="System.Management" />
+    <Reference Include="System.Management.Automation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.PowerShell.5.ReferenceAssemblies.1.1.0\lib\net4\System.Management.Automation.dll</HintPath>
+    </Reference>
     <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Memory.4.5.3\lib\netstandard2.0\System.Memory.dll</HintPath>
     </Reference>
@@ -291,6 +316,9 @@
       <HintPath>..\packages\System.Security.Principal.Windows.4.7.0\lib\net461\System.Security.Principal.Windows.dll</HintPath>
     </Reference>
     <Reference Include="System.Transactions" />
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
     <Reference Include="System.Windows" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
@@ -317,6 +345,7 @@
     <Compile Include="API\Gasoline.cs" />
     <Compile Include="API\Weather.cs" />
     <Compile Include="Azure\SendGrid\Mail.cs" />
+    <Compile Include="Azure\Twilo\Call.cs" />
     <Compile Include="Azure\Twilo\SMS.cs" />
     <Compile Include="Azure\Twilo\WhatsApp.cs" />
     <Compile Include="Azure\VoiceAssistent\Commands\CommandController.cs" />
@@ -328,6 +357,7 @@
     <Compile Include="Config\Class1.cs" />
     <Compile Include="Converter\AudioConverter.cs" />
     <Compile Include="Converter\ColorCode.cs" />
+    <Compile Include="Converter\DBConverter.cs" />
     <Compile Include="Converter\FileConverter.cs" />
     <Compile Include="Converter\ImageConverter.cs" />
     <Compile Include="Converter\VideoConverter.cs" />
@@ -342,14 +372,21 @@
     <Compile Include="IO\FileManager.cs" />
     <Compile Include="IO\FolderManager.cs" />
     <Compile Include="IO\SaveInFileManager.cs" />
+    <Compile Include="Lib\FileAssociation.cs" />
     <Compile Include="Manager\AlertManager.cs" />
-    <Compile Include="Manager\DownloadManager.cs" />
+    <Compile Include="Manager\ClipBoardManager.cs" />
+    <Compile Include="Manager\DesktopShortcutManager.cs" />
+    <Compile Include="Manager\RunExeCode\AssemblyObject.cs" />
+    <Compile Include="Manager\RunExeCode\ExecuteManager.cs" />
+    <Compile Include="Manager\Web\DownloadManager.cs" />
     <Compile Include="Manager\ExeptionManager.cs" />
     <Compile Include="Manager\Images\ImageEffectManager.cs" />
     <Compile Include="Manager\Images\WatermarkManager.cs" />
     <Compile Include="Manager\IniFileManager.cs" />
     <Compile Include="Manager\MQTTManager.cs" />
     <Compile Include="Manager\ProcessManager.cs" />
+    <Compile Include="Manager\RandomManager.cs" />
+    <Compile Include="Manager\ScreenshotManager.cs" />
     <Compile Include="Manager\Security\AuthentificationManager.cs" />
     <Compile Include="Manager\Security\CertificateManager.cs" />
     <Compile Include="Manager\Security\Credentials.cs" />
@@ -357,14 +394,21 @@
     <Compile Include="Manager\Security\HashManager.cs" />
     <Compile Include="Manager\Images\ChangeColor.cs" />
     <Compile Include="Manager\TimerManager.cs" />
-    <Compile Include="Manager\WebRequestManager.cs" />
+    <Compile Include="Manager\Web\WebConnectionManager.cs" />
+    <Compile Include="Manager\Web\WebRequestManager.cs" />
+    <Compile Include="Manager\WindowsAdministrativeManager.cs" />
+    <Compile Include="Manager\WPF\PushNotificationManager.cs" />
+    <Compile Include="Manager\WPF\SplashScreenManager.cs" />
+    <Compile Include="Manager\WPF\Taskbar\JumplistManager.cs" />
+    <Compile Include="Manager\WPF\Taskbar\ThumbnailManager.cs" />
+    <Compile Include="Manager\WPF\WindowsInfoIconManager.cs" />
     <Compile Include="SystemController\Guard\Test.cs" />
     <Compile Include="TestUnit\WebTestUnitManager.cs" />
     <Compile Include="UI\Class2.cs" />
     <Compile Include="Variable\IconPaths.cs" />
     <Compile Include="Variable\ImagePaths.cs" />
     <Compile Include="Manager\Images\LoadSVG.cs" />
-    <Compile Include="Manager\IPTracker.cs" />
+    <Compile Include="Manager\Web\IPTracker.cs" />
     <Compile Include="Manager\Security\LizensManager.cs" />
     <Compile Include="Manager\LogManager.cs" />
     <Compile Include="Manager\Mail.cs" />
