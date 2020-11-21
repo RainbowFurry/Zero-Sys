@@ -9,6 +9,7 @@
         //https://docs.microsoft.com/en-us/azure/partner-twilio-cloud-services-dotnet-phone-call-web-role
         //alles Fertig in der ToDo - Zero Webseite weiter wenn daniel was macht...
 
+
         //Auf usb
         //Auf Server
         //ToDo Desktop...
