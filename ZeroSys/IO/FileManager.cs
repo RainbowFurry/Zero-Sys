@@ -74,6 +74,8 @@ namespace ZeroSys.IO
             return null;
         }
 
+        //ReadFileAndSplitLine return string
+
         //
         public void CreateZipFile()
         {

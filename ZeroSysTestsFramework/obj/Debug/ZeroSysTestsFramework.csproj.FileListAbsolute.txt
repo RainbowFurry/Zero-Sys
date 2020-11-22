@@ -203,7 +203,6 @@ C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsFramework\bin\Debug\K4os.Compre
 C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsFramework\bin\Debug\K4os.Hash.xxHash.xml
 C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsFramework\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsFramework\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
-C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsFramework\obj\Debug\ZeroSysTestsFramework.exe.config
 C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsFramework\obj\Debug\ZeroSysTestsFramework.csproj.CopyComplete
 C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsFramework\bin\Debug\mongocrypt.dll
 C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsFramework\bin\Debug\snappy32.dll
@@ -398,3 +397,15 @@ C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsFramework\bin\Debug\System.
 C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsFramework\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsFramework\obj\Debug\ZeroSysTestsFramework.exe.config
 C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsFramework\obj\Debug\ZeroSysTestsFramework.csproj.CopyComplete
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsFramework\bin\Debug\System.Management.Automation.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsFramework\bin\Debug\Notifications.Wpf.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsFramework\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsFramework\bin\Debug\Aspose.PDF.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsFramework\bin\Debug\Aspose.Words.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsFramework\bin\Debug\Microsoft.Management.Infrastructure.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsFramework\bin\Debug\System.ValueTuple.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsFramework\bin\Debug\Microsoft.WindowsAPICodePack.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsFramework\bin\Debug\System.Management.Automation.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsFramework\bin\Debug\Aspose.PDF.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsFramework\bin\Debug\Aspose.Words.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsFramework\bin\Debug\System.ValueTuple.xml

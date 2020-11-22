@@ -15,18 +15,37 @@
         //ToDo Desktop...
 
 
+        //DOWNLOAD LIEDER - handy, usb
+
+        //WindowOverlayManager
+        //ColorManager - x color stufen aus einer farbe in x tönen heller/dunkler
         //open file explorer and select multiple files
-
-
         //warscheinlichkeiten
-        //COLOR CONVERTER/CALCULATOR
+        //set cursor function...
+        //charts WPF - https://lvcharts.net/App/examples/v1/wpf/Pie%20Chart
+
+
+        //public static void updateWindowCursor(Window window)
+        //{
+        //    Console.WriteLine(Save_Path + @"Cursors\" + ConfigManager.userCursor);
+        //    if (ConfigManager.userCursor != "-")
+        //    {
+        //        Cursor c = new Cursor(Save_Path + @"Cursors\" + ConfigManager.userCursor);
+        //        if (c != null)
+        //            window.Cursor = c;
+        //    }
+        //}
+
+
         //REVERSE - MIRRO
         //Timer loop - führt alle x sec methode aus. (kann max run angabe beinhalten) + end
-        //Variable folder: IP, MAC, machine Name, userName
+        //Variables: IP, MAC, machine Name, userName
         //Image mit watermark besser... - default
         //right click menu?? - context menu builder
         //CACH MANAGER...
         //CONFIGMANAGER - cfg file, init file
+        //CALCULATE MATH STRING
+        //DRAG AND DROP
 
 
 
@@ -41,28 +60,19 @@
         //MONGO
         //SQL LOCALE
         //MONGO LOCALE
-        //FileDialog
         //SaveInFileManager
         //FileManager
         //FolderManager
         //ThreaManager
-        //FileConverter
 
 
         /*
-                 AutoCreate DB? - local
-         XUnit - Tests
          FILE VISIBLE/HIDDEN ETC...
 
-  ConfigFileManager - Init-File, MC, ...
-  recovery - recover data..
-  Update - Download from web overwrite old?
-
-        ALLE INTERRESSANTEN SACHEN IN VARIABLE.... - eigene classe load infos...
+    recovery - recover data..
+    Update - Download from web overwrite old?
 
         Credential eintrag erstellen, holen - methode: Login(...);, Login().FromCredentials(); - credentials manager
-        DB MySQL/MONGO - Converter, Creator - 1 methode aber beide dbs möglich... - convert all dbs to all dbs möglich exel, sql, mongo, xml
-        Save to sql/mongo / xml/json/resx
         Timer manager - date manager
         IO Folder... fertig
         DB MANAGER fertig
@@ -70,7 +80,6 @@
         CONVERTER folder fertig
         Manager Folder classen fertig...
                 //ImageConverter - fertig
-        //ImageEffectManager - fertig
 
         lizens generator? Manager wie z.?!
         hash generator?
@@ -78,7 +87,7 @@
 
         /*
     * Ipv4/6 converter
-    * ssubnetcalk
+    * subnetcalk
     * IP Packet Builder...?
     * Own Protokoll? - TCP etc..
     * Schätze was ... passieren könnte
@@ -102,18 +111,19 @@
         //REWORC AND COMPLETE...
 
         /*
-Inhalte Gepland die ich mal erstelle:
-So wie GitLab? - 2 Files to 1 File
-own vpn
-own SQL
-ServerManager - linux manual
-own os
-own code language
-own Security
-t-table
-zeus
-abbas
- */
+         * OWN DB
+    Inhalte Gepland die ich mal erstelle:
+    So wie GitLab? - 2 Files to 1 File
+    own vpn
+    own SQL
+    ServerManager - linux manual
+    own os
+    own code language
+    own Security
+    t-table
+    zeus
+    abbas
+    */
 
     }
 }

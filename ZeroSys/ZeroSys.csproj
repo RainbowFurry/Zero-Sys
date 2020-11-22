@@ -122,6 +122,12 @@
     <Reference Include="K4os.Hash.xxHash, Version=1.0.6.0, Culture=neutral, PublicKeyToken=32cd54395057cec3, processorArchitecture=MSIL">
       <HintPath>..\packages\K4os.Hash.xxHash.1.0.6\lib\net46\K4os.Hash.xxHash.dll</HintPath>
     </Reference>
+    <Reference Include="LiveCharts, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.0.9.7\lib\net45\LiveCharts.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts.Wpf, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.Wpf.0.9.7\lib\net45\LiveCharts.Wpf.dll</HintPath>
+    </Reference>
     <Reference Include="M2Mqtt.Net, Version=4.3.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\M2Mqtt.4.3.0.0\lib\net45\M2Mqtt.Net.dll</HintPath>
     </Reference>
@@ -321,6 +327,7 @@
     </Reference>
     <Reference Include="System.Windows" />
     <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -356,7 +363,7 @@
     <Compile Include="Azure\VoiceAssistent\ZeroSpeechSynthenizer.cs" />
     <Compile Include="Config\Class1.cs" />
     <Compile Include="Converter\AudioConverter.cs" />
-    <Compile Include="Converter\ColorCode.cs" />
+    <Compile Include="Converter\ColorConverter.cs" />
     <Compile Include="Converter\DBConverter.cs" />
     <Compile Include="Converter\FileConverter.cs" />
     <Compile Include="Converter\ImageConverter.cs" />
@@ -375,7 +382,15 @@
     <Compile Include="Lib\FileAssociation.cs" />
     <Compile Include="Manager\AlertManager.cs" />
     <Compile Include="Manager\ClipBoardManager.cs" />
+    <Compile Include="Manager\ColorManager.cs" />
     <Compile Include="Manager\DesktopShortcutManager.cs" />
+    <Compile Include="Manager\HashManager.cs" />
+    <Compile Include="Manager\MVC\Class1.cs" />
+    <Compile Include="Manager\RegistryManager.cs" />
+    <Compile Include="Manager\Registry\Autostart.cs" />
+    <Compile Include="Manager\Registry\ExplorerQuickAccess.cs" />
+    <Compile Include="Manager\Registry\RegistryManager.cs" />
+    <Compile Include="Manager\Registry\URLScheme.cs" />
     <Compile Include="Manager\RunExeCode\AssemblyObject.cs" />
     <Compile Include="Manager\RunExeCode\ExecuteManager.cs" />
     <Compile Include="Manager\Web\DownloadManager.cs" />
@@ -397,24 +412,35 @@
     <Compile Include="Manager\Web\WebConnectionManager.cs" />
     <Compile Include="Manager\Web\WebRequestManager.cs" />
     <Compile Include="Manager\WindowsAdministrativeManager.cs" />
+    <Compile Include="Manager\WPF\Charts\ColumnChartManager.cs" />
+    <Compile Include="Manager\WPF\Charts\CompareChartManager.cs" />
+    <Compile Include="Manager\WPF\Charts\DoughnutChartManager.cs" />
+    <Compile Include="Manager\WPF\Charts\LineChartManager.cs" />
+    <Compile Include="Manager\WPF\Charts\MapChartManager.cs" />
+    <Compile Include="Manager\WPF\Charts\PieChartManager.cs" />
+    <Compile Include="Manager\WPF\Charts\PointerChartManager.cs" />
+    <Compile Include="Manager\WPF\Charts\RowChartManager.cs" />
+    <Compile Include="Manager\WPF\Charts\StackedAreaChartManager.cs" />
+    <Compile Include="Manager\WPF\Charts\StackedChartManager.cs" />
     <Compile Include="Manager\WPF\PushNotificationManager.cs" />
     <Compile Include="Manager\WPF\SplashScreenManager.cs" />
     <Compile Include="Manager\WPF\Taskbar\JumplistManager.cs" />
     <Compile Include="Manager\WPF\Taskbar\ThumbnailManager.cs" />
+    <Compile Include="Manager\WPF\WindowOverlayManager.cs" />
     <Compile Include="Manager\WPF\WindowsInfoIconManager.cs" />
+    <Compile Include="Manager\Xamarin\Class1.cs" />
     <Compile Include="SystemController\Guard\Test.cs" />
     <Compile Include="TestUnit\WebTestUnitManager.cs" />
     <Compile Include="UI\Class2.cs" />
     <Compile Include="Variable\IconPaths.cs" />
     <Compile Include="Variable\ImagePaths.cs" />
-    <Compile Include="Manager\Images\LoadSVG.cs" />
+    <Compile Include="Manager\WPF\LoadSVGImage.cs" />
     <Compile Include="Manager\Web\IPTracker.cs" />
     <Compile Include="Manager\Security\LizensManager.cs" />
     <Compile Include="Manager\LogManager.cs" />
     <Compile Include="Manager\Mail.cs" />
     <Compile Include="Manager\PrintDocument.cs" />
     <Compile Include="Manager\QRCodeManager.cs" />
-    <Compile Include="Manager\RegistryManager.cs" />
     <Compile Include="Manager\Security\ZeroCrypt.cs" />
     <Compile Include="Manager\Security\ZeroSecureCrypt.cs" />
     <Compile Include="Manager\TempManager.cs" />

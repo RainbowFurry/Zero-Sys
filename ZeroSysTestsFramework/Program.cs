@@ -12,7 +12,28 @@ namespace ZeroSysTestsFramework
         [STAThread]
         private static void Main(string[] args)
         {
-            //ttt();
+
+            Possibillity p1 = new Possibillity()
+            {
+                Name = "Red Ball",
+                Ammount = 7
+            };
+
+            Possibillity p2 = new Possibillity()
+            {
+                Name = "Blue Ball",
+                Ammount = 4
+            };
+
+            Possibillity p3 = new Possibillity()
+            {
+                Name = "Yellow Ball",
+                Ammount = 2
+            };
+
+            Possibillity[] possibillities = new Possibillity[] { p1, p2, p3 };
+
+            ttt(possibillities);
             //test(new Program());
             //t();
             Console.Read();
@@ -52,8 +73,31 @@ namespace ZeroSysTestsFramework
                    Math.Abs(a.B - b.B) < thresh;
         }
 
+        public static void ttt(Possibillity[] possibillities)
+        {
+
+            int maxPossible = 0;
+
+            foreach (Possibillity pc in possibillities)
+            {
+                maxPossible = maxPossible + pc.Ammount;
+            }
+
+            foreach (Possibillity p in possibillities)
+            {
+                double result = p.Ammount / (double)maxPossible * 100;
+                Console.WriteLine(p.Name + ": " + result.ToString("00.00") + " %");
+            }
+
+        }
+
+    }
 
 
+    public class Possibillity
+    {
+        public string Name { get; set; }
+        public int Ammount { get; set; }
     }
 
 }

@@ -68,5 +68,15 @@ namespace ZeroSys.Converter
             return image;
         }
 
+        //Icon
+
+        //svg
+
+        //jpg
+
+        //png
+
+        //...
+
     }
 }

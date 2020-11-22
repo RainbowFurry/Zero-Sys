@@ -632,3 +632,9 @@ C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\Aspose.PDF.xml
 C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\Aspose.Words.xml
 C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\System.Management.Automation.xml
 C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\System.ValueTuple.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\LiveCharts.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\LiveCharts.Wpf.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\LiveCharts.pdb
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\LiveCharts.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\LiveCharts.Wpf.pdb
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\LiveCharts.Wpf.xml
