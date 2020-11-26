@@ -279,6 +279,42 @@
             </summary>
             <param name="content"></param>
         </member>
+        <member name="T:ZeroSys.Converter.ColorConverter">
+            <summary>
+            ColorConverter
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Converter.ColorConverter.FromHexToRGBA(System.String)">
+            <summary>
+            Convert Color from Hexa to RGBA
+            </summary>
+            <param name="hexa"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Converter.ColorConverter.FromRGBAToHex(System.Drawing.Color)">
+            <summary>
+            Convert Color from RGBA to Hexa
+            </summary>
+            <param name="rgba"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Converter.ColorConverter.FromRGBAToHex(System.String,System.String,System.String,System.String)">
+            <summary>
+            Convert Color from RGBA to Hexa
+            </summary>
+            <param name="r"></param>
+            <param name="g"></param>
+            <param name="b"></param>
+            <param name="a"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Converter.ColorConverter.t(System.String)">
+            <summary>
+            Convert Color from Hexa to Brush
+            </summary>
+            <param name="hexa"></param>
+            <returns></returns>
+        </member>
         <member name="T:ZeroSys.Converter.FileConverter">
             <summary>
             FileConverter
@@ -353,6 +389,11 @@
             </summary>
             <param name="bitmap"></param>
             <returns></returns>
+        </member>
+        <member name="T:ZeroSys.Converter.IpConverter">
+            <summary>
+            IpConverter
+            </summary>
         </member>
         <member name="T:ZeroSys.Database.LocaleMySqlManager">
             <summary>
@@ -456,6 +497,83 @@
             Close MySql Server Connection
             </summary>
         </member>
+        <member name="T:ZeroSys.IO.FileAttributeManager">
+            <summary>
+            FileAttributeManager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.IO.FileAttributeManager.AddFileAttribute(System.String,System.IO.FileAttributes)">
+            <summary>
+            Add new Attribute to File
+            </summary>
+            <param name="filePath"></param>
+            <param name="fileAttribute"></param>
+        </member>
+        <member name="M:ZeroSys.IO.FileAttributeManager.AddFileAttributes(System.String,System.IO.FileAttributes[])">
+            <summary>
+            Add multiple Attributes to File
+            </summary>
+            <param name="filePath"></param>
+            <param name="fileAttributes"></param>
+        </member>
+        <member name="M:ZeroSys.IO.FileAttributeManager.RemoveFileAttribute(System.String,System.IO.FileAttributes)">
+            <summary>
+            Remove Attribute from File
+            </summary>
+            <param name="filePath"></param>
+            <param name="fileAttribute"></param>
+        </member>
+        <member name="M:ZeroSys.IO.FileAttributeManager.RemoveFileAttributes(System.String,System.IO.FileAttributes[])">
+            <summary>
+            Remove multiple Attributes from File
+            </summary>
+            <param name="filePath"></param>
+            <param name="fileAttributes"></param>
+        </member>
+        <member name="M:ZeroSys.IO.FileAttributeManager.ClearFileAttributes(System.String)">
+            <summary>
+            Clear all Attributes from File
+            </summary>
+            <param name="filePath"></param>
+        </member>
+        <member name="M:ZeroSys.IO.FileAttributeManager.HasFileAttribute(System.String)">
+            <summary>
+            Check if the File has the Attribute
+            </summary>
+            <param name="filePath"></param>
+        </member>
+        <member name="M:ZeroSys.IO.FileAttributeManager.HideFile(System.String)">
+            <summary>
+            Hide the File
+            </summary>
+            <param name="filePath"></param>
+        </member>
+        <member name="M:ZeroSys.IO.FileAttributeManager.ShowFile(System.String)">
+            <summary>
+            Show the File
+            </summary>
+            <param name="filePath"></param>
+        </member>
+        <member name="M:ZeroSys.IO.FileAttributeManager.LockFile(System.String)">
+            <summary>
+            Lock the File from Editing
+            </summary>
+            <param name="filePath"></param>
+        </member>
+        <member name="M:ZeroSys.IO.FileAttributeManager.UnLockFile(System.String)">
+            <summary>
+            UnLock the File from Editing
+            </summary>
+            <param name="filePath"></param>
+        </member>
+        <member name="M:ZeroSys.IO.FileAttributeManager.RemoveAttribute(System.IO.FileAttributes,System.IO.FileAttributes)">
+            <summary>
+            Remove Attributes from File
+            </summary>
+            <param name="attributes"></param>
+            <param name="attributesToRemove"></param>
+            <returns></returns>
+        </member>
         <member name="T:ZeroSys.IO.FileDialogManager">
             <summary>
             FileDialogManager
@@ -530,6 +648,11 @@
             <param name="fileName"></param>
             <param name="fileEnding"></param>
             <returns></returns>
+        </member>
+        <member name="T:ZeroSys.IO.FileInfoManager">
+            <summary>
+            FileInfoManager
+            </summary>
         </member>
         <member name="T:ZeroSys.IO.FileManager">
             <summary>
@@ -661,6 +784,34 @@
             Clear the Zero Clip Board
             </summary>
         </member>
+        <member name="T:ZeroSys.Manager.ColorManager">
+            <summary>
+            ColorManager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.ColorManager.ShadowEffect(System.Byte,System.Byte,System.Byte,System.Byte,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Create Shadow Effect
+            </summary>
+            <param name="r"></param>
+            <param name="g"></param>
+            <param name="b"></param>
+            <param name="a"></param>
+            <param name="direction"></param>
+            <param name="depth"></param>
+            <param name="opacity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.ColorManager.ShadowEffect(System.Windows.Media.Color,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Create Shadwo Effect
+            </summary>
+            <param name="color"></param>
+            <param name="direction"></param>
+            <param name="depth"></param>
+            <param name="opacity"></param>
+            <returns></returns>
+        </member>
         <member name="T:ZeroSys.Manager.DesktopShortcutManager">
             <summary>
             DesktopShortcutManager
@@ -694,234 +845,175 @@
             <param name="toHashValue">The Value you want to Secure</param>
             <returns>The entered String is now Secure Hashed</returns>
         </member>
-        <member name="T:ZeroSys.Manager.RegistryManager">
+        <member name="T:ZeroSys.Manager.Images.GraphicsManager">
             <summary>
-            RegistryManager
+            GraphicsManager
             </summary>
         </member>
-        <member name="M:ZeroSys.Manager.RegistryManager.CreateURLScheme(System.String,System.Reflection.Assembly)">
+        <member name="M:ZeroSys.Manager.Images.GraphicsManager.#ctor(System.Int32,System.Int32)">
             <summary>
-            Create Registry Entry for Actions comming from the Webside
-            Example: Download App
-            
-            The WebCall is like http/https with the set Scheme
+            Create new empty Graphics
             </summary>
+            <param name="imgWidth"></param>
+            <param name="imgHeight"></param>
         </member>
-        <member name="M:ZeroSys.Manager.RegistryManager.CreateAutostart(System.String,System.Reflection.Assembly)">
+        <member name="M:ZeroSys.Manager.Images.GraphicsManager.#ctor(System.Drawing.Graphics)">
             <summary>
-            Create Autostart Registry Entry
+            Load Own Graphics maby from File?
             </summary>
-            <param name="appName"></param>
-            <param name="assembly"></param>
+            <param name="graphics"></param>
         </member>
-        <member name="M:ZeroSys.Manager.RegistryManager.RemoveAutostart(System.String)">
+        <member name="M:ZeroSys.Manager.Images.GraphicsManager.CreatePen(System.Drawing.Color,System.Int32)">
             <summary>
-            Remove Autostart from Registry
+            Create drawing Pen
             </summary>
-            <param name="appName"></param>
-            <param name="assembly"></param>
-        </member>
-        <member name="T:ZeroSys.Manager.Registry.Autostart">
-            <summary>
-            Autostart Manager
-            </summary>
-        </member>
-        <member name="M:ZeroSys.Manager.Registry.Autostart.Create">
-            <summary>
-            Create Autostart Entry
-            </summary>
-        </member>
-        <member name="M:ZeroSys.Manager.Registry.Autostart.Delete">
-            <summary>
-            Delete Autostart Entry
-            </summary>
-        </member>
-        <member name="M:ZeroSys.Manager.Registry.Autostart.Create(System.Reflection.Assembly)">
-            <summary>
-            Create Autostart Entry
-            </summary>
-        </member>
-        <member name="M:ZeroSys.Manager.Registry.Autostart.Delete(System.Reflection.Assembly)">
-            <summary>
-            Delete Autostart Entry
-            </summary>
-        </member>
-        <member name="T:ZeroSys.Manager.Registry.ExplorerQuickAccess">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="T:ZeroSys.Manager.Registry.RegistryManager">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="M:ZeroSys.Manager.Registry.RegistryManager.CreateURLScheme">
-            <summary>
-            Create Registry Entry for Actions comming from the Webside
-            Example: Download App
-            
-            The WebCall is like http/https with the set Scheme
-            </summary>
-        </member>
-        <member name="T:ZeroSys.Manager.RunExeCode.AssemblyObject">
-            <summary>
-            AssemblyObject
-            </summary>
-        </member>
-        <member name="P:ZeroSys.Manager.RunExeCode.AssemblyObject.Name">
-            <summary>
-            Assembly Name
-            </summary>
-        </member>
-        <member name="P:ZeroSys.Manager.RunExeCode.AssemblyObject.Description">
-            <summary>
-            Assembly Description
-            </summary>
-        </member>
-        <member name="P:ZeroSys.Manager.RunExeCode.AssemblyObject.Company">
-            <summary>
-            Assembly Company
-            </summary>
-        </member>
-        <member name="P:ZeroSys.Manager.RunExeCode.AssemblyObject.Copyright">
-            <summary>
-            Assembly CopyRight
-            </summary>
-        </member>
-        <member name="P:ZeroSys.Manager.RunExeCode.AssemblyObject.Trademark">
-            <summary>
-            Assembly Trademark
-            </summary>
-        </member>
-        <member name="P:ZeroSys.Manager.RunExeCode.AssemblyObject.Type">
-            <summary>
-            Assembly Type
-            </summary>
-        </member>
-        <member name="P:ZeroSys.Manager.RunExeCode.AssemblyObject.Loaded">
-            <summary>
-            Assembly Loaded State
-            </summary>
-        </member>
-        <member name="M:ZeroSys.Manager.RunExeCode.AssemblyObject.#ctor(System.String,System.String,System.String,System.String,System.String,System.Type,System.Boolean)">
-            <summary>
-            Initialize new Assembly Object
-            </summary>
-            <param name="name"></param>
-            <param name="description"></param>
-            <param name="company"></param>
-            <param name="copyright"></param>
-            <param name="trademark"></param>
-            <param name="type"></param>
-            <param name="loaded"></param>
-        </member>
-        <member name="T:ZeroSys.Manager.RunExeCode.ExecuteManager">
-            <summary>
-            DLLManager
-            </summary>
-        </member>
-        <member name="M:ZeroSys.Manager.RunExeCode.ExecuteManager.OpenExeInNewWindow(System.String)">
-            <summary>
-            Open Exe File in new Window
-            </summary>
-            <param name="pathToExe"></param>
-        </member>
-        <member name="M:ZeroSys.Manager.RunExeCode.ExecuteManager.OpenExeInCurrentApllication(System.String)">
-            <summary>
-            Open Exe in Current Window
-            </summary>
-            <param name="pathToExe"></param>
+            <param name="color"></param>
+            <param name="thicknes"></param>
             <returns></returns>
         </member>
-        <member name="M:ZeroSys.Manager.RunExeCode.ExecuteManager.SetupAssembly(System.Reflection.Assembly)">
+        <member name="M:ZeroSys.Manager.Images.GraphicsManager.DrawRectangle(System.Drawing.Pen,System.Int32,System.Int32,System.Int32,System.Int32)">
             <summary>
-            Setup Assembly Information
+            Draw a Rectangle
             </summary>
-            <param name="assembly"></param>
+            <param name="pen"></param>
+            <param name="startX"></param>
+            <param name="startY"></param>
+            <param name="stopX"></param>
+            <param name="stopY"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.GraphicsManager.DrawRectangle(System.Drawing.Color,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Draw a Rectangle Filled out
+            </summary>
+            <param name="color"></param>
+            <param name="startX"></param>
+            <param name="startY"></param>
+            <param name="stopX"></param>
+            <param name="stopY"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.GraphicsManager.DrawCircle(System.Drawing.Pen,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Draw a Circle
+            </summary>
+            <param name="pen"></param>
+            <param name="startX"></param>
+            <param name="startY"></param>
+            <param name="stopX"></param>
+            <param name="stopY"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.GraphicsManager.DrawCircle(System.Drawing.Color,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Draw a Circle Filled out
+            </summary>
+            <param name="color"></param>
+            <param name="startX"></param>
+            <param name="startY"></param>
+            <param name="stopX"></param>
+            <param name="stopY"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.GraphicsManager.DrawPie(System.Drawing.Pen,System.Int32,System.Int32,System.Int32,System.Int32,System.Single,System.Single)">
+            <summary>
+            Draw a Pie
+            </summary>
+            <param name="pen"></param>
+            <param name="startX"></param>
+            <param name="startY"></param>
+            <param name="stopX"></param>
+            <param name="stopY"></param>
+            <param name="start"></param>
+            <param name="stop"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.GraphicsManager.DrawPie(System.Drawing.Color,System.Int32,System.Int32,System.Int32,System.Int32,System.Single,System.Single)">
+            <summary>
+            Draw a Pie Filled out
+            </summary>
+            <param name="color"></param>
+            <param name="startX"></param>
+            <param name="startY"></param>
+            <param name="stopX"></param>
+            <param name="stopY"></param>
+            <param name="start"></param>
+            <param name="stop"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.GraphicsManager.DrawPolygon(System.Drawing.Pen,System.Drawing.PointF[])">
+            <summary>
+            Draw a Polygon
+            </summary>
+            <param name="pen"></param>
+            <param name="points"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.GraphicsManager.DrawPolygon(System.Drawing.Color,System.Drawing.PointF[])">
+            <summary>
+            Draw a Polygon Filled out
+            </summary>
+            <param name="color"></param>
+            <param name="points"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.GraphicsManager.CreatePoint(System.Int32,System.Int32)">
+            <summary>
+            Create Point/Marker
+            </summary>
+            <param name="x"></param>
+            <param name="y"></param>
             <returns></returns>
         </member>
-        <member name="M:ZeroSys.Manager.RunExeCode.ExecuteManager.SetupAssembly(System.Reflection.Assembly,System.String)">
+        <member name="M:ZeroSys.Manager.Images.GraphicsManager.DrawLine(System.Drawing.Pen,System.Int32,System.Int32,System.Int32,System.Int32)">
             <summary>
-            Setup Assembly Information
+            Draw a Line (not take a line)
             </summary>
-            <param name="assembly"></param>
-            <param name="startWindowName"></param>
-            <returns></returns>
+            <param name="pen"></param>
+            <param name="startX"></param>
+            <param name="startY"></param>
+            <param name="stopX"></param>
+            <param name="stopY"></param>
         </member>
-        <member name="T:ZeroSys.Manager.Web.DownloadManager">
+        <member name="M:ZeroSys.Manager.Images.GraphicsManager.DrawText(System.String,System.Drawing.Color,System.String,System.Int32,System.Int32,System.Int32)">
             <summary>
-            DownloadManager
+            Draw a Text
             </summary>
-        </member>
-        <member name="M:ZeroSys.Manager.Web.DownloadManager.DownloadFile(System.String,System.String)">
-            <summary>
-            Start downloading Cotnent from Web
-            </summary>
-            <param name="remoteFilePath"></param>
-            <param name="localFilePath"></param>
-        </member>
-        <member name="M:ZeroSys.Manager.Web.DownloadManager.DownloadFileAndUnzip(System.String,System.String)">
-            <summary>
-            Start downloading Cotnent from Web and unzip Content after Finish
-            </summary>
-            <param name="remoteFilePath"></param>
-            <param name="localFilePath"></param>
-        </member>
-        <member name="T:ZeroSys.Manager.Web.WebConnectionManager">
-            <summary>
-            WebConnectionManager
-            </summary>
-        </member>
-        <member name="M:ZeroSys.Manager.Web.WebConnectionManager.CheckConnection">
-            <summary>
-            Check if Client has Web Connection
-            </summary>
-            <returns></returns>
-        </member>
-        <member name="T:ZeroSys.Manager.Web.WebRequestManager">
-            <summary>
-            WebRequestManager
-            </summary>
-        </member>
-        <member name="M:ZeroSys.Manager.Web.WebRequestManager.Post(System.String,System.Collections.Generic.Dictionary{System.String,System.String})">
-            <summary>
-            Send Post Request to Webside
-            </summary>
-            <param name="url"></param>
             <param name="content"></param>
+            <param name="textColor"></param>
+            <param name="fontName"></param>
+            <param name="fontSize"></param>
+            <param name="startX"></param>
+            <param name="startY"></param>
         </member>
-        <member name="M:ZeroSys.Manager.Web.WebRequestManager.GET(System.String)">
+        <member name="M:ZeroSys.Manager.Images.GraphicsManager.DrawText(System.String,System.Drawing.Color,System.Drawing.Font,System.Int32,System.Int32)">
             <summary>
-            Send post Request to Webside
+            Draw a Text
             </summary>
-            <param name="url"></param>
+            <param name="content"></param>
+            <param name="textColor"></param>
+            <param name="font"></param>
+            <param name="startX"></param>
+            <param name="startY"></param>
         </member>
-        <member name="T:ZeroSys.Manager.Web.IPTracker">
+        <member name="M:ZeroSys.Manager.Images.GraphicsManager.Build">
             <summary>
-            Track User IP Location
+            Return your Created Graphics
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.GraphicsManager.Save(System.String)">
+            <summary>
+            Save as Image
+            </summary>
+            <param name="savePath"></param>
+        </member>
+        <member name="T:ZeroSys.Manager.Images.SVGManager">
+            <summary>
+            SVGManager
             </summary>
         </member>
-        <member name="M:ZeroSys.Manager.Web.IPTracker.TrackIP">
+        <member name="T:ZeroSys.Manager.Images.SVGManager.SVGReader">
             <summary>
-            Track the IP of the Client/User
+            SVGReader
             </summary>
         </member>
-        <member name="T:ZeroSys.Manager.Web.IPTracker.IpInfo">
+        <member name="T:ZeroSys.Manager.Images.SVGManager.SVGWriter">
             <summary>
-            IpInfo Model
+            SVGWriter
             </summary>
-        </member>
-        <member name="T:ZeroSys.Manager.ExeptionManager">
-            <summary>
-            ExeptionManager
-            </summary>
-        </member>
-        <member name="M:ZeroSys.Manager.ExeptionManager.CreateCustomExeption(System.String)">
-            <summary>
-            Create new Custom Exeption
-            </summary>
-            <param name="exeption"></param>
         </member>
         <member name="T:ZeroSys.Manager.Images.ImageEffectManager">
             <summary>
@@ -1334,17 +1426,297 @@
             <param name="color"></param>
             <param name="image"></param>
         </member>
-        <member name="T:ZeroSys.Manager.Images.LoadSVG">
+        <member name="T:ZeroSys.Manager.RegistryManager">
             <summary>
-            Load SVG Image to the View Object
+            RegistryManager
             </summary>
         </member>
-        <member name="M:ZeroSys.Manager.Images.LoadSVG.Load(System.String,System.Windows.Controls.Image)">
+        <member name="M:ZeroSys.Manager.RegistryManager.CreateURLScheme(System.String,System.Reflection.Assembly)">
             <summary>
-            Load the SVG to the Image Object
+            Create Registry Entry for Actions comming from the Webside
+            Example: Download App
+            
+            The WebCall is like http/https with the set Scheme
             </summary>
-            <param name="svgFile"></param>
-            <param name="source"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.RegistryManager.CreateAutostart(System.String,System.Reflection.Assembly)">
+            <summary>
+            Create Autostart Registry Entry
+            </summary>
+            <param name="appName"></param>
+            <param name="assembly"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.RegistryManager.RemoveAutostart(System.String)">
+            <summary>
+            Remove Autostart from Registry
+            </summary>
+            <param name="appName"></param>
+            <param name="assembly"></param>
+        </member>
+        <member name="T:ZeroSys.Manager.Registry.Autostart">
+            <summary>
+            Autostart Manager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.Registry.Autostart.Create">
+            <summary>
+            Create Autostart Entry
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.Registry.Autostart.Delete">
+            <summary>
+            Delete Autostart Entry
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.Registry.Autostart.Create(System.Reflection.Assembly)">
+            <summary>
+            Create Autostart Entry
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.Registry.Autostart.Delete(System.Reflection.Assembly)">
+            <summary>
+            Delete Autostart Entry
+            </summary>
+        </member>
+        <member name="T:ZeroSys.Manager.Registry.ExplorerQuickAccess">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:ZeroSys.Manager.Registry.RegistryManager">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.Registry.RegistryManager.CreateURLScheme">
+            <summary>
+            Create Registry Entry for Actions comming from the Webside
+            Example: Download App
+            
+            The WebCall is like http/https with the set Scheme
+            </summary>
+        </member>
+        <member name="T:ZeroSys.Manager.RunExeCode.AssemblyObject">
+            <summary>
+            AssemblyObject
+            </summary>
+        </member>
+        <member name="P:ZeroSys.Manager.RunExeCode.AssemblyObject.Name">
+            <summary>
+            Assembly Name
+            </summary>
+        </member>
+        <member name="P:ZeroSys.Manager.RunExeCode.AssemblyObject.Description">
+            <summary>
+            Assembly Description
+            </summary>
+        </member>
+        <member name="P:ZeroSys.Manager.RunExeCode.AssemblyObject.Company">
+            <summary>
+            Assembly Company
+            </summary>
+        </member>
+        <member name="P:ZeroSys.Manager.RunExeCode.AssemblyObject.Copyright">
+            <summary>
+            Assembly CopyRight
+            </summary>
+        </member>
+        <member name="P:ZeroSys.Manager.RunExeCode.AssemblyObject.Trademark">
+            <summary>
+            Assembly Trademark
+            </summary>
+        </member>
+        <member name="P:ZeroSys.Manager.RunExeCode.AssemblyObject.Type">
+            <summary>
+            Assembly Type
+            </summary>
+        </member>
+        <member name="P:ZeroSys.Manager.RunExeCode.AssemblyObject.Loaded">
+            <summary>
+            Assembly Loaded State
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.RunExeCode.AssemblyObject.#ctor(System.String,System.String,System.String,System.String,System.String,System.Type,System.Boolean)">
+            <summary>
+            Initialize new Assembly Object
+            </summary>
+            <param name="name"></param>
+            <param name="description"></param>
+            <param name="company"></param>
+            <param name="copyright"></param>
+            <param name="trademark"></param>
+            <param name="type"></param>
+            <param name="loaded"></param>
+        </member>
+        <member name="T:ZeroSys.Manager.RunExeCode.ExecuteManager">
+            <summary>
+            DLLManager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.RunExeCode.ExecuteManager.OpenExeInNewWindow(System.String)">
+            <summary>
+            Open Exe File in new Window
+            </summary>
+            <param name="pathToExe"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.RunExeCode.ExecuteManager.OpenExeInCurrentApllication(System.String)">
+            <summary>
+            Open Exe in Current Window
+            </summary>
+            <param name="pathToExe"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.RunExeCode.ExecuteManager.SetupAssembly(System.Reflection.Assembly)">
+            <summary>
+            Setup Assembly Information
+            </summary>
+            <param name="assembly"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.RunExeCode.ExecuteManager.SetupAssembly(System.Reflection.Assembly,System.String)">
+            <summary>
+            Setup Assembly Information
+            </summary>
+            <param name="assembly"></param>
+            <param name="startWindowName"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ZeroSys.Manager.Web.DownloadManager">
+            <summary>
+            DownloadManager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.Web.DownloadManager.DownloadFile(System.String,System.String)">
+            <summary>
+            Start downloading Cotnent from Web
+            </summary>
+            <param name="remoteFilePath"></param>
+            <param name="localFilePath"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.Web.DownloadManager.DownloadFileAndUnzip(System.String,System.String)">
+            <summary>
+            Start downloading Cotnent from Web and unzip Content after Finish
+            </summary>
+            <param name="remoteFilePath"></param>
+            <param name="localFilePath"></param>
+        </member>
+        <member name="T:ZeroSys.Manager.Web.WebConnectionManager">
+            <summary>
+            WebConnectionManager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.Web.WebConnectionManager.CheckConnection">
+            <summary>
+            Check if Client has Web Connection
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:ZeroSys.Manager.Web.WebPageInfoManager">
+            <summary>
+            WebPageInfoManager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.Web.WebPageInfoManager.GetServerInfo(System.String)">
+            <summary>
+            Get Complete Server Info
+            </summary>
+            <param name="serverAddress"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.Web.WebPageInfoManager.GetIp(System.String)">
+            <summary>
+            Get the Ip Address of the Server by Address
+            </summary>
+            <param name="domainName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Web.WebPageInfoManager.GetScheme(System.String)">
+            <summary>
+            Get the Scheme (http/https/custom)
+            </summary>
+            <param name="serverAddress"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Web.WebPageInfoManager.GetPort(System.String)">
+            <summary>
+            Get the used Port for the Address
+            </summary>
+            <param name="serverAddress"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Web.WebPageInfoManager.GetServerName(System.String)">
+            <summary>
+            Get the Servers (Maschine) Name
+            </summary>
+            <param name="serverAddress"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Web.WebPageInfoManager.GetServerState(System.String)">
+            <summary>
+            Get the Server State if the Server is online or offline
+            </summary>
+            <param name="serverAddress"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Web.WebPageInfoManager.GetServerType(System.String)">
+            <summary>
+            Get Server Type (Linux, Windows, Nginx, Apache)
+            Open Browser and press STRG + C
+            Then Open Network and press record + F5 and stop after 5sec.
+            Select the firest File and select Headers.
+            There you go.
+            </summary>
+            <param name="serverURL"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ZeroSys.Manager.Web.WebRequestManager">
+            <summary>
+            WebRequestManager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.Web.WebRequestManager.Post(System.String,System.Collections.Generic.Dictionary{System.String,System.String})">
+            <summary>
+            Send Post Request to Webside
+            </summary>
+            <param name="url"></param>
+            <param name="content"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.Web.WebRequestManager.GET(System.String)">
+            <summary>
+            Send post Request to Webside
+            </summary>
+            <param name="url"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.Web.WebRequestManager.GetRequestInfo(System.String)">
+            <summary>
+            Get all Info you can get from the Request
+            </summary>
+            <param name="url"></param>
+        </member>
+        <member name="T:ZeroSys.Manager.Web.IPTracker">
+            <summary>
+            Track User IP Location
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.Web.IPTracker.TrackIP">
+            <summary>
+            Track the IP of the Client/User
+            </summary>
+        </member>
+        <member name="T:ZeroSys.Manager.Web.IPTracker.IpInfo">
+            <summary>
+            IpInfo Model
+            </summary>
+        </member>
+        <member name="T:ZeroSys.Manager.ExeptionManager">
+            <summary>
+            ExeptionManager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.ExeptionManager.CreateCustomExeption(System.String)">
+            <summary>
+            Create new Custom Exeption
+            </summary>
+            <param name="exeption"></param>
         </member>
         <member name="T:ZeroSys.Manager.IniFileManager">
             <summary>
@@ -1760,6 +2132,254 @@
             </summary>
             <returns></returns>
         </member>
+        <member name="T:ZeroSys.Manager.WPF.Charts.ColumnChartManager">
+            <summary>
+            ColumnChartManager
+            </summary>
+        </member>
+        <member name="T:ZeroSys.Manager.WPF.Charts.DoughnutChartManager">
+            <summary>
+            DoughnutChartManager
+            </summary>
+        </member>
+        <member name="T:ZeroSys.Manager.WPF.Charts.GaugeChartManager">
+            <summary>
+            GaugeChartManager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.Charts.GaugeChartManager.CreateNewGaugeChart(LiveCharts.Wpf.Gauge,System.Int32,System.Int32,System.Int32,System.Windows.Media.Brush,System.Boolean)">
+            <summary>
+            Create new Gauge Chart
+            </summary>
+            <param name="gauge">Gauge</param>
+            <param name="from">From</param>
+            <param name="to">To</param>
+            <param name="value">Value</param>
+            <param name="brush">Brush</param>
+            <param name="use360Degrese">true = circle | false = half circle</param>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.Charts.GaugeChartManager.CreateNewGaugeChart(LiveCharts.Wpf.Gauge,System.Int32,System.Int32,System.Int32,System.Windows.Media.LinearGradientBrush,System.Boolean)">
+            <summary>
+            Create new Gauge Chart
+            </summary>
+            <param name="gauge">Gauge</param>
+            <param name="from">From</param>
+            <param name="to">To</param>
+            <param name="value">Value</param>
+            <param name="brush">Brush</param>
+            <param name="use360Degrese">true = circle | false = half circle</param>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.Charts.GaugeChartManager.CreateNewGaugeChart(LiveCharts.Wpf.Gauge,System.Int32,System.Int32,System.Int32,System.Double,System.Windows.Media.Brush,System.Boolean)">
+            <summary>
+            Create new Gauge Chart
+            </summary>
+            <param name="gauge"></param>
+            <param name="from"></param>
+            <param name="to"></param>
+            <param name="value"></param>
+            <param name="innerRadius"></param>
+            <param name="brush"></param>
+            <param name="use360Degrese"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.Charts.GaugeChartManager.CreateNewGaugeChart(LiveCharts.Wpf.Gauge,System.Int32,System.Int32,System.Int32,System.Double,System.Windows.Media.LinearGradientBrush,System.Boolean)">
+            <summary>
+            Create new Gauge Chart
+            </summary>
+            <param name="gauge"></param>
+            <param name="from"></param>
+            <param name="to"></param>
+            <param name="value"></param>
+            <param name="innerRadius"></param>
+            <param name="brush"></param>
+            <param name="use360Degrese"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.Charts.GaugeChartManager.CreateLinearGradientBrush(System.Windows.Media.Color[])">
+            <summary>
+            Create Linear Gradient Brush
+            </summary>
+            <param name="color"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ZeroSys.Manager.WPF.Charts.LineChartManager">
+            <summary>
+            LineChartManager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.Charts.LineChartManager.CreateNewLineSerie(System.String,System.Double[])">
+            <summary>
+            Create new Line Chart Serie
+            </summary>
+            <param name="title"></param>
+            <param name="values"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.Charts.LineChartManager.CreateNewLineSerie(System.String,System.Double[],System.Windows.Media.Geometry,System.Int32)">
+            <summary>
+            Create new Line Chart Serie
+            </summary>
+            <param name="title"></param>
+            <param name="values"></param>
+            <param name="defaultGeometries">DefaultGeometries.[Circle]</param>
+            <param name="size"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.Charts.LineChartManager.AddLineSerieToLineChart(LiveCharts.Wpf.CartesianChart,LiveCharts.Wpf.LineSeries)">
+            <summary>
+            Add Line Series to Line Chart
+            </summary>
+            <param name="cartesianChart"></param>
+            <param name="lineSeries"></param>
+        </member>
+        <member name="T:ZeroSys.Manager.WPF.Charts.MapChartManager">
+            <summary>
+            MapChartManager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.Charts.MapChartManager.#ctor">
+            <summary>
+            Initialize MapChartManager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.Charts.MapChartManager.AddNewMapSeries(System.String,System.Int32)">
+            <summary>
+            Add new Map Marker
+            </summary>
+            <param name="countryShortcut"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.Charts.MapChartManager.AddMapSeriesToMapChart(LiveCharts.Wpf.GeoMap)">
+            <summary>
+            Add Map Marker to GeoMap
+            </summary>
+            <param name="geoMap"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.Charts.MapChartManager.AddMapSeriesToMapChart(LiveCharts.Wpf.GeoMap,System.String)">
+            <summary>
+            Add Map Marker to GeoMap and set Path for Map
+            </summary>
+            <param name="geoMap"></param>
+            <param name="mapPath"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.Charts.MapChartManager.ChangeMapChartColor(LiveCharts.Wpf.GeoMap,System.String,System.String)">
+            <summary>
+            Change Color of GeoMap
+            </summary>
+            <param name="geoMap"></param>
+            <param name="hexLandFill"></param>
+            <param name="hexBackground"></param>
+        </member>
+        <member name="T:ZeroSys.Manager.WPF.Charts.PieChartManager">
+            <summary>
+            PieChartManager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.Charts.PieChartManager.CreateNewPieSeries(System.String,System.Double)">
+            <summary>
+            Create new Pie Chart Serie
+            </summary>
+            <param name="title"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.Charts.PieChartManager.AddPieSerieToPieChart(LiveCharts.Wpf.PieChart,LiveCharts.Wpf.PieSeries)">
+            <summary>
+            Add PieSeries to PieChart
+            </summary>
+            <param name="pieChart"></param>
+            <param name="pieSeries"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.Charts.PieChartManager.AddChartClickManagement(LiveCharts.Wpf.PieChart)">
+            <summary>
+            Add PieChart click Management
+            </summary>
+            <param name="pieChart"></param>
+        </member>
+        <member name="P:ZeroSys.Manager.WPF.Charts.PieChartManager.PointLabel">
+            <summary>
+            Pointer for Marker
+            </summary>
+        </member>
+        <member name="T:ZeroSys.Manager.WPF.Charts.PointerChartManager">
+            <summary>
+            PointerChartManager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.Charts.PointerChartManager.CreateNewPointerSeries(System.Int32,System.Int32,System.Windows.Media.Brush)">
+            <summary>
+            Create new Pointer Serie
+            </summary>
+            <param name="from"></param>
+            <param name="to"></param>
+            <param name="brush"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.Charts.PointerChartManager.AddPointerSerieToPointerChart(LiveCharts.Wpf.AngularGauge,LiveCharts.Wpf.AngularSection)">
+            <summary>
+            Add Pointer Series to Pointer Chart
+            </summary>
+            <param name="angularGauge"></param>
+            <param name="angularSection"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.Charts.PointerChartManager.AddSettingsToPointerChart(LiveCharts.Wpf.AngularGauge,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Add Settings to Pointer Chart
+            </summary>
+            <param name="angularGauge"></param>
+            <param name="min"></param>
+            <param name="max"></param>
+            <param name="steps"></param>
+            <param name="showValue"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ZeroSys.Manager.WPF.Charts.RowChartManager">
+            <summary>
+            RowChartManager
+            </summary>
+        </member>
+        <member name="T:ZeroSys.Manager.WPF.Charts.HeatSeriesChartManager">
+            <summary>
+            SeriesChartManager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.Charts.HeatSeriesChartManager.#ctor">
+            <summary>
+            Initialize HeatSeriesChartManager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.Charts.HeatSeriesChartManager.CreateNewHeatSeries(System.String,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Create new Heat Seria
+            </summary>
+            <param name="title"></param>
+            <param name="row"></param>
+            <param name="col"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.Charts.HeatSeriesChartManager.AddDescriptionsToHeatSeries(System.String[],System.String[])">
+            <summary>
+            Bind Description to Chart
+            </summary>
+            <param name="leftValues"></param>
+            <param name="bottomValues"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.Charts.HeatSeriesChartManager.AddHeatSerieToHeatChart(LiveCharts.Wpf.CartesianChart,LiveCharts.Wpf.HeatSeries)">
+            <summary>
+            Set Created Values to Chart
+            </summary>
+            <param name="cartesianChart"></param>
+            <param name="heatSeries"></param>
+        </member>
+        <member name="T:ZeroSys.Manager.WPF.Charts.StackedAreaChartManager">
+            <summary>
+            StackedAreaChartManager
+            </summary>
+        </member>
+        <member name="T:ZeroSys.Manager.WPF.Charts.StackedChartManager">
+            <summary>
+            StackedChartManager
+            </summary>
+        </member>
         <member name="T:ZeroSys.Manager.WPF.PushNotificationManager">
             <summary>
             PushNotificationManager
@@ -1903,6 +2523,11 @@
             <param name="icon"></param>
             <returns></returns>
         </member>
+        <member name="T:ZeroSys.Manager.WPF.WindowOverlayManager">
+            <summary>
+            WindowOverlayManager
+            </summary>
+        </member>
         <member name="T:ZeroSys.Manager.WPF.WindowsInfoIconManager">
             <summary>
             WindowsInfoIconManager
@@ -1926,6 +2551,32 @@
             <summary>
             Clean up any Component from being used
             </summary>
+        </member>
+        <member name="T:ZeroSys.Manager.WPF.LoadSVGImage">
+            <summary>
+            Load SVG Image to the View Object
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.LoadSVGImage.Load(System.String,System.Windows.Controls.Image)">
+            <summary>
+            Load the SVG to the Image Object
+            </summary>
+            <param name="svgFile"></param>
+            <param name="source"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.LoadSVGImage.LoadSvgImage(System.String,System.Windows.Shapes.Rectangle)">
+            <summary>
+            Load the SVG to the Rectangle Object
+            </summary>
+            <param name="svgFile"></param>
+            <param name="rectangle"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.LoadSVGImage.LoadSvgImage(System.String,System.Windows.Controls.Grid)">
+            <summary>
+            Load the SVG to the Grid Object
+            </summary>
+            <param name="svgFile"></param>
+            <param name="grid"></param>
         </member>
         <member name="T:ZeroSys.Manager.LogManager">
             <summary>
@@ -2084,6 +2735,154 @@
             </summary>
             <param name="content"></param>
             <returns></returns>
+        </member>
+        <member name="T:ZeroSys.Math.Calculate">
+            <summary>
+            Calculate
+            </summary>
+        </member>
+        <member name="T:ZeroSys.Math.Geometry.Circle">
+            <summary>
+            Circle
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Math.Geometry.Circle.Volume(System.Double,System.Double)">
+            <summary>
+            Calculate the Volume of the Circle - (Volumen)
+            </summary>
+            <param name="radius"></param>
+            <param name="height"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Math.Geometry.Circle.Scope(System.Double)">
+            <summary>
+            Calculate the Scope of the Circle - (Umfang)
+            </summary>
+            <param name="radius"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Math.Geometry.Circle.Area(System.Double)">
+            <summary>
+            Calculate the Area of the Circle - (Flächeninhalt)
+            </summary>
+            <param name="radius"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ZeroSys.Math.Geometry.Dice">
+            <summary>
+            Dice
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Math.Geometry.Dice.Volume(System.Double)">
+            <summary>
+            Calculate the Volume of the Square - (Volumen)
+            </summary>
+            <param name="pageLength"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Math.Geometry.Dice.Scope(System.Double)">
+            <summary>
+            Calculate the Scope of the Square - (Umfang)
+            </summary>
+            <param name="pageLength"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Math.Geometry.Dice.Area(System.Double)">
+            <summary>
+            Calculate the Area of the Square - (Flächeninhalt)
+            </summary>
+            <param name="pageLength"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ZeroSys.Math.Geometry.Rectangle">
+            <summary>
+            Rectangle
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Math.Geometry.Rectangle.Volume(System.Double,System.Double,System.Double)">
+            <summary>
+            Calculate the Volume of the Rectangle - (Volumen)
+            </summary>
+            <param name="pageLength"></param>
+            <param name="pageWidth"></param>
+            <param name="pageHeightHeight"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Math.Geometry.Rectangle.Scope(System.Double,System.Double)">
+            <summary>
+            Calculate the Scope of the Rectangle - (Umfang)
+            </summary>
+            <param name="pageLength"></param>
+            <param name="pageWidth"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Math.Geometry.Rectangle.Area(System.Double,System.Double,System.Double)">
+            <summary>
+            Calculate the Area of the Rectangle - (Flächeninhalt)
+            </summary>
+            <param name="pageLength"></param>
+            <param name="pageWidth"></param>
+            <param name="pageHeight"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ZeroSys.Math.Geometry.Square">
+            <summary>
+            Square
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Math.Geometry.Square.Volume(System.Double)">
+            <summary>
+            Calculate the Volume of the Square - (Volumen)
+            </summary>
+            <param name="pageLength"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Math.Geometry.Square.Scope(System.Double)">
+            <summary>
+            Calculate the Scope of the Square - (Umfang)
+            </summary>
+            <param name="pageLength"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Math.Geometry.Square.Area(System.Double)">
+            <summary>
+            Calculate the Area of the Square - (Flächeninhalt)
+            </summary>
+            <param name="pageLength"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ZeroSys.Math.Geometry.Triangle">
+            <summary>
+            Triangle
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Math.Geometry.Triangle.Volume(System.Double,System.Double)">
+            <summary>
+            Calculate the Volume of the Triangle - (Volumen)
+            </summary>
+            <param name="area"></param>
+            <param name="height"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Math.Geometry.Triangle.Scope(System.Double)">
+            <summary>
+            Calculate the Scope of the Triangle - (Umfang)
+            </summary>
+            <param name="pageLength"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Math.Geometry.Triangle.Area(System.Double,System.Double)">
+            <summary>
+            Calculate the Area of the Triangle - (Flächeninhalt)
+            </summary>
+            <param name="pageLengthA"></param>
+            <param name="height"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ZeroSys.Math.Possibillity">
+            <summary>
+            Possibillity
+            </summary>
         </member>
         <member name="T:ZeroSys.SystemController.Hardware.Cpu">
             <summary>
@@ -2594,6 +3393,26 @@
         <member name="T:ZeroSys.Variable.Enviroment">
             <summary>
             Enviroment
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Variable.Enviroment.CreateEnviromentVariable(System.String,System.String)">
+            <summary>
+            Create Temp Enviroment Variable
+            </summary>
+            <param name="key"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:ZeroSys.Variable.Enviroment.CreateEnviromentVariable(System.String,System.String,System.EnvironmentVariableTarget)">
+            <summary>
+            Create Enviroment Variable and Save
+            </summary>
+            <param name="key"></param>
+            <param name="value"></param>
+            <param name="target"></param>
+        </member>
+        <member name="T:ZeroSys.ToDo">
+            <summary>
+            ToDo
             </summary>
         </member>
         <member name="T:Org.Mentalis.Utilities.CommandList">

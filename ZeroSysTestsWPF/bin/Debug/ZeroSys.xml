@@ -1,0 +1,3227 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ZeroSys</name>
+    </assembly>
+    <members>
+        <member name="T:ZeroSys.API.CurrencyConverter">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:ZeroSys.API.Gasoline">
+            <summary>
+            Gasoline Information
+            </summary>
+        </member>
+        <member name="M:ZeroSys.API.Gasoline.loadTopPrices(System.String,System.String)">
+            <summary>
+            Load Gasolin Top Price infos
+            </summary>
+        </member>
+        <member name="M:ZeroSys.API.Gasoline.loadGasolineStationInfo(System.String,System.String)">
+            <summary>
+            Load Gasolin Shop infos
+            </summary>
+        </member>
+        <member name="M:ZeroSys.API.Gasoline.loadGasolinPostcode(System.String,System.String,System.String)">
+            <summary>
+            Load Location and distanced Shops
+            </summary>
+        </member>
+        <member name="M:ZeroSys.API.Gasoline.loadGasolinPostcode(System.String)">
+            <summary>
+            Load Location and distanced Shops
+            </summary>
+        </member>
+        <member name="T:ZeroSys.API.Gasoline.Gassolin">
+            <summary>
+            Gasoline Values
+            </summary>
+        </member>
+        <member name="T:ZeroSys.API.Weather">
+            <summary>
+            Weather Information
+            </summary>
+        </member>
+        <member name="M:ZeroSys.API.Weather.getWeatherWithGeoLocation(System.String)">
+            <summary>
+            Get the Weather Information by the Users current GeoLocation
+            </summary>
+        </member>
+        <member name="M:ZeroSys.API.Weather.getWeatherWithGeoLocation(System.String,System.String,System.String)">
+            <summary>
+            Get the Weather Information by the Users current GeoLocation
+            </summary>
+        </member>
+        <member name="M:ZeroSys.API.Weather.getWeatherWithZipCode(System.String,System.String)">
+            <summary>
+            Get the Weather Information of the given ZipCode City
+            </summary>
+            <param name="zipCode">The ZipCode of the searching City Info</param>
+        </member>
+        <member name="T:ZeroSys.API.Weather.Info">
+            <summary>
+            Weather Values
+            </summary>
+        </member>
+        <member name="T:ZeroSys.Azure.SendGrid.Mail">
+            <summary>
+            Mail Controller
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Azure.SendGrid.Mail.#ctor(System.String,System.String,System.String)">
+            <summary>
+            Initialize the Email Function once with the default Settings
+            </summary>
+            <param name="apiKey">The API Key you need for SendGrid</param>
+            <param name="fromEmail">The Email you use to send the Email</param>
+            <param name="fromUserName">The UserName of the Email Account you use to send the Mail</param>
+        </member>
+        <member name="M:ZeroSys.Azure.SendGrid.Mail.send(System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Send an Email to the Client
+            </summary>
+            <param name="subject">The Heading/Subject/Topic of the Mail</param>
+            <param name="toEmail">The Email of the User which should get the Email</param>
+            <param name="toUserName">The User's Name</param>
+            <param name="contetn">Your Email Content you want to send to the User</param>
+            <param name="html">KP</param>
+            <returns></returns>
+        </member>
+        <member name="T:ZeroSys.Azure.Twilo.Call">
+            <summary>
+            Call
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Azure.Twilo.Call.#ctor(System.String,System.String,System.String)">
+            <summary>
+            Initialize Call
+            </summary>
+            <param name="accoutSid"></param>
+            <param name="authToken"></param>
+            <param name="fromPhoneNumber"></param>
+        </member>
+        <member name="M:ZeroSys.Azure.Twilo.Call.CreatePhoneCall(System.String,System.String)">
+            <summary>
+            Create a Phone call and let the KI Talk
+            </summary>
+            <param name="toPhoneNumber"></param>
+            <param name="contentToSay"></param>
+        </member>
+        <member name="T:ZeroSys.Azure.Twilo.SMS">
+            <summary>
+            SMS Controller
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Azure.Twilo.SMS.#ctor(System.String,System.String,System.String)">
+            <summary>
+            Initialize the API Token and SID From Twilo to
+            use this SMS Function
+            </summary>
+            <param name="accoutSid"></param>
+            <param name="authToken"></param>
+            <param name="fromPhoneNumber"></param>
+        </member>
+        <member name="M:ZeroSys.Azure.Twilo.SMS.Send(System.String,System.String)">
+            <summary>
+            Send a SMS with Twilo
+            </summary>
+            <param name="content"></param>
+            <param name="toPhoneNumber"></param>
+        </member>
+        <member name="T:ZeroSys.Azure.Twilo.WhatsApp">
+            <summary>
+            WhatsApp Messages Controll
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Azure.Twilo.WhatsApp.Initialize(System.String,System.String,System.String)">
+            <summary>
+            Initialize the API Token and SID From Twilo to
+            use this WhatsApp Function
+            </summary>
+            <param name="accoutSid"></param>
+            <param name="authToken"></param>
+            <param name="fromPhoneNumber"></param>
+        </member>
+        <member name="M:ZeroSys.Azure.Twilo.WhatsApp.Send(System.String,System.String)">
+            <summary>
+            Send a Whatsapp Message
+            </summary>
+            <param name="content"></param>
+            <param name="toPhoneNumber"></param>
+        </member>
+        <member name="T:ZeroSys.Azure.VoiceAssistent.Commands.CommandController">
+            <summary>
+            This Controlls the Commands of the VoiceAssistent
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Azure.VoiceAssistent.Commands.CommandController.randomCommandResultOutput(System.String)">
+            <summary>
+            Return an Random Result of an Multiple 
+            </summary>
+            <param name="commandResult"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ZeroSys.Azure.VoiceAssistent.Commands.HelpCommand">
+            <summary>
+            The Help of the Command
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Azure.VoiceAssistent.Commands.HelpCommand.RunCmd(System.String,System.String[])">
+            <summary>
+            Run VoiceAssistent Command
+            </summary>
+            <param name="cmd"></param>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Azure.VoiceAssistent.Commands.HelpCommand.ThrowException(System.String,System.String)">
+            <summary>
+            Throw Exeption while ERROR ocour while running
+            </summary>
+            <param name="type"></param>
+            <param name="message"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ZeroSys.Azure.VoiceAssistent.Commands.ICommand">
+            <summary>
+            The Interface of The VoiceAssistent Commands
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Azure.VoiceAssistent.Commands.ICommand.RunCmd(System.String,System.String[])">
+            <summary>
+            Run the Command
+            </summary>
+            <param name="cmd"></param>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Azure.VoiceAssistent.Commands.ICommand.ThrowException(System.String,System.String)">
+            <summary>
+            Throw an Exepthion if an ERROR ocour while running
+            </summary>
+            <param name="type"></param>
+            <param name="message"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ZeroSys.Azure.VoiceAssistent.VoiceController">
+            <summary>
+            Initialize the VoiceAssistent
+            </summary>
+        </member>
+        <member name="F:ZeroSys.Azure.VoiceAssistent.VoiceController._VoiceSubscriptionKey">
+            <summary>
+            Subscription Key From Microsoft Azure VoiceAssisten
+            </summary>
+        </member>
+        <member name="F:ZeroSys.Azure.VoiceAssistent.VoiceController._VoiceRegion">
+            <summary>
+            Voice Region from your setup VoiceAssisten on Microsoft Azure
+            </summary>
+        </member>
+        <member name="F:ZeroSys.Azure.VoiceAssistent.VoiceController.speechRecognitionConfig">
+            <summary>
+            Speech Recognition Config
+            </summary>
+        </member>
+        <member name="F:ZeroSys.Azure.VoiceAssistent.VoiceController.speechSyntheniserConfig">
+            <summary>
+            Speech Syntheniser Config
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Azure.VoiceAssistent.VoiceController.#ctor(System.String,System.String)">
+            <summary>
+            Initialize VoiceController
+            </summary>
+            <param name="VoiceSubscriptionKey"></param>
+            <param name="VoiceRegion"></param>
+        </member>
+        <member name="M:ZeroSys.Azure.VoiceAssistent.VoiceController.initializeVoiceAssistent(System.String,System.String)">
+            <summary>
+            Initialize VoiceAssistent Config and Commands.
+            Start VoiceRecognition.
+            </summary>
+        </member>
+        <member name="T:ZeroSys.Azure.VoiceAssistent.ZeroSpeechRecognition">
+            <summary>
+            VoiceAssistent recognition of User Input
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Azure.VoiceAssistent.ZeroSpeechRecognition.RecognizeSpeechAsync">
+            <summary>
+            Recognizer Controller
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Azure.VoiceAssistent.ZeroSpeechRecognition.recognizeName(System.Object,Microsoft.CognitiveServices.Speech.SpeechRecognitionEventArgs)">
+            <summary>
+            Trigger the Reaction if you say his Name
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ZeroSys.Azure.VoiceAssistent.ZeroSpeechRecognition.recognize(System.Object,Microsoft.CognitiveServices.Speech.RecognitionEventArgs)">
+            <summary>
+            Trigger the Reaction if you say an Command
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="T:ZeroSys.Azure.VoiceAssistent.ZeroSpeechSynthenizer">
+            <summary>
+            Voice Output of the VoiceAssistent
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Azure.VoiceAssistent.ZeroSpeechSynthenizer.speak(System.String)">
+            <summary>
+            Let the Computer talk what ever you want
+            </summary>
+            <param name="content"></param>
+        </member>
+        <member name="T:ZeroSys.Converter.ColorConverter">
+            <summary>
+            ColorConverter
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Converter.ColorConverter.FromHexToRGBA(System.String)">
+            <summary>
+            Convert Color from Hexa to RGBA
+            </summary>
+            <param name="hexa"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Converter.ColorConverter.FromRGBAToHex(System.Drawing.Color)">
+            <summary>
+            Convert Color from RGBA to Hexa
+            </summary>
+            <param name="rgba"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Converter.ColorConverter.FromRGBAToHex(System.String,System.String,System.String,System.String)">
+            <summary>
+            Convert Color from RGBA to Hexa
+            </summary>
+            <param name="r"></param>
+            <param name="g"></param>
+            <param name="b"></param>
+            <param name="a"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Converter.ColorConverter.t(System.String)">
+            <summary>
+            Convert Color from Hexa to Brush
+            </summary>
+            <param name="hexa"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ZeroSys.Converter.FileConverter">
+            <summary>
+            FileConverter
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Converter.FileConverter.ConvertXmlToJson(System.String)">
+            <summary>
+            Convert XML File To Json File
+            </summary>
+            <param name="filePath"></param>
+        </member>
+        <member name="M:ZeroSys.Converter.FileConverter.ConvertJsonToXml(System.String)">
+            <summary>
+            Convert Json File to XML File
+            </summary>
+            <param name="filePath"></param>
+        </member>
+        <member name="M:ZeroSys.Converter.FileConverter.ConvertWordToPDF(System.String)">
+            <summary>
+            Convert Word Document to PDF Document
+            </summary>
+            <param name="filePath"></param>
+        </member>
+        <member name="M:ZeroSys.Converter.FileConverter.ConvertPDFToDoc(System.String)">
+            <summary>
+            Convert PDF To Doc
+            </summary>
+            <param name="filePath"></param>
+        </member>
+        <member name="M:ZeroSys.Converter.FileConverter.ConvertPDFToDocX(System.String)">
+            <summary>
+            Convert PDF to DocX
+            </summary>
+            <param name="filePath"></param>
+        </member>
+        <member name="T:ZeroSys.Converter.ImageConverter">
+            <summary>
+            ImageConverter
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Converter.ImageConverter.ConvertImage(System.String,System.String,System.Drawing.Imaging.ImageFormat,System.String)">
+            <summary>
+            Convert Images from one Format to another.
+            Important! the ImageFormat needs to match the newImageEnding
+            </summary>
+            <param name="path"></param>
+            <param name="name"></param>
+            <param name="newImageFormat"></param>
+            <param name="newImageEnding"></param>
+        </member>
+        <member name="M:ZeroSys.Converter.ImageConverter.ConvertImage(System.String,System.String,System.Drawing.Imaging.ImageFormat,System.String,System.String)">
+            <summary>
+            Convert Images from one Format to another.
+            Important! the ImageFormat needs to match the newImageEnding
+            </summary>
+            <param name="path"></param>
+            <param name="name"></param>
+            <param name="newImageFormat"></param>
+            <param name="newPath"></param>
+            <param name="newImageEnding"></param>
+        </member>
+        <member name="M:ZeroSys.Converter.ImageConverter.ConvertImageToBitmap(System.Drawing.Image)">
+            <summary>
+            Convert Image to Bitmap
+            </summary>
+            <param name="image"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Converter.ImageConverter.ConvertBitmapToImage(System.Drawing.Bitmap)">
+            <summary>
+            Convert Bitmap to Image
+            </summary>
+            <param name="bitmap"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ZeroSys.Database.LocaleMySqlManager">
+            <summary>
+            LocaleMySqlManager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Database.LocaleMySqlManager.CreateLocaleDB(System.String,System.String)">
+            <summary>
+            Create Locale MySQL DB
+            </summary>
+            <param name="dbSavePath"></param>
+            <param name="dbFileName"></param>
+        </member>
+        <member name="T:ZeroSys.Database.TranslateDB">
+            <summary>
+            Translate DB Values
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Database.TranslateDB.Translate(System.String)">
+            <summary>
+            Translate the DB in all Languages
+            </summary>
+            <param name="languagePath"></param>
+        </member>
+        <member name="M:ZeroSys.Database.TranslateDB.LoadContenetForDB(System.String)">
+            <summary>
+            Load Existing DB Values
+            </summary>
+            <param name="languagePath"></param>
+        </member>
+        <member name="M:ZeroSys.Database.TranslateDB.WriteContentToDB(System.String)">
+            <summary>
+            Create new DB with translated Content
+            </summary>
+            <param name="languagePath"></param>
+        </member>
+        <member name="T:ZeroSys.Database.MongoDBManager">
+            <summary>
+            MongoDB Manager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Database.MongoDBManager.#ctor">
+            <summary>
+            Initialize MongoDBManager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Database.MongoDBManager.#ctor(System.String,System.String,System.String,System.Int32,System.String)">
+            <summary>
+            Initialize MongoDBManager
+            </summary>
+            <param name="user"></param>
+            <param name="password"></param>
+            <param name="host"></param>
+            <param name="port"></param>
+            <param name="database"></param>
+            <param name="table"></param>
+        </member>
+        <member name="M:ZeroSys.Database.MongoDBManager.CreateConnection(System.String,System.String,System.String,System.Int32,System.String)">
+            <summary>
+            Create DB Connection
+            </summary>
+            <param name="user"></param>
+            <param name="password"></param>
+            <param name="host"></param>
+            <param name="port"></param>
+            <param name="database"></param>
+            <param name="table"></param>
+        </member>
+        <member name="T:ZeroSys.Database.MySQLManager">
+            <summary>
+            MySQL DB Manager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Database.MySQLManager.#ctor">
+            <summary>
+            Initialize MySQLManager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Database.MySQLManager.#ctor(System.String,System.Int32,System.String,System.String,System.String)">
+            <summary>
+            Initialize MySQLManager
+            </summary>
+            <param name="server"></param>
+            <param name="port"></param>
+            <param name="user"></param>
+            <param name="password"></param>
+            <param name="database"></param>
+        </member>
+        <member name="M:ZeroSys.Database.MySQLManager.CreateConnection(System.String,System.Int32,System.String,System.String,System.String)">
+            <summary>
+            Create MySql Server Connection
+            </summary>
+            <param name="server"></param>
+            <param name="port"></param>
+            <param name="user"></param>
+            <param name="password"></param>
+            <param name="database"></param>
+        </member>
+        <member name="M:ZeroSys.Database.MySQLManager.CloseConnection">
+            <summary>
+            Close MySql Server Connection
+            </summary>
+        </member>
+        <member name="T:ZeroSys.IO.FileDialogManager">
+            <summary>
+            FileDialogManager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.IO.FileDialogManager.#ctor">
+            <summary>
+            Initialize FileDialogManager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.IO.FileDialogManager.CreateFileDialog(System.String,System.String)">
+            <summary>
+            Create FileDialog Window
+            </summary>
+            <param name="searchPath"></param>
+            <param name="fileEndingFilter"></param>
+        </member>
+        <member name="M:ZeroSys.IO.FileDialogManager.CreatFileDialogAll(System.String)">
+            <summary>
+            Create FileDialog which showes all Files
+            </summary>
+            <param name="searchPath"></param>
+        </member>
+        <member name="M:ZeroSys.IO.FileDialogManager.CreateFileDialogStorage(System.String)">
+            <summary>
+            Create FileDialog which showes (Json, Resx, Xml) Files 
+            </summary>
+            <param name="searchPath"></param>
+        </member>
+        <member name="M:ZeroSys.IO.FileDialogManager.CreateFileDialogText(System.String)">
+            <summary>
+            Create FileDialog which showes (Doc, DocX, PDF, Text) Files
+            </summary>
+            <param name="searchPath"></param>
+        </member>
+        <member name="M:ZeroSys.IO.FileDialogManager.CreateFileDialogImages(System.String)">
+            <summary>
+            Create FileDialog which showes (PNG, JPG, Gif, SVG, Bitmap, Icon) Files
+            </summary>
+            <param name="searchPath"></param>
+        </member>
+        <member name="M:ZeroSys.IO.FileDialogManager.CreateFileDialogVideos(System.String)">
+            <summary>
+            Create FileDialog which showes (MP4) Files
+            </summary>
+            <param name="searchPath"></param>
+        </member>
+        <member name="M:ZeroSys.IO.FileDialogManager.CreateFileDialogAudio(System.String)">
+            <summary>
+            Create FileDialog which showes (MP3) Files
+            </summary>
+            <param name="searchPath"></param>
+        </member>
+        <member name="M:ZeroSys.IO.FileDialogManager.CreateFileDialogZip(System.String)">
+            <summary>
+            Create FileDialog which showes (Zip, 7Zip, Rar, WinRar) Files
+            </summary>
+            <param name="searchPath"></param>
+        </member>
+        <member name="M:ZeroSys.IO.FileDialogManager.CreateFileDialogFilter(System.String[],System.String[])">
+            <summary>
+            Create Multiple File Filter
+            </summary>
+            <param name="fileName"></param>
+            <param name="fileEnding"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.IO.FileDialogManager.CreateFileDialogFilter(System.String,System.String)">
+            <summary>
+            Create single File Filter
+            </summary>
+            <param name="fileName"></param>
+            <param name="fileEnding"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ZeroSys.IO.FileManager">
+            <summary>
+            FileManager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.IO.FileManager.ReadFile(System.String)">
+            <summary>
+            Read Content from File
+            </summary>
+            <param name="path"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.IO.FileManager.ReadFileAndSplitLine(System.String)">
+            <summary>
+            Read Content from File and Split by new Line
+            </summary>
+            <param name="path"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ZeroSys.IO.FolderManager">
+            <summary>
+            FolderManager
+            </summary>
+        </member>
+        <member name="T:ZeroSys.IO.SaveInFileManager">
+            <summary>
+            SaveInFileManager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.IO.SaveInFileManager.SaveToResxFile(System.String,System.String[],System.String[])">
+            <summary>
+            Save Content to Resx File
+            </summary>
+            <param name="filePath"></param>
+            <param name="key"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:ZeroSys.IO.SaveInFileManager.AddToResxFile(System.String,System.String[],System.String[])">
+            <summary>
+            Add Content to Resx File
+            </summary>
+            <param name="filePath"></param>
+            <param name="key"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:ZeroSys.IO.SaveInFileManager.RemoveFromResxFile(System.String,System.String[],System.String[])">
+            <summary>
+            Remove Content from Resx File
+            </summary>
+            <param name="filePath"></param>
+            <param name="key"></param>
+            <param name="value"></param>
+        </member>
+        <member name="T:ZeroSys.Manager.AlertManager">
+            <summary>
+            AlertManager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.AlertManager.CreateAlertMessageBox(System.String)">
+            <summary>
+            Create Alert Message Box
+            </summary>
+            <param name="content"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.AlertManager.CreateAlertMessageBox(System.String,System.String)">
+            <summary>
+            Create Alert Message Box with Title
+            </summary>
+            <param name="content"></param>
+            <param name="title"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.AlertManager.CreateOptionMessageBox(System.String,System.String,System.Windows.MessageBoxButton)">
+            <summary>
+            Create Alert Message Box with Title and optional Button/s
+            </summary>
+            <param name="content"></param>
+            <param name="title"></param>
+            <param name="button"></param>
+        </member>
+        <member name="T:ZeroSys.Manager.ClipBoardManager">
+            <summary>
+            ClipBoardManager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.ClipBoardManager.AddToClipBoard(System.String)">
+            <summary>
+            Add Text to Clip Board
+            </summary>
+            <param name="content"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.ClipBoardManager.GetTextFromClipBoard">
+            <summary>
+            Cet Latest Text from Clip Board
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.ClipBoardManager.ClearClipBoard">
+            <summary>
+            Cleat the Clip Board
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.ClipBoardManager.AddToZeroClipBoard(System.String)">
+            <summary>
+            Add Text to Zero Clip Board
+            </summary>
+            <param name="text"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.ClipBoardManager.AddToZeroClipBoardFromClipBoard">
+            <summary>
+            Add Text to Zero Clip Board from Clip Board
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.ClipBoardManager.ExistInZeroClipBoard(System.String)">
+            <summary>
+            Check if Text exists in Zero Clip Board
+            </summary>
+            <param name="text"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.ClipBoardManager.RemoveFromZeroClipboard(System.String)">
+            <summary>
+            Remove Text from Zero Clip Board
+            </summary>
+            <param name="text"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.ClipBoardManager.ClearZeroClipBoard">
+            <summary>
+            Clear the Zero Clip Board
+            </summary>
+        </member>
+        <member name="T:ZeroSys.Manager.ColorManager">
+            <summary>
+            ColorManager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.ColorManager.ShadowEffect(System.Byte,System.Byte,System.Byte,System.Byte,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Create Shadow Effect
+            </summary>
+            <param name="r"></param>
+            <param name="g"></param>
+            <param name="b"></param>
+            <param name="a"></param>
+            <param name="direction"></param>
+            <param name="depth"></param>
+            <param name="opacity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.ColorManager.ShadowEffect(System.Windows.Media.Color,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Create Shadwo Effect
+            </summary>
+            <param name="color"></param>
+            <param name="direction"></param>
+            <param name="depth"></param>
+            <param name="opacity"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ZeroSys.Manager.DesktopShortcutManager">
+            <summary>
+            DesktopShortcutManager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.DesktopShortcutManager.CreateExplorerQuickAccess(System.String,System.String)">
+            <summary>
+            Create a Folder with an Icon (.ini) from DLL
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.DesktopShortcutManager.AddFolderToQuickAccess(System.String)">
+            <summary>
+            Add File/Folder to QuickAccess
+            </summary>
+            <param name="pathToFolder"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.DesktopShortcutManager.CreateDesktopShortcut(System.String)">
+            <summary>
+            Create Programm Desktop Shortcut
+            </summary>
+        </member>
+        <member name="T:ZeroSys.Manager.HashManager">
+            <summary>
+            Hash Passwords or other Stuff
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.HashManager.CreateHash(System.String)">
+            <summary>
+            Create a new Secure HASH key Value
+            </summary>
+            <param name="toHashValue">The Value you want to Secure</param>
+            <returns>The entered String is now Secure Hashed</returns>
+        </member>
+        <member name="T:ZeroSys.Manager.Images.GraphicsManager">
+            <summary>
+            GraphicsManager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.GraphicsManager.#ctor(System.Int32,System.Int32)">
+            <summary>
+            Create new empty Graphics
+            </summary>
+            <param name="imgWidth"></param>
+            <param name="imgHeight"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.GraphicsManager.#ctor(System.Drawing.Graphics)">
+            <summary>
+            Load Own Graphics maby from File?
+            </summary>
+            <param name="graphics"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.GraphicsManager.CreatePen(System.Drawing.Color,System.Int32)">
+            <summary>
+            Create drawing Pen
+            </summary>
+            <param name="color"></param>
+            <param name="thicknes"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.GraphicsManager.DrawRectangle(System.Drawing.Pen,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Draw a Rectangle
+            </summary>
+            <param name="pen"></param>
+            <param name="startX"></param>
+            <param name="startY"></param>
+            <param name="stopX"></param>
+            <param name="stopY"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.GraphicsManager.DrawRectangle(System.Drawing.Color,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Draw a Rectangle Filled out
+            </summary>
+            <param name="color"></param>
+            <param name="startX"></param>
+            <param name="startY"></param>
+            <param name="stopX"></param>
+            <param name="stopY"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.GraphicsManager.DrawCircle(System.Drawing.Pen,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Draw a Circle
+            </summary>
+            <param name="pen"></param>
+            <param name="startX"></param>
+            <param name="startY"></param>
+            <param name="stopX"></param>
+            <param name="stopY"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.GraphicsManager.DrawCircle(System.Drawing.Color,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Draw a Circle Filled out
+            </summary>
+            <param name="color"></param>
+            <param name="startX"></param>
+            <param name="startY"></param>
+            <param name="stopX"></param>
+            <param name="stopY"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.GraphicsManager.DrawPie(System.Drawing.Pen,System.Int32,System.Int32,System.Int32,System.Int32,System.Single,System.Single)">
+            <summary>
+            Draw a Pie
+            </summary>
+            <param name="pen"></param>
+            <param name="startX"></param>
+            <param name="startY"></param>
+            <param name="stopX"></param>
+            <param name="stopY"></param>
+            <param name="start"></param>
+            <param name="stop"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.GraphicsManager.DrawPie(System.Drawing.Color,System.Int32,System.Int32,System.Int32,System.Int32,System.Single,System.Single)">
+            <summary>
+            Draw a Pie Filled out
+            </summary>
+            <param name="color"></param>
+            <param name="startX"></param>
+            <param name="startY"></param>
+            <param name="stopX"></param>
+            <param name="stopY"></param>
+            <param name="start"></param>
+            <param name="stop"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.GraphicsManager.DrawPolygon(System.Drawing.Pen,System.Drawing.PointF[])">
+            <summary>
+            Draw a Polygon
+            </summary>
+            <param name="pen"></param>
+            <param name="points"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.GraphicsManager.DrawPolygon(System.Drawing.Color,System.Drawing.PointF[])">
+            <summary>
+            Draw a Polygon Filled out
+            </summary>
+            <param name="color"></param>
+            <param name="points"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.GraphicsManager.CreatePoint(System.Int32,System.Int32)">
+            <summary>
+            Create Point/Marker
+            </summary>
+            <param name="x"></param>
+            <param name="y"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.GraphicsManager.DrawLine(System.Drawing.Pen,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Draw a Line (not take a line)
+            </summary>
+            <param name="pen"></param>
+            <param name="startX"></param>
+            <param name="startY"></param>
+            <param name="stopX"></param>
+            <param name="stopY"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.GraphicsManager.DrawText(System.String,System.Drawing.Color,System.String,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Draw a Text
+            </summary>
+            <param name="content"></param>
+            <param name="textColor"></param>
+            <param name="fontName"></param>
+            <param name="fontSize"></param>
+            <param name="startX"></param>
+            <param name="startY"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.GraphicsManager.DrawText(System.String,System.Drawing.Color,System.Drawing.Font,System.Int32,System.Int32)">
+            <summary>
+            Draw a Text
+            </summary>
+            <param name="content"></param>
+            <param name="textColor"></param>
+            <param name="font"></param>
+            <param name="startX"></param>
+            <param name="startY"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.GraphicsManager.Build">
+            <summary>
+            Return your Created Graphics
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.GraphicsManager.Save(System.String)">
+            <summary>
+            Save as Image
+            </summary>
+            <param name="savePath"></param>
+        </member>
+        <member name="T:ZeroSys.Manager.Images.SVGManager">
+            <summary>
+            SVGManager
+            </summary>
+        </member>
+        <member name="T:ZeroSys.Manager.Images.SVGManager.SVGReader">
+            <summary>
+            SVGReader
+            </summary>
+        </member>
+        <member name="T:ZeroSys.Manager.Images.SVGManager.SVGWriter">
+            <summary>
+            SVGWriter
+            </summary>
+        </member>
+        <member name="T:ZeroSys.Manager.Images.ImageEffectManager">
+            <summary>
+            ImageBlurrManager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.CreateBlurredImage(System.Drawing.Bitmap,System.Int32)">
+            <summary>
+            Create Image Blurrer
+            </summary>
+            <param name="bitmap"></param>
+            <param name="blurrer"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.CreateBlurredImage(System.Drawing.Image,System.Int32)">
+            <summary>
+            Create Image Blurrer
+            </summary>
+            <param name="image"></param>
+            <param name="blurrer"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.Blur(System.Drawing.Bitmap,System.Int32)">
+            <summary>
+            Create Image Blurrer
+            </summary>
+            <param name="image"></param>
+            <param name="blurSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.Blur(System.Drawing.Bitmap,System.Drawing.Rectangle,System.Int32)">
+            <summary>
+            Create Image Blurrer
+            </summary>
+            <param name="image">The image.</param>
+            <param name="rectangle">The rectangle.</param>
+            <param name="blurSize">The blur size.</param>
+            <returns>A Bitmap.</returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.ResizeImage(System.Drawing.Image,System.Drawing.Size)">
+            <summary>
+            Resize an Image
+            </summary>
+            <param name="imgToResize"></param>
+            <param name="size"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.ResizeImage(System.Drawing.Image,System.Int32,System.Boolean)">
+            <summary>
+            Resize an Image dynamic
+            </summary>
+            <param name="imgToResize"></param>
+            <param name="stepper"></param>
+            <param name="taller"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.ResizeImage(System.Drawing.Bitmap,System.Drawing.Size)">
+            <summary>
+            Resize an Image
+            </summary>
+            <param name="bitmap"></param>
+            <param name="size"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.ResizeImage(System.Drawing.Bitmap,System.Int32,System.Boolean)">
+            <summary>
+            Resize an Image dynamic
+            </summary>
+            <param name="bitmap"></param>
+            <param name="stepper"></param>
+            <param name="taller"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.CreateGrayScaleImage(System.Drawing.Bitmap)">
+            <summary>
+            Add gray Overlay over Image
+            </summary>
+            <param name="bitmap"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.CreateGrayScaleImage(System.Drawing.Image)">
+            <summary>
+            Add gray Overlay over Image
+            </summary>
+            <param name="image"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.CreateWatermarkedImage(System.Drawing.Bitmap,System.String,System.Drawing.Color,System.Drawing.Font)">
+            <summary>
+            Create Image Watermark
+            </summary>
+            <param name="bitmap"></param>
+            <param name="watermarkText"></param>
+            <param name="color"></param>
+            <param name="font"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.CreateWatermarkedImage(System.Drawing.Image,System.String,System.Drawing.Color,System.Drawing.Font)">
+            <summary>
+            Create Image Watermark
+            </summary>
+            <param name="image"></param>
+            <param name="watermarkText"></param>
+            <param name="color"></param>
+            <param name="font"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.CreateNegativeImage(System.Drawing.Bitmap)">
+            <summary>
+            Create negativ Image
+            </summary>
+            <param name="bitmap"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.CreateNegativeImage(System.Drawing.Image)">
+            <summary>
+            Create negativ Image
+            </summary>
+            <param name="image"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.CreateTransparentImage(System.Drawing.Image)">
+            <summary>
+            Change the Visibility of the Image
+            </summary>
+            <param name="sourceImage"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.CreateTransparentImage(System.Drawing.Bitmap)">
+            <summary>
+            Change the Visibility of the Image
+            </summary>
+            <param name="sourceImage"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.CreateTransparentColorOverImage(System.Drawing.Image,System.Int32,System.Drawing.Color)">
+            <summary>
+            Create a Color ofer a Image
+            For Example Color = red | alpha = 128
+            </summary>
+            <param name="image"></param>
+            <param name="alpha"></param>
+            <param name="color"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.CreateTransparentColorOverImage(System.Drawing.Bitmap,System.Int32,System.Drawing.Color)">
+            <summary>
+            Create a Color ofer a Image
+            For Example Color = red | alpha = 128
+            </summary>
+            <param name="bitmap"></param>
+            <param name="alpha"></param>
+            <param name="color"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.CreateBrownFilterImage(System.Drawing.Image)">
+            <summary>
+            Create Image with brown Effect
+            </summary>
+            <param name="sourceImage"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.CreateBrownFilterImage(System.Drawing.Bitmap)">
+            <summary>
+            Create Image with brown Effect
+            </summary>
+            <param name="sourceImage"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.CreateImageCollection(System.Drawing.Image[])">
+            <summary>
+            Create Image Collection ( Combind multiple Images in one )
+            </summary>
+            <param name="images"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.CreateImageCollection(System.Drawing.Bitmap[])">
+            <summary>
+            Create Image Collection ( Combind multiple Images in one )
+            </summary>
+            <param name="images"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.LightningImage(System.Drawing.Image,System.Int32)">
+            <summary>
+            Create a lightning Effect on your Image
+            The Image gehts lighter
+            </summary>
+            <param name="image"></param>
+            <param name="alpha"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.LightningImage(System.Drawing.Bitmap,System.Int32)">
+            <summary>
+            Create a lightning Effect on your Image
+            The Image gehts lighter
+            </summary>
+            <param name="bitmap"></param>
+            <param name="alpha"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.DarkerImage(System.Drawing.Bitmap,System.Int32)">
+            <summary>
+            Create a darker Image Effect
+            The Image gets darker
+            </summary>
+            <param name="bitmap"></param>
+            <param name="alpha"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.DarkerImage(System.Drawing.Image,System.Int32)">
+            <summary>
+            Create a darker Image Effect
+            The Image gets darker
+            </summary>
+            <param name="image"></param>
+            <param name="alpha"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.CreateOverflowImage(System.Drawing.Image)">
+            <summary>
+            The Image creates a Border Effect with itself
+            </summary>
+            <param name="image"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.CreateOverflowImage(System.Drawing.Bitmap)">
+            <summary>
+            The Image creates a Border Effect with itself
+            </summary>
+            <param name="bitmap"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.CreatePixelatedImage(System.Drawing.Bitmap,System.Int32)">
+            <summary>
+            Create image with a Pixel Effect
+            </summary>
+            <param name="bitmap"></param>
+            <param name="pixelateSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.CreatePixelatedImage(System.Drawing.Image,System.Int32)">
+            <summary>
+            Create image with a Pixel Effect
+            </summary>
+            <param name="image"></param>
+            <param name="pixelateSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.CreatePixelatedImage(System.Drawing.Bitmap,System.Drawing.Rectangle,System.Int32)">
+            <summary>
+            Create image with a Pixel Effect
+            </summary>
+            <param name="bitmap"></param>
+            <param name="rectangle"></param>
+            <param name="pixelateSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.CreatePixelatedImage(System.Drawing.Image,System.Drawing.Rectangle,System.Int32)">
+            <summary>
+            Create image with a Pixel Effect
+            </summary>
+            <param name="image"></param>
+            <param name="rectangle"></param>
+            <param name="pixelateSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.ChangeImageColorPixelProzentual(System.Drawing.Image,System.Int32,System.Int32,System.Int32,System.Int32,System.Single)">
+            <summary>
+            Change all Pixels prozentual by Color Value
+            </summary>
+            <param name="r"></param>
+            <param name="g"></param>
+            <param name="b"></param>
+            <param name="a"></param>
+            <param name="treeTranslation"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.ChangeImageColorPixelProzentual(System.Drawing.Bitmap,System.Int32,System.Int32,System.Int32,System.Int32,System.Single)">
+            <summary>
+            Change all Pixels prozentual by Color Value
+            </summary>
+            <param name="r"></param>
+            <param name="g"></param>
+            <param name="b"></param>
+            <param name="a"></param>
+            <param name="treeTranslation"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.GetImageColorMatrix(System.Drawing.Bitmap)">
+            <summary>
+            Get Color Matrix from Image
+            </summary>
+            <param name="bitmap"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.GetImageColorMatrix(System.Drawing.Image)">
+            <summary>
+            Get Color Matrix from Image
+            </summary>
+            <param name="image"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.CreateRoundedCornerImage(System.Drawing.Image,System.Int32,System.Drawing.Color)">
+            <summary>
+            Create Image with rounded Corners
+            </summary>
+            <param name="image"></param>
+            <param name="CornerRadius"></param>
+            <param name="backgroundColor"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.CreateRoundedCornerImage(System.Drawing.Bitmap,System.Int32,System.Drawing.Color)">
+            <summary>
+            Create Image with rounded Corners
+            </summary>
+            <param name="bitmap"></param>
+            <param name="CornerRadius"></param>
+            <param name="backgroundColor"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.GetImageMetaData(System.Drawing.Image)">
+            <summary>
+            Get the Meta Data from the Image
+            </summary>
+            <param name="image"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.GetArgbCopy(System.Drawing.Image)">
+            <summary>
+            Create Argb Copy of Image
+            </summary>
+            <param name="sourceImage"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ImageEffectManager.ApplyColorMatrix(System.Drawing.Image,System.Drawing.Imaging.ColorMatrix)">
+            <summary>
+            Apply Color Matrix to Image
+            </summary>
+            <param name="sourceImage"></param>
+            <param name="colorMatrix"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ZeroSys.Manager.Images.WatermarkManager">
+            <summary>
+            WatermarkManager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.WatermarkManager.CreateWatermark(System.String,System.String)">
+            <summary>
+            Create Image Watermark
+            </summary>
+            <param name="imagePath"></param>
+            <param name="watermarkText"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.WatermarkManager.CreateWatermark(System.String,System.String,System.Drawing.Color)">
+            <summary>
+            Create Image Watermark
+            </summary>
+            <param name="imagePath"></param>
+            <param name="watermarkText"></param>
+            <param name="color"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.WatermarkManager.CreateWatermark(System.String,System.String,System.Drawing.Color,System.Drawing.Font)">
+            <summary>
+            Create Image Watermark
+            </summary>
+            <param name="imagePath"></param>
+            <param name="watermarkText"></param>
+            <param name="color"></param>
+            <param name="font"></param>
+        </member>
+        <member name="T:ZeroSys.Manager.Images.ChangeColor">
+            <summary>
+            Change Color of Image
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ChangeColor.changeImageColor(System.Windows.Controls.Image,System.Drawing.Color,System.Drawing.Color)">
+            <summary>
+            Change The Color of an Image to the defined Configs
+            </summary>
+            <param name="image"></param>
+            <param name="fromColor"></param>
+            <param name="toColor"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ChangeColor.changecolor(System.Drawing.Image,System.Drawing.Color,System.Drawing.Color)">
+            <summary>
+            Change Image Color to selected User Main Color
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ChangeColor.ConvertWpfImageToImage(System.Windows.Controls.Image)">
+            <summary>
+            system.Controls.Image => system.Drawing.Image
+            </summary>
+            <param name="image"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ChangeColor.ConvertToImageSource(System.Drawing.Bitmap)">
+            <summary>
+            Get Image Source
+            </summary>
+            <param name="bitmap"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Images.ChangeColor.changecolor(System.Drawing.Color,System.Drawing.Image)">
+            <summary>
+            Change Image Color to given Color
+            </summary>
+            <param name="color"></param>
+            <param name="image"></param>
+        </member>
+        <member name="T:ZeroSys.Manager.RegistryManager">
+            <summary>
+            RegistryManager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.RegistryManager.CreateURLScheme(System.String,System.Reflection.Assembly)">
+            <summary>
+            Create Registry Entry for Actions comming from the Webside
+            Example: Download App
+            
+            The WebCall is like http/https with the set Scheme
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.RegistryManager.CreateAutostart(System.String,System.Reflection.Assembly)">
+            <summary>
+            Create Autostart Registry Entry
+            </summary>
+            <param name="appName"></param>
+            <param name="assembly"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.RegistryManager.RemoveAutostart(System.String)">
+            <summary>
+            Remove Autostart from Registry
+            </summary>
+            <param name="appName"></param>
+            <param name="assembly"></param>
+        </member>
+        <member name="T:ZeroSys.Manager.Registry.Autostart">
+            <summary>
+            Autostart Manager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.Registry.Autostart.Create">
+            <summary>
+            Create Autostart Entry
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.Registry.Autostart.Delete">
+            <summary>
+            Delete Autostart Entry
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.Registry.Autostart.Create(System.Reflection.Assembly)">
+            <summary>
+            Create Autostart Entry
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.Registry.Autostart.Delete(System.Reflection.Assembly)">
+            <summary>
+            Delete Autostart Entry
+            </summary>
+        </member>
+        <member name="T:ZeroSys.Manager.Registry.ExplorerQuickAccess">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:ZeroSys.Manager.Registry.RegistryManager">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.Registry.RegistryManager.CreateURLScheme">
+            <summary>
+            Create Registry Entry for Actions comming from the Webside
+            Example: Download App
+            
+            The WebCall is like http/https with the set Scheme
+            </summary>
+        </member>
+        <member name="T:ZeroSys.Manager.RunExeCode.AssemblyObject">
+            <summary>
+            AssemblyObject
+            </summary>
+        </member>
+        <member name="P:ZeroSys.Manager.RunExeCode.AssemblyObject.Name">
+            <summary>
+            Assembly Name
+            </summary>
+        </member>
+        <member name="P:ZeroSys.Manager.RunExeCode.AssemblyObject.Description">
+            <summary>
+            Assembly Description
+            </summary>
+        </member>
+        <member name="P:ZeroSys.Manager.RunExeCode.AssemblyObject.Company">
+            <summary>
+            Assembly Company
+            </summary>
+        </member>
+        <member name="P:ZeroSys.Manager.RunExeCode.AssemblyObject.Copyright">
+            <summary>
+            Assembly CopyRight
+            </summary>
+        </member>
+        <member name="P:ZeroSys.Manager.RunExeCode.AssemblyObject.Trademark">
+            <summary>
+            Assembly Trademark
+            </summary>
+        </member>
+        <member name="P:ZeroSys.Manager.RunExeCode.AssemblyObject.Type">
+            <summary>
+            Assembly Type
+            </summary>
+        </member>
+        <member name="P:ZeroSys.Manager.RunExeCode.AssemblyObject.Loaded">
+            <summary>
+            Assembly Loaded State
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.RunExeCode.AssemblyObject.#ctor(System.String,System.String,System.String,System.String,System.String,System.Type,System.Boolean)">
+            <summary>
+            Initialize new Assembly Object
+            </summary>
+            <param name="name"></param>
+            <param name="description"></param>
+            <param name="company"></param>
+            <param name="copyright"></param>
+            <param name="trademark"></param>
+            <param name="type"></param>
+            <param name="loaded"></param>
+        </member>
+        <member name="T:ZeroSys.Manager.RunExeCode.ExecuteManager">
+            <summary>
+            DLLManager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.RunExeCode.ExecuteManager.OpenExeInNewWindow(System.String)">
+            <summary>
+            Open Exe File in new Window
+            </summary>
+            <param name="pathToExe"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.RunExeCode.ExecuteManager.OpenExeInCurrentApllication(System.String)">
+            <summary>
+            Open Exe in Current Window
+            </summary>
+            <param name="pathToExe"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.RunExeCode.ExecuteManager.SetupAssembly(System.Reflection.Assembly)">
+            <summary>
+            Setup Assembly Information
+            </summary>
+            <param name="assembly"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.RunExeCode.ExecuteManager.SetupAssembly(System.Reflection.Assembly,System.String)">
+            <summary>
+            Setup Assembly Information
+            </summary>
+            <param name="assembly"></param>
+            <param name="startWindowName"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ZeroSys.Manager.Web.DownloadManager">
+            <summary>
+            DownloadManager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.Web.DownloadManager.DownloadFile(System.String,System.String)">
+            <summary>
+            Start downloading Cotnent from Web
+            </summary>
+            <param name="remoteFilePath"></param>
+            <param name="localFilePath"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.Web.DownloadManager.DownloadFileAndUnzip(System.String,System.String)">
+            <summary>
+            Start downloading Cotnent from Web and unzip Content after Finish
+            </summary>
+            <param name="remoteFilePath"></param>
+            <param name="localFilePath"></param>
+        </member>
+        <member name="T:ZeroSys.Manager.Web.WebConnectionManager">
+            <summary>
+            WebConnectionManager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.Web.WebConnectionManager.CheckConnection">
+            <summary>
+            Check if Client has Web Connection
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:ZeroSys.Manager.Web.WebRequestManager">
+            <summary>
+            WebRequestManager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.Web.WebRequestManager.Post(System.String,System.Collections.Generic.Dictionary{System.String,System.String})">
+            <summary>
+            Send Post Request to Webside
+            </summary>
+            <param name="url"></param>
+            <param name="content"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.Web.WebRequestManager.GET(System.String)">
+            <summary>
+            Send post Request to Webside
+            </summary>
+            <param name="url"></param>
+        </member>
+        <member name="T:ZeroSys.Manager.Web.IPTracker">
+            <summary>
+            Track User IP Location
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.Web.IPTracker.TrackIP">
+            <summary>
+            Track the IP of the Client/User
+            </summary>
+        </member>
+        <member name="T:ZeroSys.Manager.Web.IPTracker.IpInfo">
+            <summary>
+            IpInfo Model
+            </summary>
+        </member>
+        <member name="T:ZeroSys.Manager.ExeptionManager">
+            <summary>
+            ExeptionManager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.ExeptionManager.CreateCustomExeption(System.String)">
+            <summary>
+            Create new Custom Exeption
+            </summary>
+            <param name="exeption"></param>
+        </member>
+        <member name="T:ZeroSys.Manager.IniFileManager">
+            <summary>
+            IniFileManager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.IniFileManager.#ctor(System.String)">
+            <summary>
+            Initialize IniFileManager
+            </summary>
+            <param name="filePath"></param>
+        </member>
+        <member name="T:ZeroSys.Manager.MQTTManager">
+            <summary>
+            MQTTManager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.MQTTManager.#ctor">
+            <summary>
+            Initialize MQTTManager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.MQTTManager.#ctor(System.String)">
+            <summary>
+            Initialize MQTTManager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.MQTTManager.CreateConnection(System.String)">
+            <summary>
+            Create Connection to MQTT Server
+            </summary>
+            <param name="address"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.MQTTManager.ClientJoinChannel(System.String,System.String,System.String)">
+            <summary>
+            The Client will join the Channel
+            </summary>
+            <param name="channelID"></param>
+            <param name="username"></param>
+            <param name="password"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.MQTTManager.ClientLeaveChannel">
+            <summary>
+            The Client will disconnect
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.MQTTManager.ClientSendMessage(System.String,System.String)">
+            <summary>
+            Client send Message to Channel
+            </summary>
+            <param name="channelID"></param>
+            <param name="content"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.MQTTManager.RandomClientID">
+            <summary>
+            Create random Client ID
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:ZeroSys.Manager.ProcessManager">
+            <summary>
+            ProcessManager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.ProcessManager.StartNewProcess(System.String,System.Boolean)">
+            <summary>
+            Start new Application Process
+            </summary>
+            <param name="processPath"></param>
+            <param name="showNewWindow"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.ProcessManager.StartNewConsoleCommand(System.String,System.Boolean)">
+            <summary>
+            Run CMD and enter Command to execute
+            </summary>
+            <param name="command"></param>
+        </member>
+        <member name="T:ZeroSys.Manager.RandomManager">
+            <summary>
+            RandomManager
+            </summary>
+        </member>
+        <member name="F:ZeroSys.Manager.RandomManager.intArray">
+            <summary>
+            Integer Array
+            </summary>
+        </member>
+        <member name="F:ZeroSys.Manager.RandomManager.charArrayUpper">
+            <summary>
+            Upper Char Array
+            </summary>
+        </member>
+        <member name="F:ZeroSys.Manager.RandomManager.charArrayLower">
+            <summary>
+            Lower Char Array
+            </summary>
+        </member>
+        <member name="F:ZeroSys.Manager.RandomManager.symbols">
+            <summary>
+            Symbole Array
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.RandomManager.GetRandomUpperChar">
+            <summary>
+            Get random Upper Char
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.RandomManager.GetRandomLowerChar">
+            <summary>
+            Get random Lower Char
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.RandomManager.GetRandomString(System.Int32)">
+            <summary>
+            Get random String
+            </summary>
+            <param name="length"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.RandomManager.GetRandomInt(System.Int32,System.Int32)">
+            <summary>
+            Get random Integer
+            </summary>
+            <param name="min"></param>
+            <param name="max"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ZeroSys.Manager.ScreenshotManager">
+            <summary>
+            ScreenshotManager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.ScreenshotManager.CaptureScreenSaveRandomFileName(System.String)">
+            <summary>
+            Create Screenshot and save it with Random Name
+            </summary>
+            <param name="savePath"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.ScreenshotManager.CaptureScreen(System.String,System.String)">
+            <summary>
+            Create Screenshot
+            </summary>
+            <param name="savePath"></param>
+            <param name="fileName"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.ScreenshotManager.CaptureScreen">
+            <summary>
+            Create Screenshot
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.ScreenshotManager.saveFile(System.String)">
+            <summary>
+            Save File with random generated File Name in selected Folder Path
+            </summary>
+            <param name="savePath"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Security.AuthentificationManager.#ctor(System.String,System.String,System.String,System.Int32,System.String,System.String)">
+            <summary>
+            Class Initialisation
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.Security.AuthentificationManager.CreateUser(System.String,System.String,System.String)">
+            <summary>
+            Create new User
+            </summary>
+            <param name="userName">User Display Name</param>
+            <param name="password">User Password (Unsecured) it will be hashed</param>
+            <param name="confirmPassword">The Confirm Password</param>
+        </member>
+        <member name="M:ZeroSys.Manager.Security.AuthentificationManager.CreateUser(System.String,System.String,System.String,System.Collections.Generic.List{System.String})">
+            <summary>
+            Create new User
+            </summary>
+            <param name="userName">User Display Name</param>
+            <param name="password">User Password (Unsecured) it will be hashed</param>
+            <param name="confirmPassword">The Confirm Password</param>
+            <param name="permissions">User Permissions</param>
+        </member>
+        <member name="M:ZeroSys.Manager.Security.AuthentificationManager.CreateUser(ZeroSys.Model.User)">
+            <summary>
+            Create new User by Class
+            </summary>
+            <param name="user">@ZeroAuthentification.Model</param>
+        </member>
+        <member name="M:ZeroSys.Manager.Security.AuthentificationManager.DeleteUser(ZeroSys.Model.User)">
+            <summary>
+            Delete User
+            </summary>
+            <param name="user"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.Security.AuthentificationManager.HasPermission(ZeroSys.Model.User,System.String)">
+            <summary>
+            Check if User has Permission
+            </summary>
+            <param name="user"></param>
+            <param name="permission"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Security.AuthentificationManager.HasPermissions(ZeroSys.Model.User,System.Collections.Generic.List{System.String})">
+            <summary>
+            Check if User has Permissions
+            </summary>
+            <param name="user"></param>
+            <param name="permissions"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Security.AuthentificationManager.AddPermission(ZeroSys.Model.User,System.String)">
+            <summary>
+            Add Permission to User
+            </summary>
+            <param name="user"></param>
+            <param name="permission"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.Security.AuthentificationManager.AddPermissions(ZeroSys.Model.User,System.Collections.Generic.List{System.String})">
+            <summary>
+            Add Permissions to User
+            </summary>
+            <param name="user"></param>
+            <param name="permissions"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.Security.AuthentificationManager.RemovePermission(ZeroSys.Model.User,System.String)">
+            <summary>
+            Remove Permission from User
+            </summary>
+            <param name="user"></param>
+            <param name="permission"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.Security.AuthentificationManager.RemovePermissions(ZeroSys.Model.User,System.Collections.Generic.List{System.String})">
+            <summary>
+            Remove Permissions from User
+            </summary>
+            <param name="user"></param>
+            <param name="permissions"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.Security.AuthentificationManager.IsLoggedInUser(ZeroSys.Model.User)">
+            <summary>
+            Is User logged in
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Security.AuthentificationManager.UserExists(ZeroSys.Model.User)">
+            <summary>
+            Does the User exists?
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Security.AuthentificationManager.Login(System.String,System.String)">
+            <summary>
+            Login User
+            </summary>
+            <param name="userName"></param>
+            <param name="password"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Security.AuthentificationManager.Login(ZeroSys.Model.User)">
+            <summary>
+            Login User
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Security.AuthentificationManager.Logout(ZeroSys.Model.User)">
+            <summary>
+            Logout User
+            </summary>
+            <param name="user"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.Security.AuthentificationManager.CreateDefaultUsers(System.Collections.Generic.List{ZeroSys.Model.User})">
+            <summary>
+            Create Default Users
+            </summary>
+            <param name="users"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.Security.AuthentificationManager.CreateHash(System.String)">
+            <summary>
+            Create Hash Value
+            </summary>
+            <param name="text">Password</param>
+            <returns>Secure Password</returns>
+        </member>
+        <member name="T:ZeroSys.Manager.Security.CertificateManager">
+            <summary>
+            Windows Certificate Manager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.Security.CertificateManager.GeneratePFX(System.String,System.String,System.String)">
+            <summary>
+            Generate Windows Password Certificate
+            </summary>
+            <param name="fileName"></param>
+            <param name="filePassword"></param>
+            <param name="ceartInfo">Organisation = O | GeneralName = CN | Domain = DC | Land = S</param>
+        </member>
+        <member name="M:ZeroSys.Manager.Security.CertificateManager.GenerateCertificate(System.String,System.String)">
+            <summary>
+            Generate Windows Certificate
+            </summary>
+            <param name="fileName"></param>
+            <param name="ceartInfo"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.Security.CertificateManager.InstallCertificate">
+            <summary>
+            Install the Certificate
+            </summary>
+        </member>
+        <member name="T:ZeroSys.Manager.Security.Credentials">
+            <summary>
+            Windows Credentials Manager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.Security.Credentials.CreateCredential(System.String,System.String,System.String,System.String)">
+            <summary>
+            Create a New Windows Credential
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.Security.Credentials.DeleteCredential(System.String)">
+            <summary>
+            Remove an existing Windows Credential
+            </summary>
+            <param name="credentialName"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.Security.Credentials.getCredentials(System.String)">
+            <summary>
+            Get an existing Windows Credential
+            </summary>
+            <param name="credentialName"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ZeroSys.Manager.Security.CryptoManager">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:ZeroSys.Manager.Security.HashManager">
+            <summary>
+            Hash Passwords or other Stuff
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.Security.HashManager.CreateHash(System.String)">
+            <summary>
+            Create a new Secure HASH key Value
+            </summary>
+            <param name="toHashValue">The Value you want to Secure</param>
+            <returns>The entered String is now Secure Hashed</returns>
+        </member>
+        <member name="T:ZeroSys.Manager.Security.LizensManager">
+            <summary>
+            Lizens Manager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.Security.ZeroCrypt.ZeroEncrypt(System.String)">
+            <summary>
+            Encrypt (Verschlüssel) your Content
+            </summary>
+            <param name="content"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Security.ZeroCrypt.ZeroDecryptFromFile(System.String)">
+            <summary>
+            Decrypt your Content from File
+            </summary>
+            <param name="filePath"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Security.ZeroCrypt.ZeroHash(System.String)">
+            <summary>
+            Create Hash Value
+            </summary>
+            <param name="content"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.Security.ZeroCrypt.CreateFile(System.String)">
+            <summary>
+            Create File with the Encrypted ContentKey
+            </summary>
+        </member>
+        <member name="T:ZeroSys.Manager.TimerManager">
+            <summary>
+            TimerManager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.TimerManager.StartTimer">
+            <summary>
+            Start Timer
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.TimerManager.StopTimer">
+            <summary>
+            Stop Timer
+            </summary>
+            <returns>Time needed to stop</returns>
+        </member>
+        <member name="T:ZeroSys.Manager.WindowsAdministrativeManager">
+            <summary>
+            WindowsAdministrativeManager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.WindowsAdministrativeManager.StartApplicationAsAdmin(System.Reflection.Assembly,System.Windows.Window)">
+            <summary>
+            Start Application with Administrativ Rights
+            </summary>
+            <param name="assembly"></param>
+            <param name="window"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.WindowsAdministrativeManager.ProgramIsStartedAsAdmin">
+            <summary>
+            Check if Programm is started with Administrativ Rights
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:ZeroSys.Manager.WPF.Charts.ColumnChartManager">
+            <summary>
+            ColumnChartManager
+            </summary>
+        </member>
+        <member name="T:ZeroSys.Manager.WPF.Charts.DoughnutChartManager">
+            <summary>
+            DoughnutChartManager
+            </summary>
+        </member>
+        <member name="T:ZeroSys.Manager.WPF.Charts.GaugeChartManager">
+            <summary>
+            GaugeChartManager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.Charts.GaugeChartManager.CreateNewGaugeChart(LiveCharts.Wpf.Gauge,System.Int32,System.Int32,System.Int32,System.Windows.Media.Brush,System.Boolean)">
+            <summary>
+            Create new Gauge Chart
+            </summary>
+            <param name="gauge">Gauge</param>
+            <param name="from">From</param>
+            <param name="to">To</param>
+            <param name="value">Value</param>
+            <param name="brush">Brush</param>
+            <param name="use360Degrese">true = circle | false = half circle</param>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.Charts.GaugeChartManager.CreateNewGaugeChart(LiveCharts.Wpf.Gauge,System.Int32,System.Int32,System.Int32,System.Windows.Media.LinearGradientBrush,System.Boolean)">
+            <summary>
+            Create new Gauge Chart
+            </summary>
+            <param name="gauge">Gauge</param>
+            <param name="from">From</param>
+            <param name="to">To</param>
+            <param name="value">Value</param>
+            <param name="brush">Brush</param>
+            <param name="use360Degrese">true = circle | false = half circle</param>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.Charts.GaugeChartManager.CreateNewGaugeChart(LiveCharts.Wpf.Gauge,System.Int32,System.Int32,System.Int32,System.Double,System.Windows.Media.Brush,System.Boolean)">
+            <summary>
+            Create new Gauge Chart
+            </summary>
+            <param name="gauge"></param>
+            <param name="from"></param>
+            <param name="to"></param>
+            <param name="value"></param>
+            <param name="innerRadius"></param>
+            <param name="brush"></param>
+            <param name="use360Degrese"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.Charts.GaugeChartManager.CreateNewGaugeChart(LiveCharts.Wpf.Gauge,System.Int32,System.Int32,System.Int32,System.Double,System.Windows.Media.LinearGradientBrush,System.Boolean)">
+            <summary>
+            Create new Gauge Chart
+            </summary>
+            <param name="gauge"></param>
+            <param name="from"></param>
+            <param name="to"></param>
+            <param name="value"></param>
+            <param name="innerRadius"></param>
+            <param name="brush"></param>
+            <param name="use360Degrese"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.Charts.GaugeChartManager.CreateLinearGradientBrush(System.Windows.Media.Color[])">
+            <summary>
+            Create Linear Gradient Brush
+            </summary>
+            <param name="color"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ZeroSys.Manager.WPF.Charts.LineChartManager">
+            <summary>
+            LineChartManager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.Charts.LineChartManager.CreateNewLineSerie(System.String,System.Double[])">
+            <summary>
+            Create new Line Chart Serie
+            </summary>
+            <param name="title"></param>
+            <param name="values"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.Charts.LineChartManager.CreateNewLineSerie(System.String,System.Double[],System.Windows.Media.Geometry,System.Int32)">
+            <summary>
+            Create new Line Chart Serie
+            </summary>
+            <param name="title"></param>
+            <param name="values"></param>
+            <param name="defaultGeometries">DefaultGeometries.[Circle]</param>
+            <param name="size"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.Charts.LineChartManager.AddLineSerieToLineChart(LiveCharts.Wpf.CartesianChart,LiveCharts.Wpf.LineSeries)">
+            <summary>
+            Add Line Series to Line Chart
+            </summary>
+            <param name="cartesianChart"></param>
+            <param name="lineSeries"></param>
+        </member>
+        <member name="T:ZeroSys.Manager.WPF.Charts.MapChartManager">
+            <summary>
+            MapChartManager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.Charts.MapChartManager.#ctor">
+            <summary>
+            Initialize MapChartManager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.Charts.MapChartManager.AddNewMapSeries(System.String,System.Int32)">
+            <summary>
+            Add new Map Marker
+            </summary>
+            <param name="countryShortcut"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.Charts.MapChartManager.AddMapSeriesToMapChart(LiveCharts.Wpf.GeoMap)">
+            <summary>
+            Add Map Marker to GeoMap
+            </summary>
+            <param name="geoMap"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.Charts.MapChartManager.AddMapSeriesToMapChart(LiveCharts.Wpf.GeoMap,System.String)">
+            <summary>
+            Add Map Marker to GeoMap and set Path for Map
+            </summary>
+            <param name="geoMap"></param>
+            <param name="mapPath"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.Charts.MapChartManager.ChangeMapChartColor(LiveCharts.Wpf.GeoMap,System.String,System.String)">
+            <summary>
+            Change Color of GeoMap
+            </summary>
+            <param name="geoMap"></param>
+            <param name="hexLandFill"></param>
+            <param name="hexBackground"></param>
+        </member>
+        <member name="T:ZeroSys.Manager.WPF.Charts.PieChartManager">
+            <summary>
+            PieChartManager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.Charts.PieChartManager.CreateNewPieSeries(System.String,System.Double)">
+            <summary>
+            Create new Pie Chart Serie
+            </summary>
+            <param name="title"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.Charts.PieChartManager.AddPieSerieToPieChart(LiveCharts.Wpf.PieChart,LiveCharts.Wpf.PieSeries)">
+            <summary>
+            Add PieSeries to PieChart
+            </summary>
+            <param name="pieChart"></param>
+            <param name="pieSeries"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.Charts.PieChartManager.AddChartClickManagement(LiveCharts.Wpf.PieChart)">
+            <summary>
+            Add PieChart click Management
+            </summary>
+            <param name="pieChart"></param>
+        </member>
+        <member name="P:ZeroSys.Manager.WPF.Charts.PieChartManager.PointLabel">
+            <summary>
+            Pointer for Marker
+            </summary>
+        </member>
+        <member name="T:ZeroSys.Manager.WPF.Charts.PointerChartManager">
+            <summary>
+            PointerChartManager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.Charts.PointerChartManager.CreateNewPointerSeries(System.Int32,System.Int32,System.Windows.Media.Brush)">
+            <summary>
+            Create new Pointer Serie
+            </summary>
+            <param name="from"></param>
+            <param name="to"></param>
+            <param name="brush"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.Charts.PointerChartManager.AddPointerSerieToPointerChart(LiveCharts.Wpf.AngularGauge,LiveCharts.Wpf.AngularSection)">
+            <summary>
+            Add Pointer Series to Pointer Chart
+            </summary>
+            <param name="angularGauge"></param>
+            <param name="angularSection"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.Charts.PointerChartManager.AddSettingsToPointerChart(LiveCharts.Wpf.AngularGauge,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Add Settings to Pointer Chart
+            </summary>
+            <param name="angularGauge"></param>
+            <param name="min"></param>
+            <param name="max"></param>
+            <param name="steps"></param>
+            <param name="showValue"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ZeroSys.Manager.WPF.Charts.RowChartManager">
+            <summary>
+            RowChartManager
+            </summary>
+        </member>
+        <member name="T:ZeroSys.Manager.WPF.Charts.HeatSeriesChartManager">
+            <summary>
+            SeriesChartManager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.Charts.HeatSeriesChartManager.#ctor">
+            <summary>
+            Initialize HeatSeriesChartManager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.Charts.HeatSeriesChartManager.CreateNewHeatSeries(System.String,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Create new Heat Seria
+            </summary>
+            <param name="title"></param>
+            <param name="row"></param>
+            <param name="col"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.Charts.HeatSeriesChartManager.AddDescriptionsToHeatSeries(System.String[],System.String[])">
+            <summary>
+            Bind Description to Chart
+            </summary>
+            <param name="leftValues"></param>
+            <param name="bottomValues"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.Charts.HeatSeriesChartManager.AddHeatSerieToHeatChart(LiveCharts.Wpf.CartesianChart,LiveCharts.Wpf.HeatSeries)">
+            <summary>
+            Set Created Values to Chart
+            </summary>
+            <param name="cartesianChart"></param>
+            <param name="heatSeries"></param>
+        </member>
+        <member name="T:ZeroSys.Manager.WPF.Charts.StackedAreaChartManager">
+            <summary>
+            StackedAreaChartManager
+            </summary>
+        </member>
+        <member name="T:ZeroSys.Manager.WPF.Charts.StackedChartManager">
+            <summary>
+            StackedChartManager
+            </summary>
+        </member>
+        <member name="T:ZeroSys.Manager.WPF.PushNotificationManager">
+            <summary>
+            PushNotificationManager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.PushNotificationManager.Notification(System.String,System.String,System.String)">
+            <summary>
+            Create an Windows Push Message with the default and given Values
+            </summary>
+            <param name="topTitle"></param>
+            <param name="messageTitle"></param>
+            <param name="message"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.PushNotificationManager.Notification(System.String,System.String,System.String,System.Int32)">
+            <summary>
+            Create an Windows Push Message with the default and given Values
+            </summary>
+            <param name="topTitle"></param>
+            <param name="messageTitle"></param>
+            <param name="message"></param>
+            <param name="showtimer"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.PushNotificationManager.SuccessNotification(System.String,System.String)">
+            <summary>
+            Create a Success Notification Message
+            </summary>
+            <param name="title"></param>
+            <param name="message"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.PushNotificationManager.ErrorNotification(System.String,System.String)">
+            <summary>
+            Create a Error Notification Message
+            </summary>
+            <param name="title"></param>
+            <param name="message"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.PushNotificationManager.WarningNotification(System.String,System.String)">
+            <summary>
+            Create a Warning Notification Message
+            </summary>
+            <param name="title"></param>
+            <param name="message"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.PushNotificationManager.InfoNotification(System.String,System.String)">
+            <summary>
+            Create a Info Notification Message
+            </summary>
+            <param name="title"></param>
+            <param name="message"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.PushNotificationManager.yesNoNotification(System.String,System.String)">
+            <summary>
+            Create a Yes No Notification Message
+            </summary>
+            <param name="title"></param>
+            <param name="message"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.PushNotificationManager.textFieldNotification">
+            <summary>
+            TEST
+            </summary>
+        </member>
+        <member name="T:ZeroSys.Manager.WPF.SplashScreenManager">
+            <summary>
+            SplashScreenManager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.SplashScreenManager.ShowSplashScreen(System.String,System.Int32)">
+            <summary>
+            Show Selfe Managed SpashScreen
+            </summary>
+            <param name="imagePath"></param>
+            <param name="showTimerInSeconds"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.SplashScreenManager.ShowSplashScreen(System.String,System.Int32,System.Int32)">
+            <summary>
+            Show Selfe Managed SpashScreen
+            </summary>
+            <param name="imagePath"></param>
+            <param name="showTimerInSeconds"></param>
+            <param name="fadeoutTimerInSeconds"></param>
+        </member>
+        <member name="T:ZeroSys.Manager.WPF.Taskbar.JumplistManager">
+            <summary>
+            JumplistManager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.Taskbar.JumplistManager.#ctor(System.Reflection.Assembly)">
+            <summary>
+            Initialize JumplistManager
+            </summary>
+            <param name="assembly"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.Taskbar.JumplistManager.CreateJumpList(Microsoft.WindowsAPICodePack.Taskbar.JumpListLink[],System.String)">
+            <summary>
+            Initialize the Windows Taskbar Programm Icon JumpList
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.Taskbar.JumplistManager.CreateJumpListItem(System.String,System.String,System.String)">
+            <summary>
+            Create JumplistItem
+            </summary>
+            <param name="displayText"></param>
+            <param name="iconPath"></param>
+            <param name="startArgument"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.Taskbar.JumplistManager.refrehsJumpList">
+            <summary>
+            Refresh the Windows Taskbar Programm Icon Jumplist
+            </summary>
+        </member>
+        <member name="T:ZeroSys.Manager.WPF.Taskbar.ThumbnailManager">
+            <summary>
+            ThumbnailManager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.Taskbar.ThumbnailManager.CreateThumbnailToolbar(System.Windows.Window,Microsoft.WindowsAPICodePack.Taskbar.ThumbnailToolBarButton[])">
+            <summary>
+            Initialize and Create Thumbnail Entrie Options
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.Taskbar.ThumbnailManager.CreateTaskbarThumbnail(System.Windows.Window,System.String)">
+            <summary>
+            Create TaskBar Thumbnail
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.Taskbar.ThumbnailManager.CreateThumbnialIcon(System.String,System.String,System.EventHandler{Microsoft.WindowsAPICodePack.Taskbar.ThumbnailButtonClickedEventArgs})">
+            <summary>
+            Create ThumbnailIcon
+            </summary>
+            <param name="iconPath"></param>
+            <param name="content"></param>
+            <param name="thumbnailButtonClickedEventArgs"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.Taskbar.ThumbnailManager.ToImageSource(System.Drawing.Icon)">
+            <summary>
+            Convert Icon to ImageSource
+            </summary>
+            <param name="icon"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ZeroSys.Manager.WPF.WindowOverlayManager">
+            <summary>
+            WindowOverlayManager
+            </summary>
+        </member>
+        <member name="T:ZeroSys.Manager.WPF.WindowsInfoIconManager">
+            <summary>
+            WindowsInfoIconManager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.WindowsInfoIconManager.CreateWindowsInfoIcon(System.Windows.Forms.MenuItem[],System.String,System.String)">
+            <summary>
+            Initialize Programm Icon in Windows Task Bar
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.WindowsInfoIconManager.CreateMenuItem(System.String,System.Int32,System.EventHandler{System.EventArgs})">
+            <summary>
+            Create Menu Item
+            </summary>
+            <param name="content"></param>
+            <param name="index"></param>
+            <param name="eventHandler"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.WindowsInfoIconManager.Dispose(System.Boolean)">
+            <summary>
+            Clean up any Component from being used
+            </summary>
+        </member>
+        <member name="T:ZeroSys.Manager.WPF.LoadSVGImage">
+            <summary>
+            Load SVG Image to the View Object
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.LoadSVGImage.Load(System.String,System.Windows.Controls.Image)">
+            <summary>
+            Load the SVG to the Image Object
+            </summary>
+            <param name="svgFile"></param>
+            <param name="source"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.LoadSVGImage.LoadSvgImage(System.String,System.Windows.Shapes.Rectangle)">
+            <summary>
+            Load the SVG to the Rectangle Object
+            </summary>
+            <param name="svgFile"></param>
+            <param name="rectangle"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.WPF.LoadSVGImage.LoadSvgImage(System.String,System.Windows.Controls.Grid)">
+            <summary>
+            Load the SVG to the Grid Object
+            </summary>
+            <param name="svgFile"></param>
+            <param name="grid"></param>
+        </member>
+        <member name="T:ZeroSys.Manager.LogManager">
+            <summary>
+            Log File Manager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.LogManager.SetLogPath(System.String)">
+            <summary>
+            Set the Log File Path
+            </summary>
+            <param name="logPath"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.LogManager.AddLogEntrence(ZeroSys.Manager.LogType,System.String,System.Int32)">
+            <summary>
+             Create a daily Logfile if not exist and add new Message
+            </summary>
+            <param name="logType"></param>
+            <param name="logMessage"></param>
+            <param name="priority"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.LogManager.AddLogExeptionEntrence(System.Exception)">
+            <summary>
+            Add Exeption output to the User Log File
+            </summary>
+            <param name="exception"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.LogManager.WebLog(ZeroSys.Manager.LogType,System.String)">
+            <summary>
+            Generate a HTML Web Log File
+            This File gives the Logs in a nice Marked Color
+            </summary>
+            <param name="logType"></param>
+            <param name="content"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.LogManager.ConsoleLog(ZeroSys.Manager.LogType,System.String)">
+            <summary>
+            Print the Log to the Console with Color
+            </summary>
+            <param name="logType"></param>
+            <param name="content"></param>
+        </member>
+        <member name="T:ZeroSys.Manager.LogType">
+            <summary>
+            LogTypes make it easy to refference the Logs
+            </summary>
+        </member>
+        <member name="T:ZeroSys.Manager.Mail">
+            <summary>
+            Mail Manager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.Mail.#ctor(System.String,System.Int32,System.String,System.String)">
+            <summary>
+            Initialize the Settings for the Email's
+            Call once in the Main for initializing
+            </summary>
+            <param name="smtp"></param>
+            <param name="port"></param>
+            <param name="senderEmail"></param>
+            <param name="password"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.Mail.sendMail(System.String,System.String,System.String)">
+            <summary>
+            Send an Email to your Customer
+            </summary>
+            <param name="heading"></param>
+            <param name="content"></param>
+            <param name="toEmail"></param>
+        </member>
+        <member name="T:ZeroSys.Manager.PrintDocument">
+            <summary>
+            Document Print Manager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.PrintDocument.Print(System.String)">
+            <summary>
+            Print the selected Document
+            </summary>
+            <param name="filePath"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.PrintDocument.PrintWebRequest(System.String)">
+            <summary>
+            Print the selected Document from Browser
+            </summary>
+            <param name="filePath"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.PrintDocument.PrintDoc(System.String)">
+            <summary>
+            Print the Selected Document - With Options
+            </summary>
+            <param name="filePath"></param>
+        </member>
+        <member name="T:ZeroSys.Manager.QRCodeManager">
+            <summary>
+            Manage QR Codes
+            </summary>
+        </member>
+        <member name="T:ZeroSys.Manager.TempManager">
+            <summary>
+            Temporary File Manager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.TempManager.CreateRandomFolder">
+            <summary>
+            Create a Folder with a random Name
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.TempManager.CreateRandomFile(System.String,System.Boolean)">
+            <summary>
+            Create a File with random Name
+            </summary>
+            <param name="content"></param>
+            <param name="deleteFile"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.TempManager.CreateFileWithName(System.String,System.String,System.Boolean)">
+            <summary>
+            Create a File with specific Name
+            </summary>
+            <param name="content"></param>
+            <param name="name"></param>
+            <param name="deleteFile"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.TempManager.CreateFolderWithName(System.String)">
+            <summary>
+            Create Folder with specific Name
+            </summary>
+            <param name="name"></param>
+        </member>
+        <member name="T:ZeroSys.Manager.ThreadManager">
+            <summary>
+            ThreadManager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.ThreadManager.StartTaskInNewThread(System.Action,System.Boolean)">
+            <summary>
+            Create new Task
+            </summary>
+            <param name="action"></param>
+            <param name="waitForTask"></param>
+        </member>
+        <member name="T:ZeroSys.Manager.TranslateManager">
+            <summary>
+            Manage the Translated Content
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.TranslateManager.#ctor(System.String,System.String)">
+            <summary>
+            Initialize TranslateManager
+            </summary>
+            <param name="_COGNITIVE_SERVICES_KEY"></param>
+            <param name="_TEXT_TRANSLATION_API_ENDPOINT"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.TranslateManager.translateText(System.String)">
+            <summary>
+            Start the Translation of the Content
+            </summary>
+            <param name="content"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ZeroSys.SystemController.Hardware.Cpu">
+            <summary>
+            Get CPU Information
+            </summary>
+        </member>
+        <member name="M:ZeroSys.SystemController.Hardware.Cpu.GetCPUInformation">
+            <summary>
+            Get the Complete Information about your CPU
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.SystemController.Hardware.Cpu.GetCPUValue(System.String)">
+            <summary>
+            Get a specific Value of your CPU
+            </summary>
+            <param name="Value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.SystemController.Hardware.Cpu.GetAllCores">
+            <summary>
+            Get all Cores and there Workload
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.SystemController.Hardware.Cpu.GetSingleCore(System.Int32)">
+            <summary>
+            Get single Core and his Workload
+            </summary>
+            <param name="coreNumber"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ZeroSys.SystemController.Hardware.Cpu.CPUValues">
+            <summary>
+            CPU Values to get from CPU
+            </summary>
+        </member>
+        <member name="T:ZeroSys.SystemController.Hardware.Drive">
+            <summary>
+            Get Drive Information
+            </summary>
+        </member>
+        <member name="M:ZeroSys.SystemController.Hardware.Drive.#ctor">
+            <summary>
+            Get Drive Information
+            </summary>
+        </member>
+        <member name="M:ZeroSys.SystemController.Hardware.Drive.GetDriveInformation">
+            <summary>
+            Get the Complete Information about your Drive's
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.SystemController.Hardware.Drive.GetDriveValue(System.String)">
+            <summary>
+            Get a specific Value of your Drive
+            </summary>
+            <param name="Value"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ZeroSys.SystemController.Hardware.Drive.DriveValues">
+            <summary>
+            Drive Values to get from Drive
+            </summary>
+        </member>
+        <member name="T:ZeroSys.SystemController.Hardware.Fan">
+            <summary>
+            Get Fan Information
+            </summary>
+        </member>
+        <member name="T:ZeroSys.SystemController.Hardware.Gpu">
+            <summary>
+            Get GPU Information
+            </summary>
+        </member>
+        <member name="M:ZeroSys.SystemController.Hardware.Gpu.GetGPUInformation">
+            <summary>
+            Get the Complete Information about your GPU
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.SystemController.Hardware.Gpu.GetGPUValue(System.String)">
+            <summary>
+            Get a specific Value of your GPU
+            </summary>
+            <param name="gpuValue"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ZeroSys.SystemController.Hardware.Gpu.GPUValues">
+            <summary>
+            GPU Values to get from GPU
+            </summary>
+        </member>
+        <member name="T:ZeroSys.SystemController.Hardware.Microphone">
+            <summary>
+            Get Microphone Information
+            </summary>
+        </member>
+        <member name="M:ZeroSys.SystemController.Hardware.Microphone.GetMicroponeInformation">
+            <summary>
+            Get the Complete Information about your Microphone
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.SystemController.Hardware.Microphone.GetMicrophoneValue(System.String)">
+            <summary>
+            Get a specific Value of your Microphone
+            </summary>
+            <param name="Value"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ZeroSys.SystemController.Hardware.Microphone.MicrophoneValues">
+            <summary>
+            Microphone Values to get from Microphone
+            </summary>
+        </member>
+        <member name="T:ZeroSys.SystemController.Hardware.Motherboard">
+            <summary>
+            Get Motherboard Information
+            </summary>
+        </member>
+        <member name="M:ZeroSys.SystemController.Hardware.Motherboard.GetMotherBoardInformation">
+            <summary>
+            Get the Complete Information about your MotherBoard
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.SystemController.Hardware.Motherboard.GetMotherBoardValue(System.String)">
+            <summary>
+            Get a specific Value of your MotherBoard
+            </summary>
+            <param name="Value"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ZeroSys.SystemController.Hardware.Motherboard.MotherBoardValues">
+            <summary>
+            MotherBoard Values to get from MotherBoard
+            </summary>
+        </member>
+        <member name="T:ZeroSys.SystemController.Hardware.Printer">
+            <summary>
+            Get Printer Information
+            </summary>
+        </member>
+        <member name="M:ZeroSys.SystemController.Hardware.Printer.GetPrinterInformation">
+            <summary>
+            Get the Complete Information about your Printer
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.SystemController.Hardware.Printer.GetPrinterValue(System.String)">
+            <summary>
+            Get a specific Value of your Printer
+            </summary>
+            <param name="Value"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ZeroSys.SystemController.Hardware.Printer.PrinterValues">
+            <summary>
+            Printer Values to get from Printer
+            </summary>
+        </member>
+        <member name="T:ZeroSys.SystemController.Hardware.Ram">
+            <summary>
+            Get RAM Information
+            </summary>
+        </member>
+        <member name="M:ZeroSys.SystemController.Hardware.Ram.GetRAMInformation">
+            <summary>
+            Get the Complete Information about your RAM
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.SystemController.Hardware.Ram.GetRAMValue(System.String)">
+            <summary>
+            Get a specific Value of your RAM
+            </summary>
+            <param name="Value"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ZeroSys.SystemController.Hardware.Ram.RAMValues">
+            <summary>
+            RAM Values to get from RAM
+            </summary>
+        </member>
+        <member name="T:ZeroSys.SystemController.Hardware.Usb">
+            <summary>
+            Get USB Information
+            </summary>
+        </member>
+        <member name="M:ZeroSys.SystemController.Hardware.Usb.GetUSBInformation">
+            <summary>
+            Get the Complete Information about your USB's
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.SystemController.Hardware.Usb.GetUSBValue(System.String)">
+            <summary>
+            Get a specific Value of your USB
+            </summary>
+            <param name="Value"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ZeroSys.SystemController.Hardware.Usb.USBValues">
+            <summary>
+            USB Values to get from USB
+            </summary>
+        </member>
+        <member name="T:ZeroSys.SystemController.Software.ComputerSystem">
+            <summary>
+            Get Computer System Information
+            </summary>
+        </member>
+        <member name="M:ZeroSys.SystemController.Software.ComputerSystem.GetSystemInformation">
+            <summary>
+            Get the Complete Information about your System
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.SystemController.Software.ComputerSystem.GetSystemValue(System.String)">
+            <summary>
+            Get a specific Value of your System
+            </summary>
+            <param name="gpuValue"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ZeroSys.SystemController.Software.ComputerSystem.SystemValues">
+            <summary>
+            System Values to get from System
+            </summary>
+        </member>
+        <member name="T:ZeroSys.SystemController.Software.NetworkInterface">
+            <summary>
+            Get Network Interface Information
+            </summary>
+        </member>
+        <member name="M:ZeroSys.SystemController.Software.NetworkInterface.getNetworkInterfaceInformation">
+            <summary>
+            Get the Complete Information about your NetworkInterface
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.SystemController.Software.NetworkInterface.getNetworkInterfaceValue(System.String)">
+            <summary>
+            Get a specific Value of your NetworkInterface
+            </summary>
+            <param name="Value"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ZeroSys.SystemController.Software.NetworkInterface.NetworkInterfaceValues">
+            <summary>
+            NetworkInterface Values to get from NetworkInterface
+            </summary>
+        </member>
+        <member name="T:ZeroSys.SystemController.Software.RunningProcess">
+            <summary>
+            Get Running Process Information
+            </summary>
+        </member>
+        <member name="M:ZeroSys.SystemController.Software.RunningProcess.GetProcessInformation">
+            <summary>
+            Get the Complete Information about your Process
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:ZeroSys.SystemController.Software.RunningProcess.ProcessValues">
+            <summary>
+            Process Values to get from System
+            </summary>
+        </member>
+        <member name="T:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager">
+            <summary>
+            WebTestUnitManager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.#ctor">
+            <summary>
+            Initialize WebTestUnitManager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.StartChromeTest">
+            <summary>
+            Start Test in Chrome
+            </summary>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.StartChromeTest(System.Int32)">
+            <summary>
+            Start Test in Chrome
+            </summary>
+            <param name="wait">Wait for Elements and Page if not loaded</param>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.StartIETest">
+            <summary>
+            Start Test in IE
+            </summary>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.StartIETest(System.Int32)">
+            <summary>
+            Start Test in IE
+            </summary>
+            <param name="wait">Wait for Elements and Page if not loaded</param>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.StartOperaTest">
+            <summary>
+            Start Test in Opera
+            </summary>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.StartOperaTest(System.Int32)">
+            <summary>
+            Start Test in Opera
+            </summary>
+            <param name="wait">Wait for Elements and Page if not loaded</param>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.StartSafariTest">
+            <summary>
+            Start Test in Safari
+            </summary>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.StartSafariTest(System.Int32)">
+            <summary>
+            Start Test in Safari
+            </summary>
+            <param name="wait">Wait for Elements and Page if not loaded</param>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.OpenPage(System.String)">
+            <summary>
+            Open Page with URL
+            </summary>
+            <param name="url"></param>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.ReloadPage">
+            <summary>
+            Refresh current Page
+            </summary>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.PageForward">
+            <summary>
+            Go one Page Forward
+            </summary>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.PageBackward">
+            <summary>
+            Go one Page Backward
+            </summary>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.GetPageUrl">
+            <summary>
+            Get Current URL
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.ElementExist(OpenQA.Selenium.By)">
+            <summary>
+            Check if the Web Element exist
+            </summary>
+            <param name="by"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.GetElement(OpenQA.Selenium.By)">
+            <summary>
+            Get Element from Web
+            </summary>
+            <param name="by"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.GetElements(OpenQA.Selenium.By)">
+            <summary>
+            Get all Elements from Web
+            </summary>
+            <param name="by"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.GetAttribute(OpenQA.Selenium.By,System.String)">
+            <summary>
+            Get Attribute
+            </summary>
+            <param name="by"></param>
+            <param name="attribute"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.GetAttribute(OpenQA.Selenium.IWebElement,System.String)">
+            <summary>
+            Get Attribute
+            </summary>
+            <param name="element"></param>
+            <param name="attribute"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.AddCookie(System.String,System.String)">
+            <summary>
+            Add Cookie
+            </summary>
+            <param name="key"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.GetCookieValue(System.String)">
+            <summary>
+            Get Cookie Value
+            </summary>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.GetCookie(System.String)">
+            <summary>
+            Get Cookie
+            </summary>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.DeleteCookie(OpenQA.Selenium.Cookie)">
+            <summary>
+            Delete Cookie
+            </summary>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.DeleteCookie(System.String)">
+            <summary>
+            Delete Cookie
+            </summary>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.DeleteAllCookies">
+            <summary>
+            Delete all Cookies
+            </summary>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.SendKeys(OpenQA.Selenium.By,System.String)">
+            <summary>
+            Enter Keys to WebView
+            </summary>
+            <param name="by"></param>
+            <param name="content"></param>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.SendKeys(OpenQA.Selenium.IWebElement,System.String)">
+            <summary>
+            Enter Keys to WebView
+            </summary>
+            <param name="element"></param>
+            <param name="content"></param>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.FillTextField(OpenQA.Selenium.By,System.String)">
+            <summary>
+            Enter Keys to WebView
+            </summary>
+            <param name="by"></param>
+            <param name="content"></param>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.FillTextField(OpenQA.Selenium.IWebElement,System.String)">
+            <summary>
+            Enter Keys to WebView
+            </summary>
+            <param name="element"></param>
+            <param name="content"></param>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.FillTextFiledAndSend(OpenQA.Selenium.By,System.String)">
+            <summary>
+            Enter Keys to WebView
+            </summary>
+            <param name="by"></param>
+            <param name="content"></param>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.FillTextFiledAndSend(OpenQA.Selenium.IWebElement,System.String)">
+            <summary>
+            Enter Keys to WebView
+            </summary>
+            <param name="element"></param>
+            <param name="content"></param>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.PerformClick(OpenQA.Selenium.IWebElement)">
+            <summary>
+            Perform Click Element
+            </summary>
+            <param name="element"></param>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.PerformClick(OpenQA.Selenium.By)">
+            <summary>
+            Perform Click Element
+            </summary>
+            <param name="by"></param>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.CreateScreenshot(System.String,System.String,System.Drawing.Imaging.ImageFormat)">
+            <summary>
+            Create Screenshot
+            </summary>
+            <param name="savepath"></param>
+            <param name="name"></param>
+            <param name="imageFormat"></param>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.TestCompleted">
+            <summary>
+            End Browser Tests
+            </summary>
+        </member>
+        <member name="M:ZeroSys.TestUnit.WebTestUnit.WebTestUnitManager.ExpandDelayOnce(System.Int32)">
+            <summary>
+            Add for the one Element more time to wait for loading
+            </summary>
+            <param name="waitingSeconds"></param>
+        </member>
+        <member name="T:ZeroSys.Variable.IconPaths">
+            <summary>
+            Here are all Icons registered the DLL contains.
+            </summary>
+        </member>
+        <member name="T:ZeroSys.Variable.ImagePaths">
+            <summary>
+            Here are all Images registered the DLL contains.
+            </summary>
+        </member>
+        <member name="T:ZeroSys.Variable.Enviroment">
+            <summary>
+            Enviroment
+            </summary>
+        </member>
+        <member name="T:Org.Mentalis.Utilities.CommandList">
+            <summary>List of commands.</summary>
+        </member>
+        <member name="F:Org.Mentalis.Utilities.CommandList.Captions">
+            <summary>
+            Holds the names of the commands.
+            </summary>
+        </member>
+        <member name="F:Org.Mentalis.Utilities.CommandList.Commands">
+            <summary>
+            Holds the commands.
+            </summary>
+        </member>
+        <member name="T:Org.Mentalis.Utilities.FileType">
+            <summary>Properties of the file association.</summary>
+        </member>
+        <member name="F:Org.Mentalis.Utilities.FileType.Commands">
+            <summary>
+            Holds the command names and the commands.
+            </summary>
+        </member>
+        <member name="F:Org.Mentalis.Utilities.FileType.Extension">
+            <summary>
+            Holds the extension of the file type.
+            </summary>
+        </member>
+        <member name="F:Org.Mentalis.Utilities.FileType.ProperName">
+            <summary>
+            Holds the proper name of the file type.
+            </summary>
+        </member>
+        <member name="F:Org.Mentalis.Utilities.FileType.FullName">
+            <summary>
+            Holds the full name of the file type.
+            </summary>
+        </member>
+        <member name="F:Org.Mentalis.Utilities.FileType.ContentType">
+            <summary>
+            Holds the name of the content type of the file type.
+            </summary>
+        </member>
+        <member name="F:Org.Mentalis.Utilities.FileType.IconPath">
+            <summary>
+            Holds the path to the resource with the icon of this file type.
+            </summary>
+        </member>
+        <member name="F:Org.Mentalis.Utilities.FileType.IconIndex">
+            <summary>
+            Holds the icon index in the resource file.
+            </summary>
+        </member>
+        <member name="T:Org.Mentalis.Utilities.FileAssociation">
+            <summary>Creates file associations for your programs.</summary>
+            <example>The following example creates a file association for the type XYZ with a non-existent program.
+            <br></br><br>VB.NET code</br>
+            <code>
+            Dim FA as New FileAssociation
+            FA.Extension = "xyz"
+            FA.ContentType = "application/myprogram"
+            FA.FullName = "My XYZ Files!"
+            FA.ProperName = "XYZ File"
+            FA.AddCommand("open", "C:\mydir\myprog.exe %1")
+            FA.Create
+            </code>
+            <br>C# code</br>
+            <code>
+            FileAssociation FA = new FileAssociation();
+            FA.Extension = "xyz";
+            FA.ContentType = "application/myprogram";
+            FA.FullName = "My XYZ Files!";
+            FA.ProperName = "XYZ File";
+            FA.AddCommand("open", "C:\\mydir\\myprog.exe %1");
+            FA.Create();
+            </code>
+            </example>
+        </member>
+        <member name="M:Org.Mentalis.Utilities.FileAssociation.#ctor">
+            <summary>Initializes an instance of the FileAssociation class.</summary>
+        </member>
+        <member name="P:Org.Mentalis.Utilities.FileAssociation.ProperName">
+            <summary>Gets or sets the proper name of the file type.</summary>
+            <value>A String representing the proper name of the file type.</value>
+        </member>
+        <member name="P:Org.Mentalis.Utilities.FileAssociation.FullName">
+            <summary>Gets or sets the full name of the file type.</summary>
+            <value>A String representing the full name of the file type.</value>
+        </member>
+        <member name="P:Org.Mentalis.Utilities.FileAssociation.ContentType">
+            <summary>Gets or sets the content type of the file type.</summary>
+            <value>A String representing the content type of the file type.</value>
+        </member>
+        <member name="P:Org.Mentalis.Utilities.FileAssociation.Extension">
+            <summary>Gets or sets the extension of the file type.</summary>
+            <value>A String representing the extension of the file type.</value>
+            <remarks>If the extension doesn't start with a dot ("."), a dot is automatically added.</remarks>
+        </member>
+        <member name="P:Org.Mentalis.Utilities.FileAssociation.IconIndex">
+            <summary>Gets or sets the index of the icon of the file type.</summary>
+            <value>A short representing the index of the icon of the file type.</value>
+        </member>
+        <member name="P:Org.Mentalis.Utilities.FileAssociation.IconPath">
+            <summary>Gets or sets the path of the resource that contains the icon for the file type.</summary>
+            <value>A String representing the path of the resource that contains the icon for the file type.</value>
+            <remarks>This resource can be an executable or a DLL.</remarks>
+        </member>
+        <member name="M:Org.Mentalis.Utilities.FileAssociation.AddCommand(System.String,System.String)">
+            <summary>Adds a new command to the command list.</summary>
+            <param name="Caption">The name of the command.</param>
+            <param name="Command">The command to execute.</param>
+            <exceptions cref="T:System.ArgumentNullException">Caption -or- Command is null (VB.NET: Nothing).</exceptions>
+        </member>
+        <member name="M:Org.Mentalis.Utilities.FileAssociation.Create">
+            <summary>Creates the file association.</summary>
+            <exceptions cref="T:System.ArgumentNullException">Extension -or- ProperName is null (VB.NET: Nothing).</exceptions>
+            <exceptions cref="T:System.ArgumentException">Extension -or- ProperName is empty.</exceptions>
+            <exceptions cref="T:System.Security.SecurityException">The user does not have registry write access.</exceptions>
+        </member>
+        <member name="M:Org.Mentalis.Utilities.FileAssociation.Remove">
+            <summary>Removes the file association.</summary>
+            <exceptions cref="T:System.ArgumentNullException">Extension -or- ProperName is null (VB.NET: Nothing).</exceptions>
+            <exceptions cref="T:System.ArgumentException">Extension -or- ProperName is empty -or- the specified extension doesn't exist.</exceptions>
+            <exceptions cref="T:System.Security.SecurityException">The user does not have registry delete access.</exceptions>
+        </member>
+        <member name="F:Org.Mentalis.Utilities.FileAssociation.FileInfo">
+            <summary>Holds the properties of the file type.</summary>
+        </member>
+    </members>
+</doc>

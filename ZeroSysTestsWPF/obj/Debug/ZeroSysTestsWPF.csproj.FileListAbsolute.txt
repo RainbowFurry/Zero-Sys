@@ -1,0 +1,968 @@
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\obj\Debug\ZeroSysTestsWPF.csprojAssemblyReference.cache
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\obj\Debug\MainWindow.g.cs
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\obj\Debug\App.g.cs
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\obj\Debug\ZeroSysTestsWPF_MarkupCompile.cache
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\obj\Debug\ZeroSysTestsWPF_MarkupCompile.lref
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\mongocrypt.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\snappy32.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\snappy64.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\libzstd.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\account_balance-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\account_circle-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\api-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\attach_file-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\autorenew-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\bookmark-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\bookmarks-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\bookmark_border-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\brightness_medium-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\build-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\calculate-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\call-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\chat-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\check_box-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\check_box_outline_blank-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\chevron_left-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\chevron_right-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\clear-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\cloud-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\code-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\compare_arrows-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\content_copy-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\content_cut-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\content_paste-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\create-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\dashboard-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\delete-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\dns-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\done-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\email-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\emoji_emotions-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\emoji_events-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\expand_less-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\expand_more-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\extension-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\fingerprint-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\folder-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\folder_open-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\forum-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\fullscreen-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\https-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\indeterminate_check_box-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\info-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\laptop-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\layers-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\layers_clear-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\link-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\link_off-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\local_fire_department-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\loop-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\memory-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\menu-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\mic-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\mic_off-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\more_vert-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\new_releases-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\notifications-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\notifications_active-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\open_in_new-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\open_with-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\payment-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\person-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\pie_chart-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\print-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\push_pin-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\qr_code-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\queue-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\radio_button_checked-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\radio_button_unchecked-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\replay-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\room-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\save-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\security-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\send-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\settings-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\settings_power-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\share-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\shopping_cart-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\smartphone-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\sort-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\star-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\star_border-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\star_half-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\star_rate-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\stop-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\supervisor_account-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\textsms-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\text_format-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\thumb_down-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\thumb_up-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\toggle_off-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\toggle_on-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\transform-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\translate-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\undo-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\usb-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\verified-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\verified_user-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\videocam-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\videocam_off-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\visibility-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\visibility_off-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\volume_down-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\volume_mute-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\volume_off-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\volume_up-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\vpn_key-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\wallpaper-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\warning-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\watch_later-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\wifi-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\zoom_in-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\zoom_out-black-48dp.svg
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\ZeroSys.pfx
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\Microsoft.CognitiveServices.Speech.core.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\Microsoft.CognitiveServices.Speech.extension.kws.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\Microsoft.CognitiveServices.Speech.extension.codec.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\ZeroSysTestsWPF.exe.config
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\ZeroSysTestsWPF.exe
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\ZeroSysTestsWPF.pdb
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\LiveCharts.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\ZeroSys.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\MongoDB.Bson.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\WebDriver.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\System.Management.Automation.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\M2Mqtt.Net.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\Notifications.Wpf.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\SharpVectors.Rendering.Wpf.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\SharpVectors.Converters.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\MongoDB.Driver.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\Meziantou.Framework.Win32.CredentialManager.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\Newtonsoft.Json.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\MySql.Data.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\Aspose.PDF.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\Aspose.Words.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\Microsoft.CognitiveServices.Speech.csharp.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\Twilio.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\SendGrid.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\Microsoft.Management.Infrastructure.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\System.ValueTuple.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\SharpVectors.Model.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\SharpVectors.Core.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\SharpVectors.Css.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\SharpVectors.Runtime.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\Microsoft.WindowsAPICodePack.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\MongoDB.Libmongocrypt.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\Google.Protobuf.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\Zstandard.Net.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\Renci.SshNet.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\StarkbankEcdsa.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\SharpVectors.Dom.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\DnsClient.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\SharpCompress.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\System.Buffers.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\System.Memory.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\Microsoft.IdentityModel.Logging.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\ZeroSys.pdb
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\ZeroSys.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\ZeroSys.dll.config
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\LiveCharts.pdb
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\LiveCharts.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\MongoDB.Bson.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\WebDriver.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\System.Management.Automation.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\M2Mqtt.Net.pdb
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\MongoDB.Driver.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\Meziantou.Framework.Win32.CredentialManager.pdb
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\Newtonsoft.Json.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\MySql.Data.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\Aspose.PDF.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\Aspose.Words.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\Microsoft.CognitiveServices.Speech.csharp.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\Twilio.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\SendGrid.pdb
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\SendGrid.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\Microsoft.AspNetCore.Cryptography.KeyDerivation.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\System.ValueTuple.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\MongoDB.Driver.Core.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\Google.Protobuf.pdb
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\Google.Protobuf.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\Renci.SshNet.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\Microsoft.AspNetCore.Cryptography.Internal.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\DnsClient.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\System.Buffers.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\System.Memory.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\obj\Debug\MainWindow.baml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\obj\Debug\ZeroSysTestsWPF.g.resources
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\obj\Debug\ZeroSysTestsWPF.Properties.Resources.resources
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\obj\Debug\ZeroSysTestsWPF.csproj.GenerateResource.cache
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\obj\Debug\ZeroSysTestsWPF.csproj.CoreCompileInputs.cache
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\obj\Debug\ZeroSysTestsWPF.csproj.CopyComplete
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\obj\Debug\ZeroSysTestsWPF.exe
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\obj\Debug\ZeroSysTestsWPF.pdb
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Afghanistan.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Akrotiri Sovereign Base Area.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Aland.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Albania.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Algeria.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\American Samoa.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Andorra.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Angola.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Anguilla.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Antarctica.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Antigua and Barbuda.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Argentina.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Armenia.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Aruba.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Ashmore and Cartier Islands.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Australia.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Austria.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Azerbaijan.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Bahrain.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Bajo Nuevo Bank (Petrel Is.).xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Bangladesh.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Barbados.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Baykonur Cosmodrome.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Belarus.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Belgium.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Belize.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Benin.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Bermuda.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Bhutan.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Bolivia.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Bosnia and Herzegovina.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Botswana.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Brazil.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\British Indian Ocean Territory.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\British Virgin Islands.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Brunei.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Bulgaria.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Burkina Faso.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Burundi.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Cambodia.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Cameroon.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Canada.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Cape Verde.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Caribbean Netherlands.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Cayman Islands.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Central African Republic.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Chad.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Chile.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\China.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Clipperton Island.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Colombia.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Comoros.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Cook Islands.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Coral Sea Islands.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Costa Rica.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Croatia.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Cuba.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Curaçao.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Cyprus.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Czech Republic.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Democratic Republic of the Congo.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Denmark.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Dhekelia Soverign Base Area.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Djibouti.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Dominica.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Dominican Republic.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\East Timor.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Ecuador.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Egypt.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\El Salvador.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Equatorial Guinea.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Eritrea.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Estonia.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Ethiopia.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Falkland Islands.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Faroe Islands.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Federated States of Micronesia.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Fiji.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Finland.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\France.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\French Polynesia.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\French Southern and Antarctic Lands.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Gabon.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Gambia.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Gaza Strip.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Georgia.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Germany.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Ghana.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Gibraltar.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Greece.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Greenland.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Grenada.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Guam.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Guatemala.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Guernsey.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Guinea Bissau.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Guinea.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Guyana.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Haiti.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Heard Island and McDonald Islands.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Honduras.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Hong Kong S.A.R..xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Hungary.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Iceland.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\India.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Indian Ocean Territories.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Indonesia.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Iran.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Iraq.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Ireland.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Isle of Man.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Israel.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Italy.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Ivory Coast.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Jamaica.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Japan.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Jersey.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Jordan.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Kazakhstan.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Kenya.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Kiribati.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Kosovo.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Kuwait.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Kyrgyzstan.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Laos.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Latvia.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Lebanon.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Lesotho.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Liberia.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Libya.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Liechtenstein.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Lithuania.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Luxembourg.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Macau S.A.R.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Macedonia.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Madagascar.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Malawi.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Malaysia.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Maldives.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Mali.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Malta.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Marshall Islands.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Mauritania.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Mauritius.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Mexico.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Moldova.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Monaco.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Mongolia.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Montenegro.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Montserrat.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Morocco.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Mozambique.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Myanmar.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Namibia.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Nauru.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Nepal.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Netherlands.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\New Caledonia.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\New Zealand.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Nicaragua.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Niger.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Nigeria.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Niue.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Norfolk Island.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\North Korea.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Northern Cyprus.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Northern Mariana Islands.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Norway.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Null Island.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Oman.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Pakistan.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Palau.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Panama.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Papua New Guinea.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Paraguay.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Peru.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Philippines.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Pitcairn Islands.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Poland.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Portugal.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Puerto Rico.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Qatar.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Republic of Serbia.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Republic of the Congo.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Romania.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Russia.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Rwanda.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\S. Sudan.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Saint Barthelemy.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Saint Helena.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Saint Kitts and Nevis.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Saint Lucia.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Saint Martin.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Saint Pierre and Miquelon.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Saint Vincent and the Grenadines.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Samoa.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\San Marino.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Sao Tome and Principe.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Saudi Arabia.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Scarborough Reef.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Senegal.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Serranilla Bank.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Seychelles.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Siachen Glacier.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Sierra Leone.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Singapore.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Sint Maarten.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Slovakia.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Slovenia.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Solomon Islands.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Somalia.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Somaliland.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\South Africa.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\South Georgia and the Islands.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\South Korea.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Spain.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Spratly Is..xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Sri Lanka.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Sudan.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Suriname.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Swaziland.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Sweden.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Switzerland.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Syria.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Taiwan.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Tajikistan.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Thailand.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\The Bahamas.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Togo.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Tonga.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Trinidad and Tobago.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Tunisia.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Turkey.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Turkmenistan.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Turks and Caicos Islands.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Tuvalu.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Uganda.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Ukraine.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\United Arab Emirates.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\United Kingdom.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\United Republic of Tanzania.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\United States Minor Outlying Islands.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\United States of America.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\United States Virgin Islands.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Uruguay.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\US Naval Base Guantanamo Bay.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Uzbekistan.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Vanuatu.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Vatican.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Venezuela.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Vietnam.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Wallis and Futuna.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\West Bank.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Western Sahara.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\World.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Yemen.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Zambia.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Zimbabwe.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\test.txt
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\mongocrypt.dll
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\snappy32.dll
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\snappy64.dll
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\libzstd.dll
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Afghanistan.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Akrotiri Sovereign Base Area.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Aland.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Albania.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Algeria.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\American Samoa.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Andorra.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Angola.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Anguilla.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Antarctica.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Antigua and Barbuda.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Argentina.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Armenia.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Aruba.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Ashmore and Cartier Islands.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Australia.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Austria.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Azerbaijan.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Bahrain.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Bajo Nuevo Bank (Petrel Is.).xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Bangladesh.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Barbados.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Baykonur Cosmodrome.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Belarus.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Belgium.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Belize.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Benin.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Bermuda.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Bhutan.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Bolivia.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Bosnia and Herzegovina.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Botswana.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Brazil.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\British Indian Ocean Territory.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\British Virgin Islands.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Brunei.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Bulgaria.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Burkina Faso.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Burundi.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Cambodia.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Cameroon.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Canada.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Cape Verde.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Caribbean Netherlands.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Cayman Islands.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Central African Republic.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Chad.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Chile.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\China.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Clipperton Island.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Colombia.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Comoros.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Cook Islands.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Coral Sea Islands.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Costa Rica.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Croatia.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Cuba.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Curaçao.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Cyprus.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Czech Republic.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Democratic Republic of the Congo.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Denmark.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Dhekelia Soverign Base Area.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Djibouti.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Dominica.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Dominican Republic.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\East Timor.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Ecuador.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Egypt.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\El Salvador.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Equatorial Guinea.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Eritrea.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Estonia.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Ethiopia.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Falkland Islands.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Faroe Islands.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Federated States of Micronesia.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Fiji.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Finland.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\France.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\French Polynesia.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\French Southern and Antarctic Lands.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Gabon.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Gambia.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Gaza Strip.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Georgia.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Germany.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Ghana.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Gibraltar.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Greece.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Greenland.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Grenada.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Guam.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Guatemala.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Guernsey.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Guinea Bissau.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Guinea.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Guyana.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Haiti.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Heard Island and McDonald Islands.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Honduras.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Hong Kong S.A.R..xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Hungary.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Iceland.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\India.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Indian Ocean Territories.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Indonesia.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Iran.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Iraq.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Ireland.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Isle of Man.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Israel.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Italy.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Ivory Coast.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Jamaica.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Japan.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Jersey.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Jordan.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Kazakhstan.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Kenya.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Kiribati.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Kosovo.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Kuwait.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Kyrgyzstan.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Laos.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Latvia.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Lebanon.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Lesotho.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Liberia.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Libya.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Liechtenstein.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Lithuania.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Luxembourg.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Macau S.A.R.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Macedonia.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Madagascar.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Malawi.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Malaysia.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Maldives.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Mali.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Malta.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Marshall Islands.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Mauritania.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Mauritius.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Mexico.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Moldova.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Monaco.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Mongolia.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Montenegro.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Montserrat.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Morocco.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Mozambique.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Myanmar.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Namibia.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Nauru.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Nepal.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Netherlands.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\New Caledonia.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\New Zealand.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Nicaragua.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Niger.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Nigeria.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Niue.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Norfolk Island.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\North Korea.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Northern Cyprus.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Northern Mariana Islands.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Norway.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Null Island.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Oman.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Pakistan.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Palau.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Panama.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Papua New Guinea.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Paraguay.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Peru.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Philippines.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Pitcairn Islands.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Poland.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Portugal.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Puerto Rico.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Qatar.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Republic of Serbia.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Republic of the Congo.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Romania.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Russia.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Rwanda.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\S. Sudan.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Saint Barthelemy.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Saint Helena.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Saint Kitts and Nevis.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Saint Lucia.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Saint Martin.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Saint Pierre and Miquelon.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Saint Vincent and the Grenadines.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Samoa.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\San Marino.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Sao Tome and Principe.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Saudi Arabia.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Scarborough Reef.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Senegal.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Serranilla Bank.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Seychelles.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Siachen Glacier.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Sierra Leone.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Singapore.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Sint Maarten.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Slovakia.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Slovenia.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Solomon Islands.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Somalia.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Somaliland.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\South Africa.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\South Georgia and the Islands.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\South Korea.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Spain.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Spratly Is..xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Sri Lanka.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Sudan.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Suriname.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Swaziland.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Sweden.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Switzerland.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Syria.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Taiwan.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Tajikistan.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Thailand.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\The Bahamas.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Togo.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Tonga.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Trinidad and Tobago.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Tunisia.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Turkey.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Turkmenistan.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Turks and Caicos Islands.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Tuvalu.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Uganda.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Ukraine.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\United Arab Emirates.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\United Kingdom.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\United Republic of Tanzania.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\United States Minor Outlying Islands.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\United States of America.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\United States Virgin Islands.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Uruguay.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\US Naval Base Guantanamo Bay.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Uzbekistan.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Vanuatu.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Vatican.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Venezuela.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Vietnam.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Wallis and Futuna.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\West Bank.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Western Sahara.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\World.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Yemen.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Zambia.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\Zimbabwe.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Maps\test.txt
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\account_balance-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\account_circle-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\api-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\attach_file-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\autorenew-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\bookmark-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\bookmarks-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\bookmark_border-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\brightness_medium-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\build-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\calculate-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\call-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\chat-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\check_box-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\check_box_outline_blank-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\chevron_left-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\chevron_right-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\clear-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\cloud-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\code-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\compare_arrows-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\content_copy-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\content_cut-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\content_paste-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\create-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\dashboard-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\delete-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\dns-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\done-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\email-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\emoji_emotions-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\emoji_events-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\expand_less-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\expand_more-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\extension-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\fingerprint-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\folder-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\folder_open-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\forum-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\fullscreen-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\https-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\indeterminate_check_box-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\info-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\laptop-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\layers-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\layers_clear-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\link-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\link_off-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\local_fire_department-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\loop-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\memory-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\menu-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\mic-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\mic_off-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\more_vert-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\new_releases-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\notifications-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\notifications_active-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\open_in_new-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\open_with-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\payment-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\person-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\pie_chart-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\print-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\push_pin-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\qr_code-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\queue-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\radio_button_checked-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\radio_button_unchecked-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\replay-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\room-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\save-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\security-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\send-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\settings-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\settings_power-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\share-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\shopping_cart-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\smartphone-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\sort-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\star-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\star_border-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\star_half-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\star_rate-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\stop-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\supervisor_account-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\textsms-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\text_format-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\thumb_down-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\thumb_up-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\toggle_off-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\toggle_on-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\transform-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\translate-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\undo-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\usb-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\verified-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\verified_user-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\videocam-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\videocam_off-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\visibility-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\visibility_off-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\volume_down-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\volume_mute-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\volume_off-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\volume_up-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\vpn_key-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\wallpaper-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\warning-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\watch_later-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\wifi-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\zoom_in-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\src\Icons\Material\zoom_out-black-48dp.svg
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\ZeroSys.pfx
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\Microsoft.CognitiveServices.Speech.core.dll
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\Microsoft.CognitiveServices.Speech.extension.kws.dll
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\Microsoft.CognitiveServices.Speech.extension.codec.dll
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\ZeroSysTestsWPF.exe.config
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\ZeroSysTestsWPF.exe
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\ZeroSysTestsWPF.pdb
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\LiveCharts.dll
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\ZeroSys.dll
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\MongoDB.Bson.dll
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\WebDriver.dll
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\System.Management.Automation.dll
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\M2Mqtt.Net.dll
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\Notifications.Wpf.dll
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\SharpVectors.Rendering.Wpf.dll
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\SharpVectors.Converters.dll
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\MongoDB.Driver.dll
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\Meziantou.Framework.Win32.CredentialManager.dll
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\Newtonsoft.Json.dll
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\MySql.Data.dll
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\Aspose.PDF.dll
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\Aspose.Words.dll
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\Microsoft.CognitiveServices.Speech.csharp.dll
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\Twilio.dll
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\SendGrid.dll
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\Microsoft.Management.Infrastructure.dll
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\System.ValueTuple.dll
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\SharpVectors.Model.dll
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\SharpVectors.Core.dll
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\SharpVectors.Css.dll
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\SharpVectors.Runtime.dll
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\Microsoft.WindowsAPICodePack.dll
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\MongoDB.Libmongocrypt.dll
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\Google.Protobuf.dll
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\Zstandard.Net.dll
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\Renci.SshNet.dll
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\StarkbankEcdsa.dll
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\SharpVectors.Dom.dll
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\DnsClient.dll
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\SharpCompress.dll
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\System.Buffers.dll
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\System.Memory.dll
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\Microsoft.IdentityModel.Logging.dll
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\ZeroSys.pdb
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\ZeroSys.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\ZeroSys.dll.config
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\LiveCharts.pdb
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\LiveCharts.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\MongoDB.Bson.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\WebDriver.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\System.Management.Automation.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\M2Mqtt.Net.pdb
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\MongoDB.Driver.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\Meziantou.Framework.Win32.CredentialManager.pdb
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\Newtonsoft.Json.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\MySql.Data.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\Aspose.PDF.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\Aspose.Words.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\Microsoft.CognitiveServices.Speech.csharp.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\Twilio.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\SendGrid.pdb
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\SendGrid.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\Microsoft.AspNetCore.Cryptography.KeyDerivation.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\System.ValueTuple.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\MongoDB.Driver.Core.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\Google.Protobuf.pdb
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\Google.Protobuf.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\Renci.SshNet.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\Microsoft.AspNetCore.Cryptography.Internal.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\DnsClient.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\System.Buffers.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\System.Memory.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\obj\Debug\ZeroSysTestsWPF.csprojAssemblyReference.cache
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\obj\Debug\MainWindow.g.cs
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\obj\Debug\App.g.cs
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\obj\Debug\ZeroSysTestsWPF_MarkupCompile.cache
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\obj\Debug\ZeroSysTestsWPF_MarkupCompile.lref
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\obj\Debug\MainWindow.baml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\obj\Debug\ZeroSysTestsWPF.g.resources
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\obj\Debug\ZeroSysTestsWPF.Properties.Resources.resources
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\obj\Debug\ZeroSysTestsWPF.csproj.GenerateResource.cache
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\obj\Debug\ZeroSysTestsWPF.csproj.CoreCompileInputs.cache
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\obj\Debug\ZeroSysTestsWPF.csproj.CopyComplete
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\obj\Debug\ZeroSysTestsWPF.exe
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSysTestsWPF\obj\Debug\ZeroSysTestsWPF.pdb

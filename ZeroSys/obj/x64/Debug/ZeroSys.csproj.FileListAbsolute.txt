@@ -638,3 +638,541 @@ C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\LiveCharts.pdb
 C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\LiveCharts.xml
 C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\LiveCharts.Wpf.pdb
 C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\LiveCharts.Wpf.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\obj\x64\Debug\ZeroSys.csprojAssemblyReference.cache
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Afghanistan.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Akrotiri Sovereign Base Area.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Aland.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Albania.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Algeria.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\American Samoa.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Andorra.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Angola.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Anguilla.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Antarctica.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Antigua and Barbuda.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Argentina.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Armenia.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Aruba.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Ashmore and Cartier Islands.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Australia.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Austria.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Azerbaijan.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Bahrain.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Bajo Nuevo Bank (Petrel Is.).xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Bangladesh.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Barbados.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Baykonur Cosmodrome.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Belarus.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Belgium.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Belize.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Benin.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Bermuda.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Bhutan.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Bolivia.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Bosnia and Herzegovina.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Botswana.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Brazil.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\British Indian Ocean Territory.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\British Virgin Islands.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Brunei.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Bulgaria.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Burkina Faso.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Burundi.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Cambodia.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Cameroon.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Canada.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Cape Verde.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Caribbean Netherlands.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Cayman Islands.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Central African Republic.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Chad.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Chile.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\China.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Clipperton Island.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Colombia.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Comoros.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Cook Islands.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Coral Sea Islands.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Costa Rica.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Croatia.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Cuba.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Curaçao.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Cyprus.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Czech Republic.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Democratic Republic of the Congo.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Denmark.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Dhekelia Soverign Base Area.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Djibouti.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Dominica.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Dominican Republic.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\East Timor.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Ecuador.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Egypt.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\El Salvador.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Equatorial Guinea.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Eritrea.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Estonia.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Ethiopia.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Falkland Islands.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Faroe Islands.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Federated States of Micronesia.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Fiji.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Finland.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\France.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\French Polynesia.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\French Southern and Antarctic Lands.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Gabon.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Gambia.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Gaza Strip.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Georgia.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Germany.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Ghana.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Gibraltar.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Greece.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Greenland.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Grenada.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Guam.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Guatemala.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Guernsey.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Guinea Bissau.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Guinea.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Guyana.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Haiti.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Heard Island and McDonald Islands.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Honduras.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Hong Kong S.A.R..xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Hungary.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Iceland.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\India.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Indian Ocean Territories.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Indonesia.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Iran.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Iraq.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Ireland.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Isle of Man.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Israel.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Italy.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Ivory Coast.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Jamaica.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Japan.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Jersey.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Jordan.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Kazakhstan.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Kenya.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Kiribati.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Kosovo.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Kuwait.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Kyrgyzstan.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Laos.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Latvia.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Lebanon.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Lesotho.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Liberia.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Libya.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Liechtenstein.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Lithuania.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Luxembourg.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Macau S.A.R.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Macedonia.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Madagascar.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Malawi.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Malaysia.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Maldives.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Mali.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Malta.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Marshall Islands.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Mauritania.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Mauritius.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Mexico.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Moldova.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Monaco.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Mongolia.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Montenegro.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Montserrat.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Morocco.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Mozambique.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Myanmar.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Namibia.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Nauru.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Nepal.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Netherlands.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\New Caledonia.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\New Zealand.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Nicaragua.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Niger.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Nigeria.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Niue.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Norfolk Island.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\North Korea.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Northern Cyprus.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Northern Mariana Islands.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Norway.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Null Island.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Oman.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Pakistan.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Palau.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Panama.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Papua New Guinea.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Paraguay.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Peru.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Philippines.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Pitcairn Islands.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Poland.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Portugal.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Puerto Rico.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Qatar.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Republic of Serbia.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Republic of the Congo.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Romania.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Russia.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Rwanda.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\S. Sudan.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Saint Barthelemy.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Saint Helena.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Saint Kitts and Nevis.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Saint Lucia.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Saint Martin.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Saint Pierre and Miquelon.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Saint Vincent and the Grenadines.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Samoa.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\San Marino.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Sao Tome and Principe.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Saudi Arabia.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Scarborough Reef.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Senegal.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Serranilla Bank.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Seychelles.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Siachen Glacier.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Sierra Leone.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Singapore.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Sint Maarten.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Slovakia.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Slovenia.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Solomon Islands.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Somalia.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Somaliland.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\South Africa.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\South Georgia and the Islands.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\South Korea.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Spain.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Spratly Is..xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Sri Lanka.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Sudan.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Suriname.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Swaziland.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Sweden.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Switzerland.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Syria.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Taiwan.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Tajikistan.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Thailand.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\The Bahamas.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Togo.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Tonga.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Trinidad and Tobago.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Tunisia.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Turkey.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Turkmenistan.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Turks and Caicos Islands.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Tuvalu.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Uganda.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Ukraine.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\United Arab Emirates.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\United Kingdom.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\United Republic of Tanzania.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\United States Minor Outlying Islands.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\United States of America.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\United States Virgin Islands.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Uruguay.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\US Naval Base Guantanamo Bay.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Uzbekistan.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Vanuatu.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Vatican.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Venezuela.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Vietnam.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Wallis and Futuna.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\West Bank.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Western Sahara.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\World.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Yemen.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Zambia.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Zimbabwe.xml
+C:\Users\DarkS\Source\Repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\test.txt
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Afghanistan.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Akrotiri Sovereign Base Area.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Aland.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Albania.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Algeria.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\American Samoa.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Andorra.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Angola.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Anguilla.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Antarctica.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Antigua and Barbuda.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Argentina.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Armenia.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Aruba.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Ashmore and Cartier Islands.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Australia.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Austria.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Azerbaijan.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Bahrain.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Bajo Nuevo Bank (Petrel Is.).xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Bangladesh.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Barbados.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Baykonur Cosmodrome.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Belarus.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Belgium.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Belize.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Benin.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Bermuda.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Bhutan.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Bolivia.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Bosnia and Herzegovina.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Botswana.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Brazil.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\British Indian Ocean Territory.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\British Virgin Islands.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Brunei.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Bulgaria.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Burkina Faso.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Burundi.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Cambodia.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Cameroon.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Canada.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Cape Verde.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Caribbean Netherlands.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Cayman Islands.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Central African Republic.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Chad.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Chile.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\China.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Clipperton Island.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Colombia.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Comoros.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Cook Islands.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Coral Sea Islands.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Costa Rica.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Croatia.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Cuba.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Curaçao.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Cyprus.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Czech Republic.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Democratic Republic of the Congo.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Denmark.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Dhekelia Soverign Base Area.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Djibouti.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Dominica.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Dominican Republic.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\East Timor.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Ecuador.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Egypt.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\El Salvador.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Equatorial Guinea.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Eritrea.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Estonia.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Ethiopia.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Falkland Islands.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Faroe Islands.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Federated States of Micronesia.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Fiji.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Finland.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\France.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\French Polynesia.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\French Southern and Antarctic Lands.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Gabon.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Gambia.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Gaza Strip.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Georgia.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Germany.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Ghana.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Gibraltar.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Greece.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Greenland.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Grenada.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Guam.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Guatemala.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Guernsey.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Guinea Bissau.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Guinea.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Guyana.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Haiti.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Heard Island and McDonald Islands.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Honduras.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Hong Kong S.A.R..xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Hungary.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Iceland.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\India.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Indian Ocean Territories.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Indonesia.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Iran.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Iraq.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Ireland.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Isle of Man.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Israel.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Italy.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Ivory Coast.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Jamaica.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Japan.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Jersey.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Jordan.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Kazakhstan.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Kenya.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Kiribati.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Kosovo.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Kuwait.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Kyrgyzstan.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Laos.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Latvia.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Lebanon.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Lesotho.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Liberia.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Libya.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Liechtenstein.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Lithuania.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Luxembourg.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Macau S.A.R.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Macedonia.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Madagascar.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Malawi.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Malaysia.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Maldives.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Mali.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Malta.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Marshall Islands.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Mauritania.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Mauritius.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Mexico.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Moldova.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Monaco.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Mongolia.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Montenegro.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Montserrat.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Morocco.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Mozambique.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Myanmar.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Namibia.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Nauru.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Nepal.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Netherlands.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\New Caledonia.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\New Zealand.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Nicaragua.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Niger.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Nigeria.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Niue.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Norfolk Island.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\North Korea.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Northern Cyprus.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Northern Mariana Islands.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Norway.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Null Island.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Oman.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Pakistan.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Palau.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Panama.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Papua New Guinea.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Paraguay.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Peru.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Philippines.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Pitcairn Islands.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Poland.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Portugal.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Puerto Rico.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Qatar.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Republic of Serbia.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Republic of the Congo.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Romania.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Russia.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Rwanda.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\S. Sudan.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Saint Barthelemy.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Saint Helena.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Saint Kitts and Nevis.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Saint Lucia.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Saint Martin.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Saint Pierre and Miquelon.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Saint Vincent and the Grenadines.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Samoa.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\San Marino.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Sao Tome and Principe.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Saudi Arabia.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Scarborough Reef.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Senegal.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Serranilla Bank.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Seychelles.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Siachen Glacier.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Sierra Leone.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Singapore.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Sint Maarten.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Slovakia.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Slovenia.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Solomon Islands.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Somalia.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Somaliland.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\South Africa.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\South Georgia and the Islands.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\South Korea.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Spain.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Spratly Is..xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Sri Lanka.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Sudan.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Suriname.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Swaziland.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Sweden.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Switzerland.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Syria.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Taiwan.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Tajikistan.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Thailand.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\The Bahamas.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Togo.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Tonga.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Trinidad and Tobago.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Tunisia.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Turkey.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Turkmenistan.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Turks and Caicos Islands.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Tuvalu.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Uganda.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Ukraine.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\United Arab Emirates.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\United Kingdom.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\United Republic of Tanzania.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\United States Minor Outlying Islands.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\United States of America.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\United States Virgin Islands.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Uruguay.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\US Naval Base Guantanamo Bay.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Uzbekistan.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Vanuatu.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Vatican.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Venezuela.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Vietnam.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Wallis and Futuna.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\West Bank.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Western Sahara.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\World.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Yemen.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Zambia.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\Zimbabwe.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\src\Maps\test.txt
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\Aspose.PDF.dll
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\Aspose.Words.dll
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\Aspose.Words.Pdf2Word.dll
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\LiveCharts.dll
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\LiveCharts.Wpf.dll
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\Microsoft.WindowsAPICodePack.dll
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\Notifications.Wpf.dll
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\System.Management.Automation.dll
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\System.ValueTuple.dll
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\Microsoft.Management.Infrastructure.dll
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\Aspose.PDF.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\Aspose.Words.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\LiveCharts.pdb
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\LiveCharts.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\LiveCharts.Wpf.pdb
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\LiveCharts.Wpf.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\System.Management.Automation.xml
+C:\Users\jhoffmann\source\repos\Zero-Sys\ZeroSys\bin\x64\Debug\System.ValueTuple.xml
