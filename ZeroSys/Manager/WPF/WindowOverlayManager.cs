@@ -59,5 +59,16 @@ namespace ZeroSys.Manager.WPF
 
         }
 
+        //public static void updateWindowCursor(Window window)
+        //{
+        //    Console.WriteLine(Save_Path + @"Cursors\" + ConfigManager.userCursor);
+        //    if (ConfigManager.userCursor != "-")
+        //    {
+        //        Cursor c = new Cursor(Save_Path + @"Cursors\" + ConfigManager.userCursor);
+        //        if (c != null)
+        //            window.Cursor = c;
+        //    }
+        //}
+
     }
 }

@@ -279,6 +279,48 @@
             </summary>
             <param name="content"></param>
         </member>
+        <member name="T:ZeroSys.Config.AppConfigManager">
+            <summary>
+            AppConfigManager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Config.AppConfigManager.ReadSetting(System.String)">
+            <summary>
+            Rerad Setting Entry
+            </summary>
+            <param name="key"></param>
+        </member>
+        <member name="M:ZeroSys.Config.AppConfigManager.AddAppSettings(System.String,System.String)">
+            <summary>
+            Add ned Settings Entry
+            </summary>
+            <param name="key"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:ZeroSys.Config.AppConfigManager.UpdateAppSettings(System.String,System.String)">
+            <summary>
+            Update existing Entry
+            </summary>
+            <param name="key"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:ZeroSys.Config.AppConfigManager.RemoveAppSettings(System.String)">
+            <summary>
+            Remove existing Entry
+            </summary>
+            <param name="key"></param>
+        </member>
+        <member name="T:ZeroSys.Config.IniFileManager">
+            <summary>
+            IniFileManager
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Config.IniFileManager.#ctor(System.String)">
+            <summary>
+            Initialize IniFileManager
+            </summary>
+            <param name="filePath"></param>
+        </member>
         <member name="T:ZeroSys.Converter.ColorConverter">
             <summary>
             ColorConverter
@@ -1426,6 +1468,39 @@
             <param name="color"></param>
             <param name="image"></param>
         </member>
+        <member name="T:ZeroSys.Manager.IsValid">
+            <summary>
+            IsValid
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.IsValid.MailAddress(System.String)">
+            <summary>
+            Is the Mail Address Valid?
+            </summary>
+            <param name="MailAddress"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.IsValid.PhoneNumber(System.String)">
+            <summary>
+            Is the Phone-Number Valid?
+            </summary>
+            <param name="number"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.IsValid.Ip(System.String)">
+            <summary>
+            Is IP Valid?
+            </summary>
+            <param name="ipAddress"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ZeroSys.Manager.IsValid.URL(System.String)">
+            <summary>
+            Is URL Valid?
+            </summary>
+            <param name="url"></param>
+            <returns></returns>
+        </member>
         <member name="T:ZeroSys.Manager.RegistryManager">
             <summary>
             RegistryManager
@@ -1717,17 +1792,6 @@
             Create new Custom Exeption
             </summary>
             <param name="exeption"></param>
-        </member>
-        <member name="T:ZeroSys.Manager.IniFileManager">
-            <summary>
-            IniFileManager
-            </summary>
-        </member>
-        <member name="M:ZeroSys.Manager.IniFileManager.#ctor(System.String)">
-            <summary>
-            Initialize IniFileManager
-            </summary>
-            <param name="filePath"></param>
         </member>
         <member name="T:ZeroSys.Manager.MQTTManager">
             <summary>

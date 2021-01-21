@@ -4,65 +4,72 @@ using System;
 
 namespace ZeroSys.Manager.WPF.Charts
 {
-    /// <summary>
-    /// PieChartManager
-    /// </summary>
-    public class PieChartManager
-    {
+   /// <summary>
+   /// PieChartManager
+   /// </summary>
+   public class PieChartManager
+   {
 
-        /// <summary>
-        /// Create new Pie Chart Serie
-        /// </summary>
-        /// <param name="title"></param>
-        /// <param name="value"></param>
-        /// <returns></returns>
-        public PieSeries CreateNewPieSeries(string title, double value)
-        {
+      //https://lvcharts.net/App/examples/v1/wpf/Pie%20Chart
 
-            PieSeries pieSeries = new PieSeries();
-            pieSeries.Title = title;
-            pieSeries.DataLabels = true;
-            pieSeries.Values = new ChartValues<double>() { value };
-            pieSeries.LabelPoint = PointLabel;
+      //Values = new ChartValues<DateTimePoint>
+      //Color?
 
-            return pieSeries;
-        }
+      /// <summary>
+      /// Create new Pie Chart Serie
+      /// </summary>
+      /// <param name="title"></param>
+      /// <param name="value"></param>
+      /// <returns></returns>
+      public PieSeries CreateNewPieSeries(string title, double value)
+      {
 
-        /// <summary>
-        /// Add PieSeries to PieChart
-        /// </summary>
-        /// <param name="pieChart"></param>
-        /// <param name="pieSeries"></param>
-        public void AddPieSerieToPieChart(PieChart pieChart, PieSeries pieSeries)
-        {
-            pieChart.Series.Add(pieSeries);
-        }
+         PointLabel = chartPoint => string.Format("{0} ({1:P})", chartPoint.Y, chartPoint.Participation);
 
-        /// <summary>
-        /// Add PieChart click Management
-        /// </summary>
-        /// <param name="pieChart"></param>
-        public void AddChartClickManagement(PieChart pieChart)
-        {
-            pieChart.DataClick += Chart_OnDataClick;
-        }
+         PieSeries pieSeries = new PieSeries();
+         pieSeries.Title = title;
+         pieSeries.DataLabels = true;
+         pieSeries.Values = new ChartValues<double>() { value };
+         pieSeries.LabelPoint = PointLabel;
 
-        /// <summary>
-        /// Pointer for Marker
-        /// </summary>
-        public Func<ChartPoint, string> PointLabel { get; set; }
+         return pieSeries;
+      }
 
-        private void Chart_OnDataClick(object sender, ChartPoint chartpoint)
-        {
-            var chart = (PieChart)chartpoint.ChartView;
+      /// <summary>
+      /// Add PieSeries to PieChart
+      /// </summary>
+      /// <param name="pieChart"></param>
+      /// <param name="pieSeries"></param>
+      public void AddPieSerieToPieChart(PieChart pieChart, PieSeries pieSeries)
+      {
+         pieChart.Series.Add(pieSeries);
+      }
 
-            //clear selected slice.
-            foreach (PieSeries series in chart.Series)
-                series.PushOut = 0;
+      /// <summary>
+      /// Add PieChart click Management
+      /// </summary>
+      /// <param name="pieChart"></param>
+      public void AddChartClickManagement(PieChart pieChart)
+      {
+         pieChart.DataClick += Chart_OnDataClick;
+      }
 
-            var selectedSeries = (PieSeries)chartpoint.SeriesView;
-            selectedSeries.PushOut = 8;
-        }
+      /// <summary>
+      /// Pointer for Marker
+      /// </summary>
+      public Func<ChartPoint, string> PointLabel { get; set; }
 
-    }
+      private void Chart_OnDataClick(object sender, ChartPoint chartpoint)
+      {
+         var chart = (PieChart)chartpoint.ChartView;
+
+         //clear selected slice.
+         foreach (PieSeries series in chart.Series)
+            series.PushOut = 0;
+
+         var selectedSeries = (PieSeries)chartpoint.SeriesView;
+         selectedSeries.PushOut = 8;
+      }
+
+   }
 }

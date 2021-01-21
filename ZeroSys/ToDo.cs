@@ -6,11 +6,10 @@
     internal class ToDo
     {
 
-        //Ki + fragen
+        //sim karte wechseln 
 
         #region General
-        //daniel fragen we...
-        //sim karte wechseln 
+
         //bis weihnachts urlaub dll fertig danach Webseite... - Mit Daniel?!
 
         //aufgabe dennis, zantu
@@ -18,12 +17,10 @@
         //Stahl Fritz Box - ausarbeitung
         //handy ToDo/PC
 
-
         //Auf usb
         //Auf Server
         //auf cloud mal wieder backupen.
-        //alle alten sachen sind mir egal nur backup... aber mal mit websetie weiter machen...
-        //ToDo Desktop...
+
         //EMAIL - für alle emails wie z:
         //Mit freundlichen Grüßen
         //E.ZOLLER GMBH & CO.KG
@@ -31,37 +28,9 @@
         //Informatik
         #endregion
 
+
+
         #region Today
-
-        // TempFileManager fertig?
-        //Create own ZIP...
-        //wochentag namen rausfinden - https://dotnet-snippets.de/snippet/name-des-wochentages-ermitteln/1732
-        //Get geolocation von client - https://dotnet-snippets.de/snippet/wohnort-des-benutzers-ermitteln/1699
-        //Get Age from Birthday - https://dotnet-snippets.de/snippet/alter-einer-person-ermitteln/1688
-        //Create Random numbers letters fertig?
-
-        //regex manager - private/public - builder aber auch fertige sachen
-        //in config ordner ini
-        //project config - neues in test
-        //eigener configmanager
-
-        //	Zählen der Wörter - string split leer to array.count - ez
-        //runde x stellen vor/nach komma
-        //Math - zinsen, zinseszins, warscheinlichkeit warsch...2, pytagoras/ XteWurzel
-
-        /*
-           Zielsuche in array
-          Mittelwert/kleinste/größte zahl in array
-          Array a = Array b + Array c;
-           */
-
-        //Load Assembly
-        //Assembly SampleAssembly = Assembly.Load("ZeroSys, Version=1.0.0, Culture=neutral, PublicKeyToken=null");
-        //// Display all the types contained in the specified assembly.
-        //foreach (Type oType in SampleAssembly.GetTypes())
-        //{
-        //    Console.WriteLine(oType.Name);
-        //}
 
         //Math FOLDER FERTIG... - prozentrechnen?, brüche, warscheinlichkeit, 
         //Raute
@@ -75,43 +44,18 @@
         //KEGEL
         //Abstand(spunkte), schnittpunkte2punkte, Taschenrechner inhalte umrechnen
         //create phone call - https://docs.microsoft.com/en-us/azure/partner-twilio-cloud-services-dotnet-phone-call-web-role
+        //Math - zinsen, zinseszins, warscheinlichkeit warsch...2, pytagoras/ XteWurzel
 
-        //check file size...
-        //check file format... - mehrere filter schon vorgegeben entweder selber filter schreiben oder meine nehmen...
-        //https://dotnet-snippets.de/snippet/bildschirmskalierung-bestimmen/5950
-        //Classe mit allen file formaten sortiert als enum... mit endung , category etc.
-        //getwebcode - get webpage code alles...
 
-        //autostart categorien  - builder erstellen
-        //Registry auto delete all in folder...
-
-        //            //CREATE SHORTCUTS
-        //using IWshRuntimeLibary;
-
-        //text = "Test";
-        //source = "D:\Musik\Test.mp3";
-        //path = "C:\Users\Max Mustermann\Desktop\";
-
-        //WshShell shell = new WshShell();
-        //        IWshShortcut link = (IWshShortcut)shell.CreateShortcut(path + text + ".lnk");
-        //        link.TargetPath = source;
-        //link.Save();
-
-        ////Alternativ:
-        ////Hinzufügen der link.cs
-
-        //Shortcut.Create(text, source, path);
+        /*
+   Zielsuche in array
+  Mittelwert/kleinste/größte zahl in array
+  Array a = Array b + Array c;
+   */
 
         #endregion
 
-        #region This Week
-        //webPageInfoManager
-        //Bewegbare Grafiken - https://www.matheretter.de/rechner/wurfel
-        //Delete all files and Folders in folder... (FOLDER EXACT OVERWRITE?) - wenn ordnername egal was weg...
-        //wenn nicht dann nur was neuer ist...
-
-        //Image signatur - gleiche wie Branding - branding verbessern über ganzes bild (light/dark)
-        //eigene Charts
+        #region This Weekgen
         //WindowOverlayManager
         //ColorManager - x color stufen aus einer farbe in x tönen heller/dunkler
         //open file explorer and select multiple files
@@ -119,22 +63,10 @@
         //set cursor function...
         //charts WPF - https://lvcharts.net/App/examples/v1/wpf/Pie%20Chart - Überall FARBEN?! - per string., Dann alle TESTEN - new SolidColor() = brush
 
+        //Delete all files and Folders in folder...
 
-        //public static double MathCalculate(string content)
-        //{
-        //   return Convert.ToDouble(new DataTable().Compute(content, null));
-        //}
-
-        //public static void updateWindowCursor(Window window)
-        //{
-        //    Console.WriteLine(Save_Path + @"Cursors\" + ConfigManager.userCursor);
-        //    if (ConfigManager.userCursor != "-")
-        //    {
-        //        Cursor c = new Cursor(Save_Path + @"Cursors\" + ConfigManager.userCursor);
-        //        if (c != null)
-        //            window.Cursor = c;
-        //    }
-        //}
+        //Image signatur - gleiche wie Branding - branding verbessern über ganzes bild (light/dark)
+        //eigene Charts
 
         //drag and dropManager
         //ResxManager
@@ -142,22 +74,27 @@
         //CONVERTER ALLE FERTIG 
         //OpenFileMethode - PlayVideo, PlaySound, ShowTXT etc...
 
+        //check file size...
+        //check file format... - mehrere filter schon vorgegeben entweder selber filter schreiben oder meine nehmen...
+        //https://dotnet-snippets.de/snippet/bildschirmskalierung-bestimmen/5950
+        //Classe mit allen file formaten sortiert als enum... mit endung , category etc.
 
-        //Check if Email - valid
-        //Check if Address - valid
-        //check if phone nr - valid
-        //check if ip - valid
-        //check if url - valid
-        //Reges Filter Manager
 
-        //gesichts erkennung
-        //fingerabduck erkennung
+        //autostart categorien  - builder erstellen
 
+        // TempFileManager fertig?
+        //wochentag namen rausfinden - https://dotnet-snippets.de/snippet/name-des-wochentages-ermitteln/1732
+        //Get geolocation von client - https://dotnet-snippets.de/snippet/wohnort-des-benutzers-ermitteln/1699
+        //Get Age from Birthday - https://dotnet-snippets.de/snippet/alter-einer-person-ermitteln/1688
+
+        //regex manager - private/public - builder aber auch fertige sachen
+        //Config folder
         #endregion
 
         //TEST PROJEKTE CLEAREN - AUFRÄUMEN - pakete, methodes
 
         #region ToDo
+        //printer manager... - anpassbare settings
         //XML:
         //    <Shapes>
         //<MapShape>
@@ -177,6 +114,9 @@
         //draw Formen mit Beschreibung A,B,C,D länge etc... wenn bool -  https://rechneronline.de/pi/quadrat-rechner.php
 
         //------------------------------------------------------------------------------------
+        //gesichts erkennung
+        //fingerabduck erkennung
+        //Bewegbare Grafiken - https://www.matheretter.de/rechner/wurfel
 
         //File Backup System... Files/Folders - ändere name oder copy in path
         //Delete all files and Folders in folder... (FOLDER EXACT OVERWRITE?) - wenn ordnername egal was weg...
@@ -249,6 +189,24 @@
     */
         #endregion
 
+        /*
+ RestAPI Call methode
+ Drag and Drop
+ date time formats - launguage format
+ Cluture formatsCultureInfo.Calendar...
+
+//AudioManager? - ClownFish
+//VideoManager? - Cinema 4D
+
+//Create Word
+//Exel
+//PDF 
+
+ ...
+ */
+
+
+
         #region Update
         //Weiter machen ZeroWeb - Daniel
         //chart js?!
@@ -263,8 +221,11 @@
         //REWORC AND COMPLETE...
         #endregion
 
+
+
         #region Projects
         /*
+         * Create own ZIP...
          * OWN DB
     Inhalte Gepland die ich mal erstelle:
     So wie GitLab? - 2 Files to 1 File
@@ -279,22 +240,6 @@
     abbas
     */
         #endregion
-
-        /*
-         RestAPI Call methode
-         Drag and Drop
-         date time formats - launguage format
-         Cluture formatsCultureInfo.Calendar...
-
-        //AudioManager? - ClownFish
-        //VideoManager? - Cinema 4D
-
-        //Create Word
-        //Exel
-        //PDF 
-
-         ...
-         */
 
         //MEHR ANREIZ IDEEN:
         //copy from to - zip - etc...

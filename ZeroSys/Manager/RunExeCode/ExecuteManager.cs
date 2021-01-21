@@ -69,6 +69,18 @@ namespace ZeroSys.Manager.RunExeCode
             return pluginObject;
         }
 
+        public static Assembly LoadAssembly(string assemblyName, string version, string publicKeyToken)
+        {
+
+            Assembly assembly = Assembly.Load($"{assemblyName}, Version={version}, Culture=neutral, PublicKeyToken={publicKeyToken}");
+            // Display all the types contained in the specified assembly.
+            //foreach (Type oType in SampleAssembly.GetTypes())
+            //{
+            //    Console.WriteLine(oType.Name);
+            //}
+            return assembly;
+        }
+
     }
 
 }

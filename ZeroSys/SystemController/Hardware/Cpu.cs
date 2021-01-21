@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Diagnostics;
 using System.Management;
 
@@ -83,7 +84,7 @@ namespace ZeroSys.SystemController.Hardware
 
             foreach (ManagementObject obj in searcher.Get())
             {
-                coreAmount = (int)obj["NumberOfCores"];
+                coreAmount = Convert.ToInt32(obj["NumberOfCores"]);
             }
 
             for (int i = 0; i < coreAmount; i++)

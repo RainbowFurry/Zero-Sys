@@ -1,12 +1,13 @@
 ﻿using NAudio.CoreAudioApi;
 using NAudio.Wave;
+using Newtonsoft.Json;
 using System;
-using System.Configuration;
+using System.Collections.Generic;
 using System.Drawing;
 using System.IO;
 using System.Net;
-using System.Text.RegularExpressions;
 using ZeroSys.Manager;
+using ZeroSys.SystemController.Hardware;
 
 namespace ZeroSysTestsFramework
 {
@@ -15,9 +16,65 @@ namespace ZeroSysTestsFramework
     /// </summary>
     internal class Program
     {
+
+        public class JsonLogContent : Exception
+        {
+            public string Date = DateTime.Today.ToString("D");
+            public string Time = DateTime.Now.ToString().Split(' ')[1];
+            public string Tag { get; set; } = "[TAG]";
+            public Exception exception { get; set; } = new Exception("Unknown Exeption");
+
+        }
+
+        public static void CreateJsonLog(string tag, Exception exception)
+        {
+
+            JsonLogContent log = new JsonLogContent()
+            {
+                Tag = tag,
+                exception = exception
+            };
+
+            Console.WriteLine("Date: " + log.Date);
+            Console.WriteLine("Time: " + log.Time);
+            Console.WriteLine("Tag: " + log.Tag);
+            Console.WriteLine("Exeption: " + log.exception);
+
+            string json = JsonConvert.SerializeObject(log);
+            Console.WriteLine(json);
+
+            //to json
+            //print json
+            //save json
+
+        }
+
+        private static void Test()
+        {
+
+            Dictionary<string, string> kp = Cpu.GetAllCores();
+            Console.WriteLine(kp["2"]);
+
+        }
+
         [STAThread]
         private static void Main(string[] args)
         {
+
+            Test();
+
+            //string[] a = new string[10];
+
+            //try
+            //{
+            //    Console.WriteLine(a[11]);
+            //}
+            //catch (Exception)//JsonLogContent
+            //{
+            //    CreateJsonLog("test", new Exception("Test Exeption"));
+            //}
+
+            //---------------------------
 
             //AddUpdateAppSettings("JasonJT", "JasonJT");
             //ReadSetting("JasonJT");
@@ -88,84 +145,6 @@ namespace ZeroSysTestsFramework
             }
 
             return IPAddress.Parse(Ip);
-        }
-
-        //
-        public static bool IsMailAddress(String MailAddress)
-        {
-            // var foo = new EmailAddressAttribute();
-            //if (new EmailAddressAttribute().IsValid("someone@somewhere.com"))
-
-            return Regex.IsMatch(MailAddress, @"[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?");
-        }
-
-        //        using System.ComponentModel.DataAnnotations;
-        //public bool IsValidEmail(string source)
-        //    {
-        //        return new EmailAddressAttribute().IsValid(source);
-        //    }
-
-        //
-        public static bool IsPhoneNumber(string number)
-        {
-            //return Regex.Match(number, @"^([\+]?61[-]?|[0])?[1-9][0-9]{8}$").Success;
-            return Regex.Match(number, @"^\+?(\d[\d-. ]+)?(\([\d-. ]+\))?[\d-. ]+\d$").Success;
-        }
-
-        //
-        public static bool IsIp(string ipAddress)
-        {
-            IPAddress ip;
-            bool ValidateIP = IPAddress.TryParse(ipAddress, out ip);
-            return ValidateIP;
-        }
-
-        //
-        public static bool IsURL(string url)
-        {
-            Uri uriResult;
-            bool result = Uri.TryCreate(url, UriKind.Absolute, out uriResult) && (uriResult.Scheme == Uri.UriSchemeHttp || uriResult.Scheme == Uri.UriSchemeHttps);
-            //bool result = Regex.IsMatch(url, @"(http|https)://(([www\.])?|([\da-z-\.]+))\.([a-z\.]{2,3})$");
-            return result;
-        }
-
-        //ProjectConfigManager
-        //ConfigManager
-        private static void ReadSetting(string key)
-        {
-            try
-            {
-                var appSettings = ConfigurationManager.AppSettings;
-                string result = appSettings[key] ?? "Not Found";
-                Console.WriteLine(result);
-            }
-            catch (ConfigurationErrorsException)
-            {
-                Console.WriteLine("Error reading app settings");
-            }
-        }
-
-        private static void AddUpdateAppSettings(string key, string value)
-        {
-            try
-            {
-                var configFile = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None);
-                var settings = configFile.AppSettings.Settings;
-                if (settings[key] == null)
-                {
-                    settings.Add(key, value);
-                }
-                else
-                {
-                    settings[key].Value = value;
-                }
-                configFile.Save(ConfigurationSaveMode.Modified);
-                ConfigurationManager.RefreshSection(configFile.AppSettings.SectionInformation.Name);
-            }
-            catch (ConfigurationErrorsException)
-            {
-                Console.WriteLine("Error writing app settings");
-            }
         }
 
 
