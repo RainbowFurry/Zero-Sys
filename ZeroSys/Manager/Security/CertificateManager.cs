@@ -47,23 +47,23 @@ namespace ZeroSys.Manager.Security
                     //Get Certificate display Content
                     string content = "CN=" + certificate.DisplayName;
                     if (string.IsNullOrEmpty(certificate.FullName))
-                        content = "DN=" + certificate.FullName;
+                        content += "DN=" + certificate.FullName;
                     if (string.IsNullOrEmpty(certificate.Title))
-                        content = "T=" + certificate.Title;
+                        content += "T=" + certificate.Title;
                     if (string.IsNullOrEmpty(certificate.FirstName))
-                        content = "G=" + certificate.FirstName;
+                        content += "G=" + certificate.FirstName;
                     if (string.IsNullOrEmpty(certificate.SecondName))
-                        content = "SN=" + certificate.SecondName;
+                        content += "SN=" + certificate.SecondName;
                     if (string.IsNullOrEmpty(certificate.Email))
-                        content = "E=" + certificate.Email;
+                        content += "E=" + certificate.Email;
                     if (string.IsNullOrEmpty(certificate.Country))
-                        content = "C=" + certificate.Country;
+                        content += "C=" + certificate.Country;
                     if (string.IsNullOrEmpty(certificate.Place))
-                        content = "L=" + certificate.Place;
+                        content += "L=" + certificate.Place;
                     if (string.IsNullOrEmpty(certificate.Street))
-                        content = "street=" + certificate.Street;
+                        content += "street=" + certificate.Street;
                     if (string.IsNullOrEmpty(certificate.Organisation))
-                        content = "O=" + certificate.Organisation;
+                        content += "O=" + certificate.Organisation;
 
                     //Create Certificate
                     var req = new CertificateRequest(content, RSA.Create(2048), HashAlgorithmName.SHA256, RSASignaturePadding.Pkcs1);
@@ -158,23 +158,23 @@ namespace ZeroSys.Manager.Security
                     //Get Certificate display Content
                     string content = "CN=" + certificate.DisplayName;
                     if (string.IsNullOrEmpty(certificate.FullName))
-                        content = "DN=" + certificate.FullName;
+                        content += "DN=" + certificate.FullName;
                     if (string.IsNullOrEmpty(certificate.Title))
-                        content = "T=" + certificate.Title;
+                        content += "T=" + certificate.Title;
                     if (string.IsNullOrEmpty(certificate.FirstName))
-                        content = "G=" + certificate.FirstName;
+                        content += "G=" + certificate.FirstName;
                     if (string.IsNullOrEmpty(certificate.SecondName))
-                        content = "SN=" + certificate.SecondName;
+                        content += "SN=" + certificate.SecondName;
                     if (string.IsNullOrEmpty(certificate.Email))
-                        content = "E=" + certificate.Email;
+                        content += "E=" + certificate.Email;
                     if (string.IsNullOrEmpty(certificate.Country))
-                        content = "C=" + certificate.Country;
+                        content += "C=" + certificate.Country;
                     if (string.IsNullOrEmpty(certificate.Place))
-                        content = "L=" + certificate.Place;
+                        content += "L=" + certificate.Place;
                     if (string.IsNullOrEmpty(certificate.Street))
-                        content = "street=" + certificate.Street;
+                        content += "street=" + certificate.Street;
                     if (string.IsNullOrEmpty(certificate.Organisation))
-                        content = "O=" + certificate.Organisation;
+                        content += "O=" + certificate.Organisation;
 
                     //Create Certificate
                     var req = new CertificateRequest(content, RSA.Create(2048), HashAlgorithmName.SHA256, RSASignaturePadding.Pkcs1);
@@ -262,23 +262,23 @@ namespace ZeroSys.Manager.Security
                     //Get Certificate display Content
                     string content = "CN=" + certificate.DisplayName;
                     if (string.IsNullOrEmpty(certificate.FullName))
-                        content = "DN=" + certificate.FullName;
+                        content += "DN=" + certificate.FullName;
                     if (string.IsNullOrEmpty(certificate.Title))
-                        content = "T=" + certificate.Title;
+                        content += "T=" + certificate.Title;
                     if (string.IsNullOrEmpty(certificate.FirstName))
-                        content = "G=" + certificate.FirstName;
+                        content += "G=" + certificate.FirstName;
                     if (string.IsNullOrEmpty(certificate.SecondName))
-                        content = "SN=" + certificate.SecondName;
+                        content += "SN=" + certificate.SecondName;
                     if (string.IsNullOrEmpty(certificate.Email))
-                        content = "E=" + certificate.Email;
+                        content += "E=" + certificate.Email;
                     if (string.IsNullOrEmpty(certificate.Country))
-                        content = "C=" + certificate.Country;
+                        content += "C=" + certificate.Country;
                     if (string.IsNullOrEmpty(certificate.Place))
-                        content = "L=" + certificate.Place;
+                        content += "L=" + certificate.Place;
                     if (string.IsNullOrEmpty(certificate.Street))
-                        content = "street=" + certificate.Street;
+                        content += "street=" + certificate.Street;
                     if (string.IsNullOrEmpty(certificate.Organisation))
-                        content = "O=" + certificate.Organisation;
+                        content += "O=" + certificate.Organisation;
 
                     //Create Certificate
                     var req = new CertificateRequest(content, RSA.Create(2048), HashAlgorithmName.SHA256, RSASignaturePadding.Pkcs1);
@@ -349,23 +349,23 @@ namespace ZeroSys.Manager.Security
                     //Get Certificate display Content
                     string content = "CN=" + certificate.DisplayName;
                     if (string.IsNullOrEmpty(certificate.FullName))
-                        content = "DN=" + certificate.FullName;
+                        content += "DN=" + certificate.FullName;
                     if (string.IsNullOrEmpty(certificate.Title))
-                        content = "T=" + certificate.Title;
+                        content += "T=" + certificate.Title;
                     if (string.IsNullOrEmpty(certificate.FirstName))
-                        content = "G=" + certificate.FirstName;
+                        content += "G=" + certificate.FirstName;
                     if (string.IsNullOrEmpty(certificate.SecondName))
-                        content = "SN=" + certificate.SecondName;
+                        content += "SN=" + certificate.SecondName;
                     if (string.IsNullOrEmpty(certificate.Email))
-                        content = "E=" + certificate.Email;
+                        content += "E=" + certificate.Email;
                     if (string.IsNullOrEmpty(certificate.Country))
-                        content = "C=" + certificate.Country;
+                        content += "C=" + certificate.Country;
                     if (string.IsNullOrEmpty(certificate.Place))
-                        content = "L=" + certificate.Place;
+                        content += "L=" + certificate.Place;
                     if (string.IsNullOrEmpty(certificate.Street))
-                        content = "street=" + certificate.Street;
+                        content += "street=" + certificate.Street;
                     if (string.IsNullOrEmpty(certificate.Organisation))
-                        content = "O=" + certificate.Organisation;
+                        content += "O=" + certificate.Organisation;
 
                     var req = new CertificateRequest(content, RSA.Create(2048), HashAlgorithmName.SHA256, RSASignaturePadding.Pkcs1);
 
