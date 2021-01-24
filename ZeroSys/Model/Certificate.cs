@@ -24,6 +24,7 @@
         public int Duration_Months { get; set; }
         public int Duration_Years { get; set; }
         public string Password { get; set; }
+        public string DNS { get; set; }
         #endregion
 
         #region Alternate Names

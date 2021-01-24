@@ -2071,22 +2071,36 @@
             Windows Certificate Manager
             </summary>
         </member>
-        <member name="M:ZeroSys.Manager.Security.CertificateManager.GeneratePFX(System.String,System.String,System.String)">
+        <member name="M:ZeroSys.Manager.Security.CertificateManager.CreateNewCertificate(ZeroSys.Model.Certificate)">
             <summary>
-            Generate Windows Password Certificate
+            Create new Certificate
             </summary>
-            <param name="fileName"></param>
-            <param name="filePassword"></param>
-            <param name="ceartInfo">Organisation = O | GeneralName = CN | Domain = DC | Land = S</param>
+            <param name="certificate"></param>
         </member>
-        <member name="M:ZeroSys.Manager.Security.CertificateManager.GenerateCertificate(System.String,System.String)">
+        <member name="M:ZeroSys.Manager.Security.CertificateManager.CreateNewCertificateSSL(ZeroSys.Model.Certificate)">
             <summary>
-            Generate Windows Certificate
+            Create new SSL Certificate
             </summary>
-            <param name="fileName"></param>
-            <param name="ceartInfo"></param>
+            <param name="certificate"></param>
         </member>
-        <member name="M:ZeroSys.Manager.Security.CertificateManager.InstallCertificate">
+        <member name="M:ZeroSys.Manager.Security.CertificateManager.CreateNewCertificateCodeSign(ZeroSys.Model.Certificate)">
+            <summary>
+            Create new Code Sign Certificate
+            </summary>
+            <param name="certificate"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.Security.CertificateManager.CreateNewCertificateManifest(ZeroSys.Model.Certificate)">
+            <summary>
+            Create new Manifest Certificate
+            </summary>
+            <param name="certificate"></param>
+        </member>
+        <member name="M:ZeroSys.Manager.Security.CertificateManager.InstallCertificate(System.String,System.Security.Cryptography.X509Certificates.StoreName,System.Security.Cryptography.X509Certificates.StoreLocation)">
+            <summary>
+            Install the Certificate
+            </summary>
+        </member>
+        <member name="M:ZeroSys.Manager.Security.CertificateManager.InstallCertificate(System.String,System.Security.Cryptography.X509Certificates.StoreName,System.Security.Cryptography.X509Certificates.StoreLocation,System.String)">
             <summary>
             Install the Certificate
             </summary>
@@ -2946,6 +2960,16 @@
         <member name="T:ZeroSys.Math.Possibillity">
             <summary>
             Possibillity
+            </summary>
+        </member>
+        <member name="T:ZeroSys.Model.Certificate">
+            <summary>
+            Certificate
+            </summary>
+        </member>
+        <member name="T:ZeroSys.Model.CertificateType">
+            <summary>
+            Certification Types
             </summary>
         </member>
         <member name="T:ZeroSys.SystemController.Hardware.Cpu">

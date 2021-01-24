@@ -68,6 +68,10 @@ namespace ZeroSys.Manager.Security
                     //Create Certificate
                     var req = new CertificateRequest(content, RSA.Create(2048), HashAlgorithmName.SHA256, RSASignaturePadding.Pkcs1);
 
+                    //SubjectAlternativeNameBuilder subjectAlternativeNameBuilder = new SubjectAlternativeNameBuilder();
+                    //subjectAlternativeNameBuilder.AddDnsName("TestSRV01");
+                    //req.CertificateExtensions.Add(subjectAlternativeNameBuilder.Build());
+
                     //         req.CertificateExtensions.Add(new X509BasicConstraintsExtension(false, false, 0, false));
 
                     //         req.CertificateExtensions.Add(
@@ -178,6 +182,13 @@ namespace ZeroSys.Manager.Security
 
                     //Create Certificate
                     var req = new CertificateRequest(content, RSA.Create(2048), HashAlgorithmName.SHA256, RSASignaturePadding.Pkcs1);
+
+                    if (string.IsNullOrEmpty(certificate.DNS))
+                    {
+                        SubjectAlternativeNameBuilder subjectAlternativeNameBuilder = new SubjectAlternativeNameBuilder();
+                        subjectAlternativeNameBuilder.AddDnsName(certificate.DNS);
+                        req.CertificateExtensions.Add(subjectAlternativeNameBuilder.Build());
+                    }
 
                     req.CertificateExtensions.Add(
              new X509BasicConstraintsExtension(false, false, 0, false));
